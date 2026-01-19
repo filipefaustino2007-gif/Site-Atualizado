@@ -1,0 +1,739 @@
+/* ===== Fonte e Reset ===== */
+@font-face {
+    font-family: 'Nimbus Sans Extended';
+    src: url('../fonts/nimbus-sans-extended.truetype') format('truetype');
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nimbus Sans Extended', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    color: #707070;
+}
+
+/* Topo */
+.servico-topo {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+}
+
+.servico-topo-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+}
+
+/* Camada escura por cima da imagem */
+.servico-topo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+/* Texto no topo */
+.servico-topo-texto {
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 70px;
+    left: 45px;
+    color: #fff;
+    z-index: 3;
+}
+
+.servico-topo-texto h1 {
+    font-size: 42px;
+    font-weight: 700;
+    width: 600px;
+    line-height: 1.25;
+}
+
+/* Secção de Conteúdo */
+.servico-conteudo {
+    background-color: #fff;
+    padding: 100px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;       
+}
+
+/* Vídeo à esquerda */
+.servico-media {
+    flex: 0 0 540px;   
+    max-width: 540px;
+}
+
+.servico-media video {
+    width: 620px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin-left: -60px;
+    margin-top: -160;
+}
+
+/* Texto à direita */
+.servico-texto {
+    margin-left: -20px;
+}
+
+.servico-texto h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.servico-texto p {
+    font-size: 19px;
+    line-height: 1.7;
+    color: rgba(112, 112, 112);
+    font-weight: 400;
+    width: 590px;
+}
+
+/* Secção Levantamentos Arquitetónicos */
+.servico-arquitetonicos {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 150px;
+    gap: 100px;
+    height: 700px;
+}
+
+/* Texto à esquerda */
+.servico-arquitetonicos-texto {
+    flex: 1;
+    margin-left: -100px;
+}
+
+.servico-arquitetonicos-texto h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fff;
+    width: 50px;
+}
+
+.servico-arquitetonicos-texto p {
+    font-size: 19px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    width: 600px;
+}
+
+/* Imagem à direita */
+.servico-arquitetonicos-img {
+    height: 700px;
+    width: 695px;
+    margin-right: -100px;
+}
+
+.servico-arquitetonicos-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Secção Levantamentos de Interiores, Exteriores e Arruamentos */
+.servico-levantamentos {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 120px 150px;
+    height: 620px;
+}
+
+/* Imagem à esquerda */
+.servico-levantamentos-esquerda {
+    flex: 1;
+}
+
+.servico-levantamentos-esquerda img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -50px;
+    margin-bottom: -70px;
+}
+
+/* Texto à direita */
+.servico-levantamentos-direita {
+    flex: 1;
+    max-width: 650px;
+}
+
+.servico-levantamentos-direita h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #000;
+    line-height: 1.3;
+}
+
+.servico-levantamentos-direita p {
+    font-size: 19px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: rgba(112, 112, 112);
+    width: 600px;
+}
+
+/* Secção Criação de As-Builts */
+.servico-asbuilts {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Texto à esquerda */
+.servico-asbuilts-texto {
+    flex: 1;
+    max-width: 600px;
+    position: relative; 
+    left: 60px;       
+    top: -20px;     
+}
+
+.servico-asbuilts-texto h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.servico-asbuilts-texto p {
+    font-size: 19px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    width: 560px;
+}
+
+/* Imagem à direita */
+.servico-asbuilts-imagem {
+    flex: 1;
+    position: relative;
+    left: 200px;     
+    top: 0;            
+}
+
+.servico-asbuilts-imagem img {
+    width: 670px;
+    height: 425px;
+    object-fit: cover;
+    display: block; 
+}
+
+
+/* Secção Monitorização de Edifícios Históricos */
+.servico-monitorizacao {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 120px 150px;
+    height: 600px;
+}
+
+/* Grelha das 4 imagens */
+.monitorizacao-imagens {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 7px;
+}
+
+.img-grid img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Texto à direita */
+.monitorizacao-texto {
+    flex: 1;
+    max-width: 600px;
+}
+
+.monitorizacao-texto h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #000;
+    line-height: 1.3;
+}
+
+.monitorizacao-texto p {
+    font-size: 19px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: rgba(112, 112, 112);
+}
+
+/* ===== POPUP DE IMAGENS (LIGHTBOX MELHORADO) ===== */
+.image-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  overflow: hidden;
+}
+
+/* Quando ativo */
+.image-popup.active {
+  display: flex;
+  opacity: 1;
+}
+
+/* Conteúdo principal */
+.popup-content {
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  max-width: 75%;
+  max-height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.4s ease;
+  overflow: hidden;
+  box-sizing: border-box; /* garante que a legenda fica dentro da borda branca */
+}
+
+.popup-content img {
+  width: auto;
+  max-width: 100%;
+  max-height: 78vh;
+  border-radius: 4px;
+  display: block;
+  object-fit: contain; /* mantém a imagem dentro da borda branca */
+}
+
+/* Botão de fechar */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  z-index: 2;
+}
+
+.close-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+  transition: scale(1.1), transform 10s ease;
+}
+
+/* Legenda em baixo, dentro da borda branca */
+.popup-caption {
+  position: relative;
+  margin-top: 8px;
+  align-self: flex-start;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+  padding-left: 4px; /* encosta à borda branca */
+}
+
+/* Botões de navegação */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 32px;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  z-index: 2;
+}
+
+.nav-btn:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Setas esquerda e direita */
+.nav-btn.prev { left: 10px; }
+.nav-btn.next { right: 10px; }
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+/* Animação suave de zoom e fade */
+.image-popup.active .popup-content {
+  animation: zoomIn 0.35s ease forwards;
+}
+
+.image-popup.closing .popup-content {
+  animation: zoomOut 0.35s ease forwards;
+}
+
+/* Galeria em grelha */
+.galeria-catalogo {
+  background: rgb(113,113,112);
+  padding: 0 14px;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 7px;
+}
+
+.galeria-grid .grid-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+
+  /* Sem seleção azul / sem arrasto */
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Também garante que as 4 de cima (com .gallery-item) tenham o mesmo comportamento */
+.gallery-item {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Última fila — cada item ocupa 2 colunas (total 3 por linha) e é mais alto */
+.galeria-grid .wide-2 {
+  grid-column: span 2;
+  height: 260px;
+}
+
+/* Feedback leve no hover (sinal de clicável) */
+.monitorizacao-imagens .gallery-item:hover,
+.galeria-grid .grid-img:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* quando o popup está aberto, o cursor das setas/fechar continua claro */
+.close-btn, .nav-btn { cursor: pointer; }
+
+/* Contatos */
+.contact-footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url("../img/portofolio.png") center/cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.contact-footer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.contact-footer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.282);
+    z-index: 1;
+}
+
+.contact-footer-content {
+    position: relative;
+    z-index: 2;
+}
+
+.contact-footer-title {
+    margin-top: -100px;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-footer-subtitle {
+    font-size: 16px;
+    color: #000;
+    margin-top: 30px;
+}
+
+/* Botão CONTACTAR (mesmo estilo/efeito do "VER TODOS") */
+.btn-contactar-outline {
+    margin-bottom: -50px;
+    position: relative;
+    display: inline-block;
+    padding: 13px 36px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #707070;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn-contactar-outline:hover {
+    border-color: #a30101;
+    color: #a30101;
+}
+
+/* Cantos superior-esquerdo */
+.btn-contactar-outline::before,
+.btn-contactar-outline::after {
+    content: "";
+    position: absolute;
+    border-color: #707070;       
+    border-style: solid;
+    transition:
+        width 0.5s ease,
+        height 0.5s ease,
+        border-color 0.5s ease; 
+}
+
+/* Posições iniciais e tamanhos */
+.btn-contactar-outline::before {
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 45%;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+.btn-contactar-outline::after {
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 50%;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+/* HOVER → só bordas mudam (tamanho + cor) */
+.btn-contactar-outline:hover::before {
+    width: 100%;
+    height: 100%;
+    border-color: #a30101;
+    border-top-width: 2px;
+    border-left-width: 2px;
+}
+
+.btn-contactar-outline:hover::after {
+    width: 100%;
+    height: 100%;
+    border-color: #a30101;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .contact-footer {
+        height: 230px;
+        padding: 40px 20px;
+        background-attachment: scroll;
+    }
+
+    .contact-footer-title {
+        font-size: 20px;
+    }
+
+    .contact-footer-subtitle {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1200px) {
+  .galeria-grid { grid-template-columns: repeat(4, 1fr); }
+  .galeria-grid .grid-img { height: 170px; }
+  .galeria-grid .wide-2 { grid-column: span 2; height: 240px; }
+}
+
+@media (max-width: 768px) {
+  .galeria-grid { grid-template-columns: repeat(2, 1fr); }
+  .galeria-grid .grid-img { height: 150px; }
+  .galeria-grid .wide-2 { grid-column: span 2; height: 220px; }
+}
+
+@media (max-width: 1024px) {
+    .servico-monitorizacao {
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 40px;
+        gap: 60px;
+    }
+
+    .img-grid {
+        width: 90%;
+        gap: 12px;
+    }
+
+    .img-grid img {
+        height: 160px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .servico-asbuilts {
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 40px;
+        gap: 50px;
+    }
+
+    .servico-asbuilts-imagem img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .servico-levantamentos {
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 40px;
+        gap: 50px;
+    }
+
+    .servico-levantamentos-esquerda img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .servico-arquitetonicos {
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 40px;
+        gap: 50px;
+    }
+
+    .servico-arquitetonicos-img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .servico-conteudo {
+        padding: 60px 40px;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .servico-media {
+        flex: none;
+        max-width: 100%;
+    }
+
+    .servico-media video {
+        height: auto;
+    }
+
+    .servico-texto h2 {
+        font-size: 28px;
+    }
+
+    .servico-texto p {
+        font-size: 17px;
+    }
+
+    .servico-topo-texto {
+        left: 40px;
+        bottom: 30px;
+    }
+
+    .servico-topo-texto h1 {
+        font-size: 32px;
+    }
+}
+
+/* Keyframes */
+@keyframes zoomIn {
+  0% { transform: scale(0.9); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes zoomOut {
+  0% { transform: scale(1); opacity: 1; }
+  100% { transform: scale(0.9); opacity: 0; }
+}

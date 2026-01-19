@@ -1,0 +1,109 @@
+/* =========================================
+   SERVIÇOS — TABLET (769px–1024px)
+   Baseado no mobile refinado, mas maior
+========================================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* ===========================
+     TOPO (BANNER)
+     =========================== */
+  .servicos-topo {
+    height: 300px; /* entre desktop 360 e mobile 240 */
+  }
+
+  .servicos-topo-texto {
+    left: 40px;
+    bottom: 50px;
+    width: calc(100% - 80px);
+    text-align: left;
+  }
+
+  .servicos-topo-texto h1 {
+    font-size: 34px;
+    line-height: 1.15;
+  }
+
+  /* ===========================
+   SERVICES — TABLET
+   Texto maior e mais legível
+   =========================== */
+
+  .services-gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;                 /* um pouco mais de respiro */
+    padding: 50px 48px;
+    align-items: stretch;
+  }
+
+  .services-gallery .service-card{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 21 / 6;     
+    flex: none;                
+    overflow: hidden;
+  }
+
+  .services-gallery .service-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.55);
+  }
+
+  /* Overlay mais confortável */
+  .services-gallery .service-overlay{
+    left: 7%;
+    width: 86%;
+  }
+
+  /* Título mais forte */
+  .services-gallery .service-overlay h2{
+    font-size: 20px;        
+    line-height: 1.25;
+    margin-bottom: 10px;
+  }
+
+  /* Texto maior e mais legível */
+  .services-gallery .service-overlay p{
+    width: 100%;
+    font-size: 14px;        
+    line-height: 1.5;          
+  }
+
+  /* Tablet: mantém hover do desktop (fica bem em tablet).
+     Se quiseres desativar hover como no mobile, digo-te já como. */
+
+  /* ===========================
+     CONTACT FOOTER
+     =========================== */
+  .contact-footer {
+    height: auto;
+    padding: 70px 48px;
+    background-attachment: scroll;
+  }
+
+  .contact-footer-title {
+    margin-top: 0;
+    font-size: 28px;
+  }
+
+  .contact-footer-subtitle {
+    font-size: 14px;
+    line-height: 1.65;
+    margin-top: 18px;
+  }
+
+  .btn-contactar-outline {
+    margin-top: 22px;
+    margin-bottom: 0;
+    padding: 13px 36px;
+    font-size: 11px;
+  }
+}

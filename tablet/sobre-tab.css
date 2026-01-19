@@ -1,0 +1,315 @@
+/* =========================================
+   SOBRE — TABLET (769px–1024px)
+   Títulos + textos um cadinho maiores
+   Imagens maiores
+   FIX: logo da intro cresce mesmo (sem aumentar “margens”)
+   EQUIPA: 10 membros → último centrado
+========================================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* ===========================
+     SAFE TABLET
+     =========================== */
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  section, div, p, h1, h2, h3, img {
+    max-width: 100%;
+  }
+
+  /* ===========================
+     TOPO
+     =========================== */
+  .sobre-topo {
+    height: 330px;
+  }
+
+  .sobre-topo-texto {
+    left: 36px !important;
+    bottom: 52px !important;
+    width: calc(100% - 72px) !important;
+    text-align: left !important;
+  }
+
+  .sobre-topo-texto h1 {
+    font-size: 38px !important;
+    line-height: 1.12 !important;
+  }
+
+  /* ===========================
+     SECÇÕES GERAIS
+     =========================== */
+  .sobre-intro,
+  .sobre-experiencia,
+  .sobre-tecnologia,
+  .sobre-preco,
+  .sobre-suporte {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px !important;
+    padding: 78px 48px !important;
+    height: auto !important;
+  }
+
+  /* ===========================
+     INTRO (ícone + título)
+     =========================== */
+  .sobre-intro {
+    background-color: #f2f2f2;
+  }
+
+  /* imagem primeiro (logo) */
+  .sobre-intro-esquerda{
+    order: 1;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .sobre-intro-esquerda img{
+    width: 320px !important;      /* <-- AUMENTA AQUI (ex: 300/320/340) */
+    max-width: 80vw !important;   /* segurança */
+    height: auto !important;
+    margin: 0 !important;
+    display: block !important;
+    position: relative !important;
+    transform: none !important;
+    border-radius: 0 !important;
+  }
+
+  /* texto depois */
+  .sobre-intro-direita,
+  .sobre-experiencia-esquerda,
+  .sobre-tecnologia-direita,
+  .sobre-preco-esquerda,
+  .sobre-suporte-direita {
+    order: 2;
+    width: 100% !important;
+    max-width: 820px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  .sobre-intro-direita h2 {
+    margin: 0 !important;
+    font-size: 34px !important;
+    line-height: 1.12 !important;
+  }
+
+  /* ===========================
+     IMAGENS PRIMEIRO (resto das secções)
+     =========================== */
+  .sobre-experiencia-direita,
+  .sobre-tecnologia-esquerda,
+  .sobre-preco-direita,
+  .sobre-suporte-esquerda {
+    order: 1;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ===========================
+     TEXTOS (tablet) — maiores
+     =========================== */
+  .sobre-experiencia-esquerda p,
+  .sobre-tecnologia-direita p,
+  .sobre-preco-esquerda p,
+  .sobre-suporte-direita p,
+  .sobre-resumo p {
+    text-align: center !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 820px !important;
+    font-size: 18px !important;
+    line-height: 1.9 !important;
+  }
+
+  /* ===========================
+     EXPERIÊNCIA
+     =========================== */
+  .sobre-experiencia-esquerda h2 {
+    font-size: 34px !important;
+    margin-bottom: 16px !important;
+    text-align: center !important;
+  }
+
+  .sobre-experiencia-direita img {
+    width: 100% !important;
+    max-width: 980px !important;
+    height: 460px !important;
+    margin: 0 !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+  }
+
+  /* ===========================
+     TECNOLOGIA
+     =========================== */
+  .sobre-tecnologia {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .sobre-tecnologia-esquerda img {
+    width: 100% !important;
+    max-width: 980px !important;
+    height: 460px !important;
+    margin: 0 !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+  }
+
+  .sobre-tecnologia-direita {
+    margin: 0 !important;
+  }
+
+  .sobre-tecnologia-direita h2 {
+    font-size: 34px !important;
+    margin-bottom: 16px !important;
+    text-align: center !important;
+  }
+
+  /* ===========================
+     PREÇO
+     =========================== */
+  .sobre-preco-esquerda h2 {
+    font-size: 34px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .sobre-preco-direita img {
+    width: 100% !important;
+    max-width: 980px !important;
+    height: 460px !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+  }
+
+  /* ===========================
+     SUPORTE
+     =========================== */
+  .sobre-suporte-direita h2 {
+    font-size: 34px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .sobre-suporte-esquerda img {
+    width: 100% !important;
+    max-width: 980px !important;
+    height: 460px !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+  }
+
+  /* ===========================
+     RESUMO FINAL
+     =========================== */
+  .sobre-resumo {
+    padding: 78px 48px !important;
+    text-align: center !important;
+  }
+
+  .sobre-resumo p {
+    font-size: 18px !important;
+    line-height: 1.9 !important;
+  }
+
+  /* ===========================
+     EQUIPA (3 por fila)
+     10 membros → último centrado na 4ª fila
+     =========================== */
+  .sobre-equipa {
+    padding: 78px 48px !important;
+    height: auto !important;
+  }
+
+  .sobre-equipa h2 {
+    font-size: 34px !important;
+    margin-bottom: 32px !important;
+  }
+
+  .equipa-container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 28px !important;
+    width: 100% !important;
+    max-width: 980px !important;
+    margin: 0 auto !important;
+  }
+
+  .equipa-fila {
+    display: contents !important;
+  }
+
+  .membro {
+    width: 100% !important;
+    margin: 0 !important;
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+
+  .cargo {
+    font-size: 13px !important;
+    opacity: 0.9 !important;
+  }
+
+  /* 10º (último) fica centrado na coluna do meio */
+  .equipa-container .membro:last-child {
+    grid-column: 2 / 3;
+    justify-self: center;
+  }
+
+  /* Tablet mais estreito */
+  @media (max-width: 820px) {
+    .equipa-container {
+      grid-template-columns: repeat(2, 1fr) !important;
+      max-width: 680px !important;
+    }
+
+    /* em 2 colunas, não força o centro */
+    .equipa-container .membro:last-child {
+      grid-column: auto;
+      justify-self: stretch;
+    }
+  }
+
+  /* ===========================
+     CONTACT FOOTER
+     =========================== */
+  .contact-footer {
+    height: auto !important;
+    padding: 78px 48px !important;
+    background-attachment: scroll !important;
+    text-align: center !important;
+  }
+
+  .contact-footer-title {
+    margin-top: 0 !important;
+    font-size: 30px !important;
+  }
+
+  .contact-footer-subtitle {
+    font-size: 15px !important;
+    margin-top: 18px !important;
+    line-height: 1.75 !important;
+  }
+
+  .btn-contactar-outline {
+    margin-top: 22px !important;
+    margin-bottom: 0 !important;
+    padding: 14px 38px !important;
+    font-size: 11px !important;
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "nav": {
+    "home": "KEZDŐLAP",
+    "about": "RÓLUNK",
+    "services": "SERVICES",
+
+    "laser_scan": "Lézerszkennelés és 3D felmérések",
+    "design_3d": "2D tervezés és 3D modellezés",
+    "uav_drone": "UAV/DRÓN fotogrammetria",
+
+    "portfolio": "PORTFÓLIÓ",
+    "residential": "Lakóingatlan-Felm.",
+    "urban": "Városi Felm.",
+    "commercial": "Kereskedelmi Felm.",
+    "industrial": "Ipari Felm.",
+
+    "contacts": "KAPCSOLAT",
+    "login": "LOGIN"
+  },
+
+  "contact": {
+    "meta_title": "Kapcsolatok - SupremeXpansion",
+    "hero_alt": "SupremeXpansion Kapcsolatok",
+    "hero_title": "KAPCSOLAT",
+
+    "form": {
+      "title": "Lépjen kapcsolatba velünk",
+      "intro": "Kapcsolatfelvételhez használhatja a weboldalunkon található űrlapot, küldhet e-mailt a megadott címre, vagy felhívhat bennünket telefonon. Csapatunk készen áll, hogy segítsen Önnek és válaszoljon kérdéseire.",
+
+      "fields": {
+        "name": "Név",
+        "email": "E-mail",
+        "phone": "Mobil",
+        "reason_placeholder": "Kapcsolatfelvétel oka",
+        "reason_budget": "Árajánlatkérés",
+        "reason_partnership": "Partnerségi javaslat",
+        "reason_support": "Ügyféltámogatás",
+        "reason_other": "Egyéb ok",
+        "subject": "Tárgy",
+        "message": "Üzenet"
+      },
+
+      "consent_text": "Hozzájárulok, hogy ez a weboldal tárolja a megadott adataimat, hogy válaszolhassanak a kérdésemre.",
+      "submit": "Küldés",
+      "success": "Sikeresen elküldve!"
+    },
+
+    "info": {
+      "phone_title": "TELEFON",
+      "phone_number_pt": "PT +351 935 584 011",
+      "phone_number_ing": "UK +44 7557 795 968",
+      "pt_note": "(Hívás nemzeti mobilhálózatra)",
+      "email_title": "E-MAIL",
+      "email_text": "info@supremexpansion.com"
+    }
+  },
+
+  "home": {
+    "meta_title": "SupremeXpansion - Valóság rögzítése",
+
+    "slides": {
+      "slide1": {
+        "title": "LÉZERSZKENNELÉS ÉS 3D FELMÉRÉSEK",
+        "text": "A lézerszkennelés és a pontfelhők fejlett technológiák, amelyek lehetővé teszik az objektumok alakjának és méreteinek pontos 3D-s rögzítését."
+      },
+      "slide2": {
+        "title": "2D TERVEZÉS ÉS 3D MODELLLEZÉS",
+        "text": "Rajzokat és modelleket készítünk pontfelhők vagy bármely más elérhető, preferált módszer segítségével."
+      },
+      "slide3": {
+        "title": "UAV/DRÓN FOTOGRAMMETRIA",
+        "text": "A fotogrammetria a két dimenziós képekből pontos mérések és háromdimenziós információk kinyerésének művészete és tudománya."
+      }
+    },
+
+    "services": {
+      "laser": {
+        "title": "Lézerszkennelés és 3D felmérések",
+        "text": "Végzünk építészeti, örökségvédelmi, kereskedelmi és ipari felméréseket. Részletes As-Built dokumentációt készítünk és speciális felügyeletet kínálunk történelmi épületekhez."
+      },
+      "design": {
+        "title": "2D tervezés és 3D modellezés",
+        "text": "Alaprajzokat, metszeteket és homlokzatokat készítünk DWG formátumban. Több szoftvermegoldással dolgozunk 3D modellezésben, beleértve a BIM (Building Information Modelling) munkafolyamatokat."
+      },
+      "drone": {
+        "title": "UAV/Drón Fotogrammetria",
+        "text": "Támogatjuk a topográfiai felméréseket, ipari és lakóépületi fotogrammetriát, valamint virtuális 3D modellek és digitális terepszint modellek (DTM) létrehozását.",
+        "rtext": ""
+      }
+    },
+
+    "why": {
+      "title_strong": "Miért válassza a munkát",
+      "title_rest": "a SupremeXpansion-nal?",
+      "experience": {
+        "title": "Tapasztalat és munka minősége",
+        "text": "Több mint 25 éves tapasztalat és csúcstechnológia biztosítja a pontosságot és a részleteket minden felmérés és 3D modell esetén."
+      },
+      "tech": {
+        "title": "Technológia és eszközök",
+        "text": "Fejlett 2D és 3D technológiákat használunk, megbízható és hatékony eredményeket biztosítva, készen az integrációra a projektjeibe."
+      },
+      "price": {
+        "title": "Megfizethető árak",
+        "text": "Műszaki minőség korrekt áron, minden méretű projekthez — a kis felújításoktól a nagy fejlesztésekig."
+      },
+      "support": {
+        "title": "Kiváló ügyfélszolgálat",
+        "text": "Közeli és átlátható támogatás minden lépésnél, folyamatos segítséggel és teljes elkötelezettséggel az ügyfél felé."
+      }
+    },
+
+    "portfolio": {
+      "title": "Portfólió",
+      "view_all": "MIND MEGTEKINTÉSE"
+    },
+
+    "contact_section": {
+      "title": "Lépjen kapcsolatba velünk",
+      "subtitle": "Bármilyen kérdés vagy tisztázás esetén vegye fel velünk a kapcsolatot.",
+      "button": "KAPCSOLAT"
+    },
+
+    "carousel_section": {
+      "img1": "North Finchley Projekt UK",
+      "img2": "Alentejo Ingatlan",
+      "img3": "Coimbra Városi Stadion",
+      "img4": "Longra Lepárló",
+      "img5": "Cofersan Raktárak",
+      "img6": "Épület Felújítás",
+      "img7": "Taberna do Quinzena",
+      "img8": "Rom",
+      "img9": "Lakóprojekt",
+      "img10": "Ház Felmérés",
+      "img11": "Raktár Felmérés",
+      "img12": "Élelmiszer Gyár",
+      "img13": "Híd Zsaluzat",
+      "img14": "CNEMA",
+      "img15": "Santarém Ház",
+      "img16": "Gőzvezetékek Cardiff UK",
+      "img17": "Drón Térképezés London UK"
+    }
+  },
+
+  "politicas": {
+    "meta_title": "Adatvédelmi Szabályzat - SupremeXpansion",
+    "title": "ADATVÉDELMI SZABÁLYZAT",
+    "texts": {
+      "texts1": {
+        "title": "Kik vagyunk",
+        "about": "Weboldalunk címe: "
+      },
+
+      "texts2": {
+        "title": "Megjegyzések",
+        "about1": "Amikor a látogatók megjegyzést hagynak az oldalon, az űrlapban megadott adatokat a látogató IP-címével és böngésző user agent-jével együtt tároljuk a spam felismeréshez.",
+        "about2": "Az e-mail címéből létrehozott anonim karakterlánc (hash) elküldhető a Gravatar szolgáltatásnak annak ellenőrzésére, hogy használja-e azt. A Gravatar adatvédelmi szabályzata itt érhető el: ",
+        "about3": "Miután a megjegyzést jóváhagyták, a profilképe nyilvánossá válik a megjegyzés kontextusában."
+      },
+
+      "texts3": {
+        "title": "Média",
+        "about": "Amikor képeket tölt fel az oldalra, kerülje a geolokációs adatokkal (EXIF GPS) rendelkező képek feltöltését. A látogatók letölthetik és kinyerhetik a geolokációs adatokat az oldal képeiből."
+      },
+
+      "texts4": {
+        "title": "Sütik",
+        "about1": "Ha megjegyzést hagy az oldalunkon, eldöntheti, hogy nevét, e-mail címét és weboldalát süti formájában mentse. Ez kényelmi célból történik, hogy ne kelljen újra megadnia adatait, amikor újabb megjegyzést hagy. Ezek a sütik egy évig érvényesek.",
+        "about2": "Ha meglátogatja a bejelentkezési oldalunkat, ideiglenes süti kerül beállításra annak meghatározására, hogy a böngészője elfogadja-e a sütiket. Ez a süti nem tartalmaz személyes adatot, és a böngésző bezárásakor törlődik.",
+        "about3": "Bejelentkezéskor több süti is beállításra kerül a bejelentkezési információk és képernyőbeállítások mentéséhez. A bejelentkezési sütik két napig, a képernyőbeállítások sütije egy évig érvényesek. Ha a „Emlékezz rám” lehetőséget választja, a bejelentkezés két hétig érvényes marad. Kijelentkezéskor a bejelentkezési sütik törlődnek.",
+        "about4": "Ha szerkeszt vagy közzétesz egy cikket, egy további süti kerül mentésre a böngészőjében. Ez a süti nem tartalmaz személyes adatot, csak a szerkesztett tartalom azonosítóját jelzi. Egy nap múlva lejár."
+      },
+
+      "texts5": {
+        "title": "Beágyazott tartalom más weboldalakról",
+        "about1": "Az oldal cikkei beágyazott tartalmat tartalmazhatnak (pl.: videók, képek, cikkek stb.). A más weboldalakról származó beágyazott tartalom pontosan úgy viselkedik, mintha a látogató azokat a weboldalakat látogatta volna meg.",
+        "about2": "Ezek a weboldalak adatokat gyűjthetnek Önről, sütiket használhatnak, harmadik fél követést ágyazhatnak be, és nyomon követhetik a beágyazott tartalommal való interakcióját, beleértve a fiókkal rendelkező és bejelentkezett felhasználók követését is."
+      },
+
+      "texts6": {
+        "title": "Kikkel osztjuk meg adatait",
+        "about": "Ha jelszó-visszaállítást kér, az Ön IP-címe is szerepelni fog a visszaállító e-mailben."
+      },
+
+      "texts7": {
+        "title": "Meddig tároljuk az adatait",
+        "about1": "Ha megjegyzést hagy, a megjegyzés és metaadatai határozatlan ideig tárolódnak. Ez azért van, hogy a követő megjegyzések automatikusan felismerhetők és jóváhagyhatók legyenek, a moderációs sorban tartás helyett.",
+        "about2": "A weboldalunkra regisztrált felhasználók (ha vannak) esetén a felhasználói profiljukban megadott személyes adatokat is tároljuk.",
+        "about3": "Minden felhasználó bármikor láthatja, szerkesztheti vagy törölheti személyes adatait (kivéve, ha a felhasználónevet akarja módosítani). Az oldal adminisztrátorai is láthatják és szerkeszthetik ezeket az adatokat."
+      },
+
+      "texts8": {
+        "title": "Milyen jogai vannak az adataival kapcsolatban",
+        "about": "Ha van fiókja ezen az oldalon, vagy hagyott megjegyzést, kérheti a személyes adatait tartalmazó exportált fájlt, beleértve az Ön által megadott adatokat is. Kérheti azt is, hogy töröljük a tárolt személyes adatokat. Ez nem érinti azokat az adatokat, amelyeket adminisztratív, jogi vagy biztonsági okokból meg kell őriznünk."
+      },
+
+      "texts9": {
+        "title": "Hová kerülnek az adatai",
+        "about": "A látogatói megjegyzéseket automatikus spamellenőrző szolgáltatáson keresztül ellenőrizhetik."
+      }
+    }
+  },
+
+  "portfolio": {
+    "meta_title": "Portfólió - SupremeXpansion",
+    "title": "PORTFÓLIÓ",
+    "comerciais": {
+      "meta_title": "Kereskedelmi Felmérések Portfólió - SupremeXpansion",
+      "title": "KERESKEDELMI FELMÉRÉSEK"
+    },
+    "industriais": {
+      "meta_title": "Ipari Felmérések Portfólió - SupremeXpansion",
+      "title": "IPARI FELMÉRÉSEK"
+    },
+    "residenciais": {
+      "meta_title": "Lakóingatlan-felmérések Portfólió - SupremeXpansion",
+      "title": "LAKÓÉPÜLETEK FELMÉRÉSE"
+    },
+    "urbanos": {
+      "meta_title": "Városi Felméréseks Portfólió - SupremeXpansion",
+      "title": "VÁROSI FELMÉRÉSEK"
+    }
+  },
+
+  "rodape": {
+    "title": "2025 © SupremeXpansion - Valóság rögzítése",
+    "text1": "Minden jog fenntartva",
+    "text2": "Adatvédelmi szabályzat",
+    "servicos": "Szolgáltatások",
+    "servico1": "Lézerszkennelés és 3D felmérések",
+    "servico2": "2D tervezés és 3D modellezés",
+    "servico3": "UAV/Drón fotogrammetria",
+    "contactos": "Kapcsolatok",
+    "telefone": "Telefon",
+    "chamada": "(Hívás nemzeti mobilhálózatra)",
+    "numPT": "PT +351 935 584 011",
+    "numING": "UK +44 7557 795 968",
+    "email": "E-mail",
+    "email_text": "info@supremexpansion.com"
+  },
+
+  "servicos": {
+    "meta_title": "Szolgáltatások - SupremeXpansion",
+    "text": "SZOLGÁLTATÁSOK"
+  },
+
+  "servico1": {
+    "meta_title": "Lézerszkennelés és 3D felmérések - SupremeXpansion",
+    "title": "Lézerszkennelés és 3D felmérések",
+    "serv1": {
+      "title": "Lézerszkennelés és pontfelhők",
+      "text": "A lézerszkennelés másodpercek alatt millió pontot rögzít, létrehozva rendkívül pontos 3D pontfelhőket. Ez a technológia lehetővé teszi bármely fizikai tér pontos modellezését és dokumentálását — ideális építészet, mérnöki munka és kivitelezési projektekhez."
+    },
+    "arquitetonicos": {
+      "title": "Építészeti felmérések",
+      "text": "Lézerszkenneléses felmérések specialistái vagyunk, pontos pontfelhőket készítünk, amelyekből 3D modellek, alaprajzok és részletes homlokzatok készíthetők. Tapasztalt csapatunk szorosan együttműködik az ügyfelekkel, hogy minden projekthez testreszabott megoldásokat biztosítson."
+    },
+    "levantamentos": {
+      "title": "Belső, Külső és Utca Felmérések",
+      "text1": "Lézerszkennelést használunk a belső terek, külső területek és utcák precíz feltérképezésére. Részletes 3D modelleket készítünk, amelyek támogatják az építészetet, mérnöki munkát, várostervezést, rehabilitációt és konzerválást. Az épületek belső tereitől az utcákig és terecskékig megbízható adatokat biztosítunk elemzéshez, tervezéshez és",
+      "text2": "döntéshozatalhoz."
+    },
+    "asbuilts": {
+      "title": "As-Built Dokumentáció",
+      "text": "Pontosan dokumentáljuk az építés valós állapotát, ideális felújításokhoz, bővítésekhez vagy módosításokhoz. As-Built dokumentációink tartalmazzák az alaprajzokat, metszeteket, homlokzatokat és kivitelezési részleteket, amelyek hűen tükrözik a végrehajtott munkát, szilárd alapot szolgáltatva a jövőbeli beavatkozásokhoz."
+    },
+    "monitorizacao": {
+      "title": "Történelmi Épület Felügyelet",
+      "text": "Lézerszkennelést használunk történelmi épületek pontos monitorozására. Ez a technológia lehetővé teszi a szerkezeti változások időbeli észlelését, és támogatja a konzerválást és helyreállítást részletes és valósághű 3D modellekkel, alapvető a kulturális örökség biztonságának és hosszú távú megőrzésének biztosításához."
+    }
+  },
+
+    "servico2": {
+    "meta_title": "2D Tervezés és 3D Modellezés - SupremeXpansion",
+    "title": "2D Tervezés és 3D Modellezés",
+
+    "introducao": {
+      "title": "2D Tervezés és 3D Modellezés",
+      "text": "Kombináljuk a műszaki 2D tervezést és 3D modellezést a terek és szerkezetek pontos és valósághű ábrázolása érdekében. Ezek az eszközök lehetővé teszik a hatékony vizualizációt, tervezést és kommunikációt — az alaprajzoktól és metszetektől a részletes háromdimenziós modellekig."
+    },
+
+    "plantas": {
+      "title": "Alaprajzok, Metszetek és Homlokzatok",
+      "text": "Részletes és precíz műszaki rajzokat készítünk, az ügyfél igényeire szabva. Csapatunk kombinálja a 3D modellezés szakértelmét a 2D tervezés precizitásával, megbízható eredményeket biztosítva a megadott határidőn és költségvetésen belül."
+    },
+
+    "modelacao": {
+      "title": "3D Modellezés",
+      "text": "Pontos és valósághű 3D modelleket készítünk, az egyes projektek igényeihez igazítva. Ötvözzük a fejlett technológiát a rendkívül tapasztalt építészeti, mérnöki és tervezői csapattal, biztosítva a minőséget, a határidők betartását és az ügyfél teljes elégedettségét."
+    }
+  },
+
+    "servico3": {
+    "meta_title": "UAV/Drón Fotogrammetria - SupremeXpansion",
+    "title": "UAV/Drón Fotogrammetria",
+
+    "fotogrametria": {
+      "title": "Fotogrammetria",
+      "text": "A drónok által készített légifelvételeket részletes és pontos 3D modellekké alakítjuk. Fejlett szoftverek segítségével alapvető metrikus és háromdimenziós információkat nyerünk az építészet, mérnöki munka és tervezés projektekhez."
+    },
+
+    "tecnicas": {
+      "title": "Fő Fotogrammetriai Technológiák:",
+      "subtitle1": "Légi Térképezés:",
+      "text1": "Magas felbontású térképeket készítünk mezőgazdaság, várostervezés és környezetfigyelés számára, ideális a stratégiai döntéshozatalhoz.",
+      "subtitle2": "3D Modellezés:",
+      "text2": "Részletes háromdimenziós modelleket készítünk terepről, épületekről és objektumokról, hasznos építészet, régészet és kivitelezés számára.",
+      "subtitle3": "Térfogat Számítás:",
+      "text3": "Pontos térfogatszámításokat végzünk készletek ellenőrzésére, ásatásokra és erőforrás-kezelésre mérnöki és bányászati projektekben."
+    },
+
+    "vantagens": {
+      "title": "A Fotogrammetria Előnyei:",
+      "subtitle1": "Magas Pontosság:",
+      "text1": "Nagyon megbízható méréseket és modelleket biztosít, ideális olyan szektorok számára, ahol technikai precizitás szükséges.",
+      "subtitle2": "Költséghatékonyság:",
+      "text2": "Csökkenti az időt és az erőforrásokat, a hagyományos módszereket légifelvételek helyettesítik drónok segítségével.",
+      "subtitle3": "Világos Adatvizualizáció:",
+      "text3": "Részletes 3D modellek és térképek megkönnyítik az összetett információk elemzését és kommunikációját.",
+      "subtitle4": "Adatgyűjtés Nehéz Területeken:",
+      "text4": "Lehetővé teszi az adatgyűjtést távoli vagy veszélyes területeken csökkentett emberi kockázattal.",
+      "subtitle5": "Átfogó Légi Felmérések:",
+      "text5": "Alkalmazható erdőgazdálkodásban, bányászatban és környezeti tanulmányokban, kritikus adatokat biztosítva a tervezéshez."
+    },
+
+    "mdt": {
+      "title": "Digitális Térmodell (DTM)",
+      "subtitle1": "Mi az a Digitális Térmodell (DTM)?",
+      "text1": "A Digitális Térmodell a Föld felszínének pontos háromdimenziós ábrázolása, a topográfiai felmérések, drónok, távoli érzékelők vagy műholdfelvételek révén nyert magassági pontok alapján. Ezeket a pontokat feldolgozzuk egy digitális háló létrehozásához, amely pontosan tükrözi a terep morfológiáját.",
+      "subtitle2": "Hogyan Működik a DTM?",
+      "text2": "A DTM alapvető eszköz a tervezéshez és elemzéshez mérnöki, építészeti, környezeti és közszolgáltatási projektekben. Lehetővé teszi a lejtők, térfogatok, infrastruktúra elhelyezkedésének, erózió kockázatának és vízelvezetés tervezésének kiszámítását, sok más alkalmazás mellett.",
+      "subtitle3": "A Szintvonalak Szerepe",
+      "text3": "A szintvonalakkal együtt a DTM világos képet ad az altimetriás változásokról. Ezek a vonalak azonos magasságú pontokat kötnek össze, és alapvetőek a topográfiai tervek és térbeli elemzési modellek előállításához.<br><br>A SupremeXpansion-nál nagy felbontású DTM-eket készítünk, az egyes projektekhez szükséges méretarány és részletesség szerint, megbízható technikai adatokat biztosítva a megalapozott döntésekhez."
+    },
+
+    "wrapper": {
+      "title": "DTM és Szintvonalak Használata és Alkalmazása",
+      "intro": "A Digitális Térmodellek és szintvonalak sokoldalú eszközök, számos gyakorlati alkalmazással:",
+      "subtitle1": "Kartográfia:",
+      "text1": "A terep pontos ábrázolása topográfiai térképeken.",
+      "subtitle2": "Mérnöki Munka:",
+      "text2": "Tervezési munkák, utak és vízelvezető rendszerek tervezése a terep morfológiája alapján.",
+      "subtitle3": "Várostervezés:",
+      "text3": "A terep elemzése a városfejlesztés támogatásához és a természeti kockázatok csökkentéséhez.",
+      "subtitle4": "Geológia:",
+      "text4": "Talajszerkezet tanulmányozása és geológiai képződmények azonosítása.",
+      "subtitle5": "Természeti Erőforrások Kezelése:",
+      "text5": "Támogatás erdőgazdálkodásban, vízgazdálkodásban és fenntartható földhasználatban."
+    },
+
+    "nuvens": {
+      "title": "Pontfelhők Fotogrammetriával",
+      "subtitle1": "Mi a Fotogrammetria?",
+      "text1": "A fotogrammetria egy fejlett technika, amely a kétdimenziós képeket rendkívül pontos háromdimenziós ábrázolásokká alakítja. Több fénykép készítésével különböző szögekből és speciális szoftverek feldolgozásával sűrű és részletes pontfelhőket generálhatunk — millió pontok halmazát, amelyek a valós felületek, szerkezetek vagy terep geometriai valóságát tükrözik.",
+      "subtitle2": "Hogyan Működik?",
+      "text2": "A folyamat az adatgyűjtéssel kezdődik, általában UAV-k/drónok vagy földi kamerák segítségével. A képek átfedése alapján a szoftver azonosítja a közös pontokat — ún. vezérlőpontokat — és kiszámítja azok helyzetét a háromdimenziós térben. Az eredmény egy pontfelhő, amely pontosan tükrözi a tárgy vagy környezet alakját, méretét és textúráját.",
+      "subtitle3": "Előnyök",
+      "text3": "A SupremeXpansion-nál a fotogrammetriát modellezési és felmérési szakértelemmel kombináljuk, megbízható pontfelhőket biztosítva, amelyek készen állnak bármely projektbe történő integrációra.",
+      "topic1": "Magas pontosság:",
+      "subtext1": "Ideális méréshez, dokumentációhoz és modellezéshez.",
+      "topic2": "Sokoldalúság:",
+      "subtext2": "Alkalmazható terepre, homlokzatokra, belső terekre, örökségi helyszínekre stb.",
+      "topic3": "Költséghatékony:",
+      "subtext3": "Csökkenti a hagyományos felmérő eszközök szükségességét.",
+      "topic4": "Világos vizualizáció:",
+      "subtext4": "Lehetővé teszi az elemzést és szimulációkat digitális 3D környezetben."
+    },
+
+    "aplicacoes": {
+      "title": "Pontfelhők Alkalmazása Fotogrammetriában:",
+      "subtitle1": "Térképezés és Topográfia:",
+      "text1": "Pontos topográfiai térképek és digitális térmodellek létrehozása.",
+      "subtitle2": "Polgári Mérnöki Munka:",
+      "text2": "Támogatja utak, hidak és épületek tervezését és monitorozását.",
+      "subtitle3": "Örökség Megőrzés:",
+      "text3": "Monumentumok és történelmi helyszínek 3D dokumentációja a konzerválás és helyreállítás érdekében.",
+      "subtitle4": "Precíziós Mezőgazdaság:",
+      "text4": "Növényzet elemzése, kártevő-észlelés és hatékony öntözés a terep és térfogat alapján.",
+      "subtitle5": "Geológia és Bányászat:",
+      "text5": "Bányamodellezés, terepelemzés és ásványkincsek értékelése."
+    }
+  },
+
+    "sobre": {
+    "meta_title": "Rólunk - SupremeXpansion",
+    "title": "RÓLUNK",
+    "sobre": "Rólunk ",
+    "supreme": "SupremeXpansion",
+
+    "experiencia": {
+      "title": "Tapasztalat és Munka Minősége",
+      "text": "Több mint 25 éves tapasztalattal a szektorban kiváló szolgáltatást nyújtunk, ötvözve a legmodernebb technológiát a magasan képzett csapat szaktudásával. Építészeti felmérések és lézerszkenneléses 3D modellezés specialistái vagyunk, biztosítva a technikai pontosságot és a részletekre való odafigyelést minden projekt során."
+    },
+
+    "tecnologia": {
+      "title": "Technológia és Eszközök",
+      "text": "A legfejlettebb 2D és 3D technológiákkal dolgozunk, biztosítva a megbízható eredményeket, amelyek megfelelnek az iparági szabványoknak, optimalizálva minden projektet a precizitást, hatékonyságot és végső minőséget javító eszközökkel."
+    },
+
+    "preco": {
+      "title": "Megfizethető Árak",
+      "text": "Úgy gondoljuk, hogy a minőség nem lehet elérhetetlen. Ezért a SupremeXpansion kiváló műszaki szolgáltatásokat kínál versenyképes áron, bármilyen méretű projekthez — a kisebb felújításoktól a nagy fejlesztésekig."
+    },
+
+    "suporte": {
+      "title": "Kiváló Ügyféltámogatás",
+      "text": "Fontos számunkra a bizalmon és átláthatóságon alapuló kapcsolatok építése. Ezért a SupremeXpansion biztosítja a szoros támogatást a projekt minden szakaszában — az első kapcsolatfelvételtől a végső átadásig. Mindig rendelkezésre állunk kérdések megválaszolására, megoldások igazítására és annak biztosítására, hogy minden ügyfél tájékozott, támogatott és teljes mértékben elégedett legyen."
+    },
+
+    "resumo": {
+      "text": "Összefoglalva, tapasztalt cég vagyunk, korszerű technológiával, megfizethető árakkal és kiváló ügyféltámogatással. Elkötelezettek vagyunk a lehető legjobb szolgáltatás nyújtása mellett, biztosítva, hogy minden ügyfél kiemelkedő élményt kapjon a velünk való munka során."
+    },
+
+    "equipa": {
+      "title": "Csapat",
+      "membro1": "Hugo Pinto",
+      "cargo1": "Ügyvezető Partner",
+      "membro2": "Carlos Serrão",
+      "cargo2": "Szenior Építész",
+      "membro3": "Marisa Pinto",
+      "cargo3": "Adminisztráció",
+      "membro4": "Joana Leite",
+      "cargo4": "Gyakornok Építész",
+      "membro5": "Ana Vieira",
+      "cargo5": "Építész",
+      "membro6": "Luiza Vilela",
+      "cargo6": "Építész",
+      "membro7": "Marco Pintão",
+      "cargo7": "Tervrajzoló",
+      "membro8": "José Queirós",
+      "cargo8": "3D Modellező",
+      "membro9": "Hryhoriy Kit",
+      "cargo9": "3D Modellező",
+      "membro10": "Susana Oliveira",
+      "cargo10": "Értékesítési Technikus"
+    }
+  }
+}
+

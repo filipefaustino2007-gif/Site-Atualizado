@@ -1,0 +1,178 @@
+@media (min-width: 2560px) {
+
+  /* ============================
+      CONTACTOS (4K)
+  ============================ */
+
+  /* Topo */
+  .contactos-topo {
+    height: 620px; /* ligeiramente mais alto */
+  }
+
+  .contactos-topo-texto {
+    left: 140px;
+    bottom: 160px;
+  }
+
+  .contactos-topo-texto h1 {
+    font-size: 86px; /* ✅ maior */
+    letter-spacing: 1px;
+  }
+
+  /* ============================
+      Conteúdo principal
+  ============================ */
+  .contactos-conteudo {
+    padding: 200px 160px;
+    gap: 110px;
+    align-items: stretch;
+  }
+
+  /* ============================
+      TEXTO INTRO
+  ============================ */
+  .contactos-texto {
+    width: 100%;
+    max-width: 1600px;
+    margin-left: 130px;
+  }
+
+  .contactos-texto h2 {
+    font-size: 74px; /* ✅ maior */
+  }
+
+  .contactos-texto .contactos-intro {
+    font-size: 34px; /* ✅ maior */
+    line-height: 1.9;
+    margin-top: 50px;
+    max-width: none;
+  }
+
+  /* ============================
+      BLOCOS DE CONTACTOS
+  ============================ */
+  .contactos-info {
+    width: 100%;
+    max-width: 1600px;
+    margin-left: 250px;
+    margin-bottom: 90px;
+  }
+
+  .contactos-info-blocos {
+    gap: 140px;
+  }
+
+  .contactos-bloco {
+    margin-right: -190px;
+    margin-left: -120px;
+  }
+
+  .contactos-bloco h3 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+  }
+
+  .contactos-phone {
+    font-size: 32px; 
+    margin-bottom: 14px;
+  }
+
+  .contactos-email {
+    font-size: 32px; 
+    margin-bottom: 14px;
+  }
+
+  .contactos-note {
+    font-size: 26px;
+    line-height: 1.7;
+  }
+
+  /* ============================
+      REDES SOCIAIS
+  ============================ */
+  .social-icons {
+    gap: 22px;
+    padding: 12px;
+    border-radius: 14px;
+  }
+
+  .social-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 12px;
+  }
+
+  .social-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* ============================
+      FORM WRAPPER (MENOS LARGO ✅)
+  ============================ */
+  .contactos-form-wrapper {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 80px;
+    border-width: 6px;
+  }
+
+  /* Rows */
+  .contactos-form-row {
+    gap: 50px;
+    margin-bottom: 40px;
+  }
+
+  /* Inputs / select / textarea */
+  .contactos-field input,
+  .contactos-field textarea,
+  .contactos-field select {
+    padding: 26px 26px;
+    font-size: 30px; /* ✅ maior */
+    border-radius: 12px;
+  }
+
+  .contactos-field input,
+  .contactos-field select {
+    height: 96px; /* ✅ maior */
+  }
+
+  .contactos-field textarea {
+    min-height: 300px;
+  }
+
+  /* Select dropdown arrow */
+  .contactos-field select {
+    background-position: right 30px center;
+    background-size: 32px;
+  }
+
+  /* Checkbox + texto */
+  .contactos-consent {
+    font-size: 28px; /* ✅ maior */
+    gap: 22px;
+    margin: 30px 0 60px;
+    line-height: 1.7;
+  }
+
+  .contactos-consent input[type="checkbox"] {
+    width: 26px;
+    height: 26px;
+    margin-top: 7px;
+  }
+
+  /* Botão enviar */
+  .btn-enviar-outline {
+    padding: 26px 60px; /* ✅ maior */
+    font-size: 26px;
+    letter-spacing: 3px;
+  }
+
+  /* Mensagem de sucesso */
+  .success-message {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+}

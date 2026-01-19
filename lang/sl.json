@@ -1,0 +1,450 @@
+{
+  "nav": {
+    "home": "DOMOV",
+    "about": "O NAS",
+    "services": "STORITVE",
+
+    "laser_scan": "Lasersko skeniranje in 3D meritve",
+    "design_3d": "2D načrtovanje in 3D modeliranje",
+    "uav_drone": "Fotogrametrija UAV/DRON",
+
+    "portfolio": "PORTFOLIO",
+    "residential": "Stanovanjske Mer.",
+    "urban": "Urbane Mer.",
+    "commercial": "Komercialne Mer.",
+    "industrial": "Industrijske Mer.",
+
+    "contacts": "KONTAKTI",
+    "login": "LOGIN"
+  },
+
+  "contact": {
+    "meta_title": "Kontakti - SupremeXpansion",
+    "hero_alt": "Kontakti SupremeXpansion",
+    "hero_title": "KONTAKTI",
+
+    "form": {
+      "title": "Kontaktirajte nas",
+      "intro": "Za stik z nami lahko uporabite obrazec na naši spletni strani, pošljete e-pošto na navedeni naslov ali nas pokličete. Naša ekipa vam bo z veseljem pomagala in odgovorila na vsa vprašanja.",
+
+      "fields": {
+        "name": "Ime",
+        "email": "E-pošta",
+        "phone": "Telefon",
+        "reason_placeholder": "Razlog za kontakt",
+        "reason_budget": "Zahteva za ponudbo",
+        "reason_partnership": "Predlog za sodelovanje",
+        "reason_support": "Podpora strankam",
+        "reason_other": "Drug razlog",
+        "subject": "Zadeva",
+        "message": "Sporočilo"
+      },
+
+      "consent_text": "Strinjam se, da lahko spletna stran shrani moje podatke, da lahko odgovorijo na moje povpraševanje.",
+      "submit": "Pošlji",
+      "success": "Uspešno poslano!"
+    },
+
+    "info": {
+      "phone_title": "TELEFON",
+      "phone_number_pt": "PT +351 935 584 011",
+      "phone_number_ing": "UK +44 7557 795 968",
+      "pt_note": "(Klic v nacionalno mobilno omrežje)",
+      "email_title": "E-POŠTA",
+      "email_text": "info@supremexpansion.com"
+    }
+  },
+
+  "home": {
+    "meta_title": "SupremeXpansion - Zajemamo realnost",
+
+    "slides": {
+      "slide1": {
+        "title": "LASERSKO SKENIRANJE IN 3D MERITVE",
+        "text": "Lasersko skeniranje in točkasti oblaki so napredne tehnologije, ki omogočajo natančen zajem oblike in dimenzij objektov v 3D."
+      },
+      "slide2": {
+        "title": "2D NAČRTOVANJE IN 3D MODELIRANJE",
+        "text": "Pripravljamo načrte in modele z uporabo točkastih oblakov ali drugih razpoložljivih metod."
+      },
+      "slide3": {
+        "title": "FOTOGRAMETRIJA UAV/DRON",
+        "text": "Fotogrametrija je umetnost in znanost pridobivanja natančnih meritev in tridimenzionalnih informacij iz dvodimenzionalnih slik."
+      }
+    },
+
+    "services": {
+      "laser": {
+        "title": "Lasersko skeniranje in 3D meritve",
+        "text": "Izvajamo arhitekturne, dediščinske, komercialne in industrijske meritve. Pripravljamo podrobne as-built modele in nudimo specialistično spremljanje zgodovinskih objektov."
+      },
+      "design": {
+        "title": "2D načrtovanje in 3D modeliranje",
+        "text": "Pripravljamo tlorise, prereze in fasade v DWG formatu. Delamo z 3D modeliranjem v različnih programskih rešitvah, vključno z BIM procesi."
+      },
+      "drone": {
+        "title": "Fotogrametrija UAV/DRON",
+        "text": "Podpiramo topografske meritve, industrijsko in stanovanjsko fotogrametrijo ter izdelavo virtualnih 3D modelov in digitalnih modelov terena (DTM).",
+        "rtext": ""
+      }
+    },
+
+    "why": {
+      "title_strong": "Zakaj izbrati sodelovanje",
+      "title_rest": "s SupremeXpansion?",
+      "experience": {
+        "title": "Izkušnje in kakovost dela",
+        "text": "Več kot 25 let izkušenj in sodobne tehnologije zagotavljajo natančnost in detajle v vsaki meritvi in 3D modelu."
+      },
+      "tech": {
+        "title": "Tehnologija in orodja",
+        "text": "Uporabljamo napredne 2D in 3D tehnologije, ki zagotavljajo zanesljive in učinkovite rezultate pripravljene za vključitev v vaše projekte."
+      },
+      "price": {
+        "title": "Dostopne cene",
+        "text": "Tehnična kakovost po poštenih cenah, primerna za projekte različnih obsegov — od manjših prenov do velikih razvojnih projektov."
+      },
+      "support": {
+        "title": "Odlična podpora strankam",
+        "text": "Tesna in transparentna podpora v vseh fazah, s stalno pomočjo in popolno predanostjo klientu."
+      }
+    },
+
+    "portfolio": {
+      "title": "Portfelj",
+      "view_all": "POKAŽI VSE"
+    },
+
+    "contact_section": {
+      "title": "Stopite v stik",
+      "subtitle": "Za vprašanja ali pojasnila nas kontaktirajte.",
+      "button": "KONTAKTI"
+    },
+
+    "carousel_section": {
+      "img1": "North Finchley Project UK",
+      "img2": "Alentejo Estate",
+      "img3": "Coimbra Municipal Stadium",
+      "img4": "Longra Distillery",
+      "img5": "Cofersan Warehouses",
+      "img6": "Building Refurbishment",
+      "img7": "Taberna do Quinzena",
+      "img8": "Ruin",
+      "img9": "Housing Project",
+      "img10": "House Survey",
+      "img11": "Warehouse Survey",
+      "img12": "Food Factory",
+      "img13": "Bridge Formwork",
+      "img14": "CNEMA",
+      "img15": "Santarém House",
+      "img16": "Steam Lines in Cardiff UK",
+      "img17": "Drone Mapping London UK"
+    }
+  },
+
+  "politicas": {
+  "meta_title": "Politika zasebnosti - SupremeXpansion",
+  "title": "POLITIKA ZASEBNOSTI",
+  "texts": {
+    "texts1": {
+      "title": "Kdo smo",
+      "about": "Naslov naše spletne strani je: "
+    },
+
+    "texts2": {
+      "title": "Komentarji",
+      "about1": "Ko obiskovalci pustijo komentarje na spletnem mestu, se shranijo podatki, prikazani v obrazcu za komentarje, skupaj z IP-naslovom obiskovalca in uporabniškim agentom brskalnika, kar pomaga pri zaznavanju neželene pošte.",
+      "about2": "Anonimiziran niz, ustvarjen iz vašega e-poštnega naslova (imenovan tudi zgoščena vrednost), je lahko poslan storitvi Gravatar za preverjanje, ali jo uporabljate. Politika zasebnosti Gravatar je na voljo tukaj: ",
+      "about3": "Ko je vaš komentar odobren, postane vaša profilna slika javno vidna v okviru vašega komentarja."
+    },
+
+    "texts3": {
+      "title": "Mediji",
+      "about": "Pri nalaganju slik na spletno mesto se izogibajte nalaganju slik z vgrajenimi geolokacijskimi podatki (EXIF GPS). Obiskovalci lahko prenesejo slike s spletnega mesta in iz njih pridobijo geolokacijske podatke."
+    },
+
+    "texts4": {
+      "title": "Piškotki",
+      "about1": "Če na našem spletnem mestu pustite komentar, se lahko odločite za shranjevanje svojega imena, e-poštnega naslova in spletnega mesta v piškotke. Ti so namenjeni vašemu udobju, da vam ob oddaji naslednjega komentarja ne bo treba ponovno vnašati svojih podatkov. Ti piškotki bodo veljali eno leto.",
+      "about2": "Če obiščete našo prijavno stran, bo nastavljen začasni piškotek za ugotavljanje, ali vaš brskalnik sprejema piškotke. Ta piškotek ne vsebuje osebnih podatkov in se izbriše ob zaprtju brskalnika.",
+      "about3": "Ko se prijavite, bo nastavljenih več piškotkov za shranjevanje vaših prijavnih podatkov in nastavitev prikaza zaslona. Prijavni piškotki veljajo dva dni, piškotki za nastavitve zaslona pa eno leto. Če izberete »Zapomni si me«, bo vaša prijava trajala dva tedna. Ko se odjavite, se prijavni piškotki odstranijo.",
+      "about4": "Če uredite ali objavite članek, bo v vašem brskalniku shranjen dodatni piškotek. Ta piškotek ne vsebuje osebnih podatkov in zgolj označuje ID vsebine, ki ste jo pravkar uredili. Poteče po enem dnevu."
+    },
+
+    "texts5": {
+      "title": "Vdelana vsebina z drugih spletnih mest",
+      "about1": "Članki na tem spletnem mestu lahko vključujejo vdelano vsebino (npr.: videoposnetke, slike, članke itd.). Vdelana vsebina z drugih spletnih mest se obnaša enako, kot če bi obiskovalec obiskal ta spletna mesta.",
+      "about2": "Ta spletna mesta lahko zbirajo podatke o vas, uporabljajo piškotke, vključujejo sledenje tretjih oseb in spremljajo vašo interakcijo z vdelano vsebino, vključno s sledenjem vaše interakcije, če imate račun in ste prijavljeni na ta spletna mesta."
+    },
+
+    "texts6": {
+      "title": "S kom delimo vaše podatke",
+      "about": "Če zahtevate ponastavitev gesla, bo vaš IP-naslov vključen v e-poštno sporočilo za ponastavitev."
+    },
+
+    "texts7": {
+      "title": "Kako dolgo hranimo vaše podatke",
+      "about1": "Če pustite komentar, se komentar in njegovi metapodatki hranijo za nedoločen čas. To omogoča, da se nadaljnji komentarji samodejno prepoznajo in odobrijo, namesto da bi bili zadržani v čakalni vrsti za moderiranje.",
+      "about2": "Za uporabnike, ki se registrirajo na naši spletni strani (če obstajajo), shranjujemo tudi osebne podatke, ki jih posredujejo v svojem uporabniškem profilu.",
+      "about3": "Vsi uporabniki lahko kadar koli vidijo, urejajo ali izbrišejo svoje osebne podatke (razen da ne morejo spremeniti svojega uporabniškega imena). Skrbniki spletnega mesta lahko te podatke prav tako vidijo in urejajo."
+    },
+
+    "texts8": {
+      "title": "Katere pravice imate glede svojih podatkov",
+      "about": "Če imate račun na tem spletnem mestu ali ste pustili komentarje, lahko zahtevate izvoženo datoteko osebnih podatkov, ki jih hranimo o vas, vključno z vsemi podatki, ki ste nam jih posredovali. Prav tako lahko zahtevate, da izbrišemo vse osebne podatke, ki jih hranimo o vas. To ne vključuje podatkov, ki jih moramo hraniti za administrativne, pravne ali varnostne namene."
+    },
+
+    "texts9": {
+      "title": "Kam se pošiljajo vaši podatki",
+      "about": "Komentarje obiskovalcev je mogoče preverjati s pomočjo avtomatizirane storitve za zaznavanje neželene pošte."
+    }
+  }
+},
+
+    "portfolio": {
+        "meta_title": "Portfelj - SupremeXpansion",
+        "title": "PORTFOLIO",
+
+        "comerciais": {
+        "meta_title": "Komercialne meritve - SupremeXpansion",
+        "title": "KOMERCIALNE MERITVE"
+        },
+
+        "industriais": {
+        "meta_title": "Industrijske meritve - SupremeXpansion",
+        "title": "INDUSTRIJSKE MERITVE"
+        },
+
+        "residenciais": {
+        "meta_title": "Stanovanjske meritve - SupremeXpansion",
+        "title": "STANOVANJSKE MERITVE"
+        },
+
+        "urbanos": {
+        "meta_title": "Urbane meritve - SupremeXpansion",
+        "title": "URBANE MERITVE"
+        }
+    },
+
+    
+  "rodape": {
+    "title": "2025 © SupremeXpansion - Zajemamo realnost",
+    "text1": "Vse pravice pridržane",
+    "text2": "Politika zasebnosti",
+    "servicos": "Storitve",
+    "servico1": "Lasersko skeniranje in 3D meritve",
+    "servico2": "2D načrtovanje in 3D modeliranje",
+    "servico3": "Fotogrametrija UAV/Dron",
+    "contactos": "Kontakti",
+    "telefone": "Telefon",
+    "chamada": "(Klic v nacionalno mobilno omrežje)",
+    "numPT": "PT +351 935 584 011",
+    "numING": "UK +44 7557 795 968",
+    "email": "E-pošta",
+    "email_text": "info@supremexpansion.com"
+  },
+
+  "servicos": {
+    "meta_title": "Storitve - SupremeXpansion",
+    "text": "STORITVE"
+  },
+
+  "servico1": {
+    "meta_title": "Lasersko skeniranje in 3D meritve - SupremeXpansion",
+    "title": "Lasersko skeniranje in 3D meritve",
+
+    "serv1": {
+      "title": "Lasersko skeniranje in točkasti oblaki",
+      "text": "Lasersko skeniranje v sekundah zajame milijone točk, ki tvorijo izjemno natančne 3D točkaste oblake. Ta tehnologija omogoča precizno modeliranje in dokumentiranje vsakršnega fizičnega prostora — idealno za arhitekturo, inženiring in gradnjo."
+    },
+
+    "arquitetonicos": {
+      "title": "Arhitekturne meritve",
+      "text": "Specializirani smo za laserske meritve, pri katerih izdelamo natančne točkaste oblake, uporabljene za 3D modele, tlorise in podrobne fasade. Naša izkušena ekipa tesno sodeluje s klienti, da zagotovi prilagojene rešitve za vsak projekt."
+    },
+
+    "levantamentos": {
+      "title": "Notranje, zunanjske in ulične meritve",
+      "text1": "Lasersko skeniranje uporabljamo za natančno mapiranje notranjih prostorov, zunanjih območij in ulic. Izdelujemo podrobne 3D modele, ki podpirajo arhitekturne, inženirske, urbanistične ter konservacijske projekte.",
+      "text2": "Od interierjev do ulic in trgov — zagotavljamo zanesljive podatke za analizo, načrtovanje in odločanje."
+    },
+
+    "asbuilts": {
+      "title": "Dokumentacija As-Built",
+      "text": "Pripravljamo natančno tehnično dokumentacijo obstoječega stanja objekta, idealno za prenove, dozidave ali spremembe. Naši As-Built vključujejo tlorise, prereze, fasade in detajle, ki zvesto predstavljajo izvedena dela."
+    },
+
+    "monitorizacao": {
+      "title": "Nadzor zgodovinskih objektov",
+      "text": "Z laserskim skeniranjem spremljamo zgodovinske objekte z veliko natančnostjo. Tehnologija omogoča zaznavo strukturnih sprememb in podpira konservacijo ter sanacijo z realističnimi 3D modeli."
+    }
+  },
+
+  "servico2": {
+  "meta_title": "2D tehnično risanje in 3D modeliranje - SupremeXpansion",
+  "title": "2D tehnično risanje in 3D modeliranje",
+
+  "introducao": {
+    "title": "2D tehnično risanje in 3D modeliranje",
+    "text": "Združujemo tehnično 2D risanje in 3D modeliranje za ustvarjanje natančnih in realističnih predstavitev prostorov in struktur. Ta orodja omogočajo učinkovito vizualizacijo, načrtovanje in komunikacijo projektov — od tlorisov in prerezov do podrobnih tridimenzionalnih modelov."
+  },
+
+  "plantas": {
+    "title": "Tlorisi, prerezi in fasade",
+    "text": "Ustvarjamo podrobne in natančne tehnične risbe, prilagojene potrebam vsake stranke. Naša ekipa združuje strokovno znanje 3D modeliranja z natančnostjo 2D risanja, kar zagotavlja zanesljive rezultate, dostavljene v dogovorjenih rokih in proračunih."
+  },
+
+  "modelacao": {
+    "title": "3D modeliranje",
+    "text": "Ustvarjamo natančne in realistične 3D modele, prilagojene potrebam vsakega projekta. Združujemo napredno tehnologijo z zelo izkušeno ekipo s področij arhitekture, inženirstva in oblikovanja, kar zagotavlja kakovost, spoštovanje rokov in popolno zadovoljstvo strank."
+  }
+},
+
+  "servico3": {
+  "meta_title": "Fotogrametrija UAV/dronov - SupremeXpansion",
+  "title": "Fotogrametrija UAV/dronov",
+
+  "fotogrametria": {
+    "title": "Fotogrametrija",
+    "text": "Zračne posnetke, zajete z droni, pretvorimo v podrobne in natančne 3D modele. Z uporabo napredne programske opreme pridobivamo bistvene metrične in tridimenzionalne informacije za arhitekturne, inženirske in prostorske projekte."
+  },
+
+  "tecnicas": {
+    "title": "Glavne tehnike fotogrametrije:",
+    "subtitle1": "Zračno kartiranje:",
+    "text1": "Ustvarjamo zemljevide visoke ločljivosti za kmetijstvo, urbanistično načrtovanje in okoljski nadzor, idealne za strateško odločanje.",
+    "subtitle2": "3D modeliranje:",
+    "text2": "Izdelujemo podrobne tridimenzionalne modele terena, struktur in objektov, uporabne v arhitekturi, arheologiji in gradbeništvu.",
+    "subtitle3": "Izračun prostornin:",
+    "text3": "Izvajamo natančne meritve prostornin za nadzor zalog, izkope in upravljanje virov v inženirskih in rudarskih projektih."
+  },
+
+  "vantagens": {
+    "title": "Prednosti fotogrametrije:",
+    "subtitle1": "Visoka natančnost:",
+    "text1": "Zagotavlja zelo zanesljive meritve in modele, idealne za panoge, ki zahtevajo tehnično natančnost.",
+    "subtitle2": "Stroškovna učinkovitost:",
+    "text2": "Zmanjšuje čas in stroške z nadomeščanjem tradicionalnih metod z zračnimi pregledi z droni.",
+    "subtitle3": "Jasna vizualizacija podatkov:",
+    "text3": "Podrobni 3D modeli in zemljevidi olajšajo analizo in komunikacijo kompleksnih informacij.",
+    "subtitle4": "Zajem podatkov na zahtevnih območjih:",
+    "text4": "Omogoča zbiranje podatkov na oddaljenih ali nevarnih območjih z manjšim tveganjem za ljudi.",
+    "subtitle5": "Celoviti zračni pregledi:",
+    "text5": "Uporabno na področjih, kot so gozdarstvo, rudarstvo in okoljske študije, ter zagotavlja ključne podatke za načrtovanje."
+  },
+
+  "mdt": {
+    "title": "Digitalni model terena (DTM)",
+    "subtitle1": "Kaj je digitalni model terena (DTM)?",
+    "text1": "Digitalni model terena je natančna tridimenzionalna predstavitev Zemljine površine, ki temelji na višinskih točkah, pridobljenih s topografskimi meritvami, droni, oddaljenimi senzorji ali satelitskimi posnetki. Te točke se obdelajo za ustvarjanje digitalne mreže, ki natančno odraža morfologijo terena.",
+    "subtitle2": "Kako deluje DTM?",
+    "text2": "DTM je ključno orodje za načrtovanje in analizo v inženirstvu, arhitekturi, okoljskih projektih in javni infrastrukturi. Omogoča izračun naklonov, prostornin, poravnave infrastrukture, oceno tveganja erozije in načrtovanje odvodnjavanja ter številne druge uporabe.",
+    "subtitle3": "Vloga plastnic",
+    "text3": "Skupaj s plastnicami DTM omogoča jasno razumevanje višinskih razlik. Te črte povezujejo točke enake nadmorske višine in so temeljne za izdelavo topografskih načrtov in geoinformacijskih analiznih modelov.<br><br>Pri SupremeXpansion ustvarjamo visokoločljive DTM-je, prilagojene merilu in stopnji podrobnosti vsakega projekta, kar zagotavlja zanesljive tehnične podatke za utemeljene odločitve."
+  },
+
+  "wrapper": {
+    "title": "Uporabe in aplikacije DTM in plastnic",
+    "intro": "Digitalni modeli terena in plastnice so vsestranska orodja z več praktičnimi uporabami:",
+    "subtitle1": "Kartografija:",
+    "text1": "Natančna predstavitev terena na topografskih kartah.",
+    "subtitle2": "Inženirstvo:",
+    "text2": "Načrtovanje gradenj, cest in odvodnjavalnih sistemov na podlagi morfologije terena.",
+    "subtitle3": "Urbanistično načrtovanje:",
+    "text3": "Analiza terena za podporo urbanemu razvoju in zmanjševanje naravnih tveganj.",
+    "subtitle4": "Geologija:",
+    "text4": "Preučevanje strukture tal in identifikacija geoloških formacij.",
+    "subtitle5": "Upravljanje naravnih virov:",
+    "text5": "Podpora pri ohranjanju gozdov, upravljanju voda in trajnostni rabi zemljišč."
+  },
+
+  "nuvens": {
+    "title": "Točkovni oblaki s fotogrametrijo",
+    "subtitle1": "Kaj je fotogrametrija?",
+    "text1": "Fotogrametrija je napredna tehnika, ki dvodimenzionalne slike pretvori v izjemno natančne tridimenzionalne predstavitve. Z zajemom več fotografij objekta ali območja iz različnih kotov in njihovo obdelavo s specializirano programsko opremo je mogoče ustvariti goste in podrobne točkovne oblake — zbirke milijonov točk, ki predstavljajo realno geometrijo površin, struktur ali terena.",
+    "subtitle2": "Kako deluje?",
+    "text2": "Postopek se začne z zajemom slik, običajno z UAV/droni ali terenskimi kamerami. Iz prekrivanja teh slik programska oprema prepozna skupne točke — imenovane kontrolne točke — in izračuna njihov položaj v tridimenzionalnem prostoru. Rezultat je točkovni oblak, ki natančno odraža obliko, dimenzije in teksturo zajetega objekta ali okolja.",
+    "subtitle3": "Prednosti",
+    "text3": "Pri SupremeXpansion združujemo fotogrametrijo z našim znanjem modeliranja in meritev, da zagotovimo zanesljive točkovne oblake, pripravljene za integracijo v katerikoli fazi projekta.",
+    "topic1": "Visoka natančnost:",
+    "subtext1": "Idealno za merjenje, dokumentacijo in modeliranje.",
+    "topic2": "Vsestranskost:",
+    "subtext2": "Uporabno za teren, fasade, notranjosti, dediščinske objekte itd.",
+    "topic3": "Stroškovna učinkovitost:",
+    "subtext3": "Zmanjšuje potrebo po tradicionalni merilni opremi.",
+    "topic4": "Jasna vizualizacija:",
+    "subtext4": "Omogoča analize in simulacije v digitalnem 3D okolju."
+  },
+
+  "aplicacoes": {
+    "title": "Uporabe točkovnih oblakov v fotogrametriji:",
+    "subtitle1": "Kartiranje in topografija:",
+    "text1": "Ustvarjanje natančnih topografskih kart in digitalnih modelov terena.",
+    "subtitle2": "Gradbeništvo:",
+    "text2": "Podpora pri načrtovanju in spremljanju del, kot so ceste, mostovi in stavbe.",
+    "subtitle3": "Varovanje kulturne dediščine:",
+    "text3": "3D dokumentacija spomenikov in zgodovinskih objektov za ohranjanje in restavracijo.",
+    "subtitle4": "Natančno kmetijstvo:",
+    "text4": "Analiza pridelkov, zaznavanje škodljivcev in učinkovito upravljanje namakanja na podlagi terena in prostornin.",
+    "subtitle5": "Geologija in rudarstvo:",
+    "text5": "Modeliranje rudnikov, analiza terena in ocena mineralnih nahajališč."
+  }
+},
+
+  "sobre": {
+    "meta_title": "O nas - SupremeXpansion",
+    "title": "O NAS",
+    "sobre": "O ",
+    "supreme": "SupremeXpansion",
+
+    "experiencia": {
+      "title": "Izkušnje in kakovost",
+      "text": "Več kot 25 let izkušenj z napredno tehnologijo."
+    },
+
+    "tecnologia": {
+      "title": "Tehnologija",
+      "text": "Uporaba naprednih 2D in 3D orodij."
+    },
+
+    "preco": {
+      "title": "Dostopne cene",
+      "text": "Kakovost po konkurenčnih cenah."
+    },
+
+    "suporte": {
+      "title": "Podpora strankam",
+      "text": "Tesna in transparentna podpora."
+    },
+
+    "resumo": {
+      "text": "Izkušena ekipa, sodobna tehnologija in odlična podpora."
+    },
+
+    "equipa": {
+      "title": "Ekipa",
+      "membro1": "Hugo Pinto",
+      "cargo1": "Managing Partner",
+      "membro2": "Carlos Serrão",
+      "cargo2": "Senior Architect",
+      "membro3": "Marisa Pinto",
+      "cargo3": "Administration",
+      "membro4": "Joana Leite",
+      "cargo4": "Architect Intern",
+      "membro5": "Ana Vieira",
+      "cargo5": "Architect",
+      "membro6": "Luiza Vilela",
+      "cargo6": "Architect",
+      "membro7": "Marco Pintão",
+      "cargo7": "Draftsman",
+      "membro8": "José Queirós",
+      "cargo8": "3D Modeller",
+      "membro9": "Hryhoriy Kit",
+      "cargo9": "3D Modeller",
+      "membro10": "Susana Oliveira",
+      "cargo10": "Sales Technician"
+    }
+  }
+}
+
+

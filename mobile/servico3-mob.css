@@ -1,0 +1,495 @@
+/* =========================================
+   SERVIÇO 3 — MOBILE (375x896)
+   Clean + consistente com Servico1/2
+========================================= */
+
+@media (max-width: 768px) {
+
+  /* ===========================
+     SAFE MOBILE
+     =========================== */
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  section, div, p, h1, h2, h3, img, video {
+    max-width: 100% !important;
+  }
+
+
+  /* ===========================
+     TOPO (Banner)
+     =========================== */
+  .servico-topo {
+    height: 240px !important;
+  }
+
+  .servico-topo-texto {
+    left: 18px !important;           
+    transform: none !important;       
+    bottom: 35px !important;
+    width: calc(100% - 36px) !important; 
+    text-align: left !important;       
+  }
+
+
+  .servico-topo-texto h1 {
+    font-size: 26px !important;
+    line-height: 1.15 !important;
+  }
+
+
+  /* ===========================
+     FOTOGRAMETRIA (texto + video)
+     =========================== */
+  .servico-fotogrametria {
+    flex-direction: column !important;
+    height: auto !important;
+    padding: 55px 18px !important;
+    gap: 22px !important;
+    text-align: center !important;
+  }
+
+  .servico-fotogrametria-texto {
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 520px;
+  }
+
+  .servico-fotogrametria-texto h2 {
+    margin: 0 0 14px 0 !important;
+    font-size: 22px !important;
+  }
+
+  .servico-fotogrametria-texto p {
+    width: 100% !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    margin: 0 !important;
+  }
+
+  .servico-fotogrametria-video {
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 520px;
+  }
+
+  .servico-fotogrametria-video video {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+  }
+
+
+  /* ===========================
+     TÉCNICAS (texto + video)
+     =========================== */
+  .servico-tecnicas {
+    flex-direction: column !important;
+    height: auto !important;
+    padding: 55px 18px !important;
+    gap: 22px !important;
+    text-align: center !important;
+  }
+
+  .servico-tecnicas-texto {
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 520px;
+  }
+
+  .servico-tecnicas-texto h2 {
+    margin: 0 0 14px 0 !important;
+    width: 100% !important;
+    font-size: 22px !important;
+  }
+
+  .servico-tecnicas-texto p {
+    width: 100% !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    margin: 0 0 14px 0 !important;
+  }
+
+  /* bullets mais limpos */
+  .servico-tecnicas-texto p.bullet-text {
+    padding-left: 22px !important;
+    text-indent: 0 !important;
+    text-align: left !important;
+  }
+
+  .servico-tecnicas-texto .bullet {
+    font-size: 18px !important;
+    margin-right: 8px !important;
+  }
+
+  .servico-tecnicas-video {
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 520px;
+  }
+
+  .servico-tecnicas-video video {
+    margin: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+  }
+
+
+  /* ===========================
+     VANTAGENS (preto)
+     =========================== */
+  .servico-vantagens {
+    flex-direction: column !important;
+    height: auto !important;
+    padding: 55px 18px !important;
+    gap: 22px !important;
+    text-align: center !important;
+  }
+
+  .servico-vantagens-imagem img {
+    width: 100% !important;
+    height: 280px !important;
+    margin: 0 !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+  }
+
+  .servico-vantagens-texto {
+    max-width: 520px !important;
+    text-align: center !important;
+  }
+
+  .servico-vantagens-texto h2 {
+    margin: 0 0 16px 0 !important;
+    font-size: 22px !important;
+  }
+
+  .servico-vantagens-texto p {
+    width: 100% !important;
+    margin: 0 0 14px 0 !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    text-align: left !important;
+  }
+
+  .servico-vantagens-texto p.bullet-text {
+    padding-left: 22px !important;
+  }
+
+  .servico-vantagens-texto .bullet {
+    font-size: 18px !important;
+    top: 0.15em !important;
+  }
+
+
+  /* ===========================
+     MDT (texto + imagens)
+     =========================== */
+  .servico-mdt {
+    padding: 55px 18px !important;
+  }
+
+  .servico-mdt-topo {
+    margin-bottom: 28px !important;
+  }
+
+  .servico-mdt-topo h2 {
+    font-size: 22px !important;
+    line-height: 1.2 !important;
+  }
+
+  .servico-mdt-conteudo {
+    grid-template-columns: 1fr !important;
+    row-gap: 24px !important;
+  }
+
+  .mdt-coluna-texto {
+    gap: 24px !important;
+  }
+
+  .mdt-bloco h3 {
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+    text-align: center !important;
+  }
+
+  .mdt-bloco p {
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    text-align: center !important;
+  }
+
+  .mdt-coluna-imagens {
+    gap: 14px !important;
+    align-items: center !important;
+  }
+
+  .mdt-imagem1,
+  .mdt-imagem2 {
+    width: 100% !important;
+    height: 260px !important;
+  }
+
+  .mdt-imagem1 img,
+  .mdt-imagem2 img {
+    transform: scale(1.15) !important;
+  }
+
+
+  /* ===========================
+     USOS (grelha + texto) - preto
+     =========================== */
+  .servico-usos {
+    grid-template-columns: 1fr !important;
+    padding: 55px 18px !important;
+    row-gap: 28px !important;
+  }
+
+  .usos-grelha {
+    width: 100% !important;
+    margin: 0 !important;
+    gap: 10px !important;
+  }
+
+  .usos-grelha img {
+    height: 150px !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .usos-texto {
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  .usos-texto h2 {
+    font-size: 22px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .usos-texto .usos-intro {
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+  }
+
+  .usos-texto p.bullet-text {
+    width: 100% !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    margin: 0 0 12px 0 !important;
+    padding-left: 22px !important;
+    text-align: left !important;
+  }
+
+  .usos-texto .bullet {
+    font-size: 18px !important;
+  }
+
+
+  /* ===========================
+     NUVENS (textos + imagens)
+     =========================== */
+  .servico-nuvens {
+    padding: 55px 18px !important;
+  }
+
+  .nuvens-topo {
+    margin-bottom: 28px !important;
+  }
+
+  .nuvens-topo h2 {
+    font-size: 22px !important;
+  }
+
+  .nuvens-conteudo {
+    grid-template-columns: 1fr !important;
+    row-gap: 24px !important;
+  }
+
+  .nuvens-textos {
+    margin: 0 !important;
+    gap: 22px !important;
+    text-align: center !important;
+  }
+
+  .nuvens-bloco h3 {
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .nuvens-bloco p {
+    width: 100% !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+  }
+
+  .nuvens-bloco1 h3 {
+    font-size: 22px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .nuvens-bloco1 p {
+    width: 100% !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+  }
+
+  .nuvens-final {
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+  }
+
+  .nuvens-imagens {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .nuvens-imagens img {
+    width: 100% !important;
+    height: 260px !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+  }
+
+
+  /* ===========================
+     APLICAÇÕES (imagem + texto)
+     =========================== */
+  .servico-aplicacoes {
+    flex-direction: column !important;
+    padding: 55px 18px !important;
+    gap: 22px !important;
+    height: auto !important;
+    text-align: center !important;
+  }
+
+  .aplicacoes-imagem img {
+    width: 100% !important;
+    height: 280px !important;
+    margin: 0 !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+  }
+
+  .aplicacoes-texto {
+    width: 100% !important;
+    max-width: 520px;
+    position: static !important;
+  }
+
+  .aplicacoes-texto h2 {
+    position: static !important;
+    width: 100% !important;
+    margin: 0 0 16px 0 !important;
+    font-size: 22px !important;
+  }
+
+  .textos {
+    padding-left: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: left !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+  }
+
+  .num-text {
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    padding-left: 28px !important;
+  }
+
+  .num-text .num {
+    left: 0 !important;
+    font-size: 14px !important;
+  }
+
+
+  /* ===========================
+     GRELLHA CINZENTA (12 imgs)
+     =========================== */
+  .servico-grelha-cinzenta {
+    height: auto !important;
+    padding: 35px 14px 55px !important;
+  }
+
+  .grelha-cinzenta-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
+
+  .grelha-cinzenta-grid img {
+    width: 100% !important;
+    height: 150px !important;
+    border-radius: 0 !important;
+  }
+
+
+  /* ===========================
+     POPUP (Mobile friendly)
+     =========================== */
+  .popup-content {
+    max-width: 92% !important;
+    max-height: 85% !important;
+    border-radius: 0 !important;
+    padding: 10px !important;
+  }
+
+  .popup-content img {
+    max-height: 64vh !important;
+    border-radius: 0 !important;
+  }
+
+  .close-btn {
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 30px !important;
+    top: 12px !important;
+    right: 12px !important;
+  }
+
+  .nav-btn {
+    font-size: 34px !important;
+    padding: 12px 14px !important;
+  }
+
+  .popup-caption {
+    font-size: 12px !important;
+    margin-top: 10px !important;
+  }
+
+
+  /* ===========================
+     CONTACT FOOTER
+     =========================== */
+  .contact-footer {
+    height: auto !important;
+    padding: 55px 18px !important;
+    background-attachment: scroll !important;
+  }
+
+  .contact-footer-title {
+    margin-top: 0 !important;
+    font-size: 20px !important;
+  }
+
+  .contact-footer-subtitle {
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+    margin-top: 18px !important;
+  }
+
+  .btn-contactar-outline {
+    margin-top: 22px !important;
+    margin-bottom: 0 !important;
+    padding: 13px 36px !important;
+    font-size: 11px !important;
+  }
+
+}

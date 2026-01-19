@@ -1,0 +1,176 @@
+@media (min-width: 2560px) {
+  /* SOBRE */
+
+  /* Topo */
+    .sobre-topo {
+        height: 480px;
+    }
+
+    .sobre-topo-texto h1 {
+        font-size: 56px;
+    }
+
+    /* Intro */
+    .sobre-intro {
+        height: 420px;
+        gap: 120px;
+    }
+
+    .sobre-intro-esquerda {
+        width: 900px;
+        height: 300px;
+    }
+
+    .sobre-intro-esquerda img {
+        width: 900px;
+        margin-left: -120px;
+    }
+
+    .sobre-intro-direita h2 {
+        font-size: 54px;
+        margin-right: 0;
+    }
+
+    /* Experiência */
+    .sobre-experiencia {
+        padding: 120px 240px;
+        height: auto;
+        gap: 140px;
+    }
+
+    .sobre-experiencia-esquerda h2 {
+        font-size: 46px;
+        margin-left: -150px;
+    }
+
+    .sobre-experiencia-esquerda p {
+        font-size: 27px;
+        width: 680px;
+        margin-left: -150px;
+    }
+
+    .sobre-experiencia-direita img {
+        width: 820px;
+        height: 520px;
+    }
+
+    /* Tecnologia */
+    .sobre-tecnologia {
+        padding: 120px 240px;
+        height: auto;
+        gap: 140px;
+    }
+
+    .sobre-tecnologia-esquerda img {
+        width: 860px;
+        height: auto;
+    }
+
+    .sobre-tecnologia-direita {
+        max-width: 760px;
+        margin-top: 0;
+    }
+
+    .sobre-tecnologia-direita h2 {
+        font-size: 48px;
+    }
+
+    .sobre-tecnologia-direita p {
+        font-size: 27px;
+    }
+
+    /* Preço */
+    .sobre-preco {
+        padding: 120px 240px;
+        gap: 140px;
+    }
+
+    .sobre-preco-esquerda h2 {
+        font-size: 46px;
+        margin-left: -500px;
+    }
+
+    .sobre-preco-esquerda p {
+        max-width: none;
+        width: 800px;
+        font-size: 27px;
+        margin-left: -500px;
+    }
+
+    .sobre-preco-direita img {
+        width: 720px;
+        margin-right: -700px;
+        height: auto;
+    }
+
+    /* Suporte */
+    .sobre-suporte {
+        padding: 140px 240px;
+        gap: 140px;
+    }
+
+    .sobre-suporte-direita h2 {
+        max-width: none;
+        width: 800px;
+        font-size: 48px;
+    }
+
+    .sobre-suporte-direita p {
+        max-width: none;
+        width: 800px;
+        font-size: 27px;
+    }
+
+    .sobre-suporte-esquerda img {
+        width: 820px;
+        height: auto;
+    }
+
+    /* Resumo */
+    .sobre-resumo {
+        padding: 120px 400px;
+    }
+
+    .sobre-resumo p {
+        font-size: 30px;
+        width: 1000px;
+    }
+
+    /* Equipa */
+    .sobre-equipa {
+        height: auto;
+        padding: 140px 240px;
+    }
+
+    .sobre-equipa h2 {
+        font-size: 54px;
+    }
+
+    .membro {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .cargo {
+        font-size: 22px;
+    }
+
+    /* CONTACTOS */
+  .contact-footer {
+    height: 520px;
+  }
+
+  .contact-footer-title {
+    font-size: 52px;
+  }
+
+  .contact-footer-subtitle {
+    font-size: 23px;
+  }
+
+  .btn-contactar-outline {
+    font-size: 16px;
+    padding: 18px 48px;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,212 @@
+/* =========================================
+   SERVIÇO 2 — MOBILE PACK (375x896)
+   Cola no FINAL do servico2.css
+========================================= */
+
+@media (max-width: 768px) {
+
+  /* ===========================
+     SAFE MOBILE
+     =========================== */
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  section, div, p, h1, h2, img {
+    max-width: 100% !important;
+  }
+
+
+  /* ===========================
+     TOPO (Banner)
+     =========================== */
+  .servico-topo {
+    height: 240px !important;
+  }
+
+  .servico-topo-texto {
+    left: 18px !important;           
+    transform: none !important;       
+    bottom: 35px !important;
+    width: calc(100% - 36px) !important; 
+    text-align: left !important;
+  }
+
+  .servico-topo-texto h1 {
+    font-size: 26px !important;
+    line-height: 1.15 !important;
+    letter-spacing: 0.5px !important;
+  }
+
+
+  /* ===========================
+     SECÇÕES PRINCIPAIS
+     =========================== */
+  .servico-introducao,
+  .servico-plantas,
+  .servico-modelacao {
+    flex-direction: column !important;
+    padding: 55px 18px !important;
+    gap: 22px !important;
+    text-align: center !important;
+    height: auto !important;
+  }
+
+
+  /* ===========================
+     TEXTOS (remover margens negativas + widths fixos)
+     =========================== */
+  .servico-introducao-texto h2,
+  .servico-plantas-texto h2,
+  .servico-modelacao-texto h2 {
+    font-size: 22px !important;
+    margin: 0 0 14px 0 !important;
+  }
+
+  .servico-introducao-texto p,
+  .servico-plantas-texto p,
+  .servico-modelacao-texto p {
+    margin: 0 !important;
+    margin-top: 10px !important;
+    width: 100% !important;
+    max-width: 520px !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+  }
+
+  /* remover os margin-left:-100px que quebram o layout */
+  .servico-introducao-texto h2,
+  .servico-introducao-texto p,
+  .servico-plantas-texto h2,
+  .servico-plantas-texto p,
+  .servico-modelacao-texto h2,
+  .servico-modelacao-texto p {
+    margin-left: 0 !important;
+  }
+
+
+  /* ===========================
+     IMAGENS INTRODUÇÃO / PLANTAS
+     =========================== */
+  .servico-introducao-imagem img,
+  .servico-plantas-imagem img {
+    width: 100% !important;
+    max-width: 520px !important;
+    height: 280px !important;
+    object-fit: cover !important;
+    margin: 0 !important;
+    border-radius: 0 !important; /* sem bordas arredondadas */
+  }
+
+
+  /* ===========================
+     MODELACAO 3D – GRID (2x2)
+     =========================== */
+  .servico-modelacao-grelha {
+    width: 100% !important;
+    max-width: 520px;
+    margin: 0 auto !important;
+  }
+
+  .modelacao-grid {
+    gap: 10px !important;
+  }
+
+  .modelacao-grid img {
+    height: 160px !important;
+    border-radius: 0 !important;
+  }
+
+
+  /* ===========================
+     GALERIA TOP + BOTTOM (2 colunas)
+     =========================== */
+  .galeria-catalogo {
+    padding: 35px 14px 55px !important;
+  }
+
+  .galeria-grid-top,
+  .galeria-grid-bottom {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+    margin-top: 0 !important;
+  }
+
+  .galeria-grid-top .grid-img {
+    height: 150px !important;
+    border-radius: 0 !important;
+  }
+
+  .galeria-grid-bottom {
+    margin-top: 12px !important;
+  }
+
+  .galeria-grid-bottom .grid-img {
+    height: 170px !important;
+    border-radius: 0 !important;
+  }
+
+
+  /* ===========================
+     POPUP (Mobile Friendly)
+     =========================== */
+  .popup-content {
+    max-width: 92% !important;
+    max-height: 85% !important;
+    border-radius: 0 !important;
+    padding: 10px !important;
+  }
+
+  .popup-content img {
+    max-height: 64vh !important;
+    border-radius: 0 !important;
+  }
+
+  .close-btn {
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 30px !important;
+    top: 12px !important;
+    right: 12px !important;
+  }
+
+  .nav-btn {
+    font-size: 34px !important;
+    padding: 12px 14px !important;
+  }
+
+  .popup-caption {
+    font-size: 12px !important;
+    margin-top: 10px !important;
+  }
+
+
+  /* ===========================
+     CONTACT FOOTER
+     =========================== */
+  .contact-footer {
+    height: auto !important;
+    padding: 55px 18px !important;
+    background-attachment: scroll !important;
+  }
+
+  .contact-footer-title {
+    margin-top: 0 !important;
+    font-size: 20px !important;
+  }
+
+  .contact-footer-subtitle {
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+    margin-top: 18px !important;
+  }
+
+  .btn-contactar-outline {
+    margin-top: 22px !important;
+    margin-bottom: 0 !important;
+    padding: 13px 36px !important;
+    font-size: 11px !important;
+  }
+
+}

@@ -1,0 +1,411 @@
+/* =========================================
+   SERVIÇO 3 — TABLET PACK (769px–1024px)
+   Cola este bloco no FINAL do servico3.css
+   (fica entre desktop e mobile, sem estragar nada)
+========================================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* ===========================
+     SAFE TABLET
+     =========================== */
+  html, body { overflow-x: hidden; }
+  section, div, p, h1, h2, h3, img, video { max-width: 100%; }
+
+  /* ===========================
+     TOPO (Banner)
+     =========================== */
+  .servico-topo { height: 300px; }
+  .servico-topo-texto {
+    left: 40px;
+    bottom: 55px;
+    width: calc(100% - 80px);
+  }
+  .servico-topo-texto h1 {
+    font-size: 34px;
+    line-height: 1.18;
+  }
+
+  /* ===========================
+     FOTOGRAMETRIA (texto + video)
+     =========================== */
+  .servico-fotogrametria {
+    height: auto;
+    padding: 80px 50px;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .servico-fotogrametria-texto {
+    margin-left: 0;
+    flex: 1;
+  }
+
+  .servico-fotogrametria-texto h2 {
+    margin-top: 0;
+    font-size: 30px;
+  }
+
+  .servico-fotogrametria-texto p {
+    width: auto;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .servico-fotogrametria-video {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .servico-fotogrametria-video video {
+    width: 100%;
+    max-width: 520px;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ===========================
+     TÉCNICAS (texto + video)
+     =========================== */
+  .servico-tecnicas {
+    height: auto;
+    padding: 80px 50px;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .servico-tecnicas-texto {
+    margin-left: 0;
+    flex: 1;
+  }
+
+  .servico-tecnicas-texto h2 {
+    width: auto;
+    margin-top: 0;
+    font-size: 30px;
+  }
+
+  .servico-tecnicas-texto p {
+    width: auto;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .servico-tecnicas-video {
+    margin-right: 0;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .servico-tecnicas-video video {
+    margin-top: 0;
+    width: 100%;
+    max-width: 520px;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* bullets (mais limpos no tablet) */
+  .servico-tecnicas-texto p.bullet-text {
+    padding-left: 28px;
+    text-indent: 0;
+  }
+  .servico-tecnicas-texto .bullet { font-size: 20px; }
+
+  /* ===========================
+     VANTAGENS (preto)
+     =========================== */
+  .servico-vantagens {
+    height: auto;
+    padding: 80px 50px;
+    gap: 45px;
+    align-items: center;
+  }
+
+  .servico-vantagens-imagem img {
+    width: 100%;
+    max-width: 480px;
+    height: 380px;
+    margin-left: 0;
+    object-fit: cover;
+  }
+
+  .servico-vantagens-texto {
+    max-width: none;
+    text-align: left;
+  }
+
+  .servico-vantagens-texto h2 {
+    margin: 0 0 18px 0;
+    text-align: left;
+    margin-right: 0;
+    font-size: 30px;
+  }
+
+  .servico-vantagens-texto p {
+    width: auto;
+    margin-left: 0;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .servico-vantagens-texto p.bullet-text { padding-left: 28px; }
+  .servico-vantagens-texto .bullet { font-size: 20px; top: 0.15em; }
+
+  /* ===========================
+     MDT (texto + imagens)
+     =========================== */
+  .servico-mdt { padding: 80px 50px; }
+
+  .servico-mdt-topo { margin-bottom: 50px; }
+  .servico-mdt-topo h2 { font-size: 32px; }
+
+  .servico-mdt-conteudo {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+
+  .mdt-coluna-texto { gap: 45px; }
+
+  .mdt-bloco h3 {
+    font-size: 26px;
+    margin-bottom: 14px;
+    max-width: none;
+  }
+
+  .mdt-bloco p {
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: none;
+  }
+
+  .mdt-coluna-imagens {
+    gap: 24px;
+    align-items: flex-end;
+  }
+
+  .mdt-imagem1, .mdt-imagem2 {
+    width: 100%;
+    max-width: 460px;
+    height: 340px;
+  }
+
+  .mdt-imagem1 img, .mdt-imagem2 img { transform: scale(1.25); }
+
+  /* ===========================
+     USOS (grelha + texto) - preto
+     =========================== */
+  .servico-usos {
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 50px;
+    column-gap: 40px;
+    row-gap: 30px;
+    align-items: start;
+  }
+
+  .usos-grelha-wrapper { justify-content: flex-start; }
+
+  .usos-grelha {
+    width: 100%;
+    max-width: 460px;
+    margin: 0;
+    margin-right: 0;
+    gap: 10px;
+  }
+
+  .usos-grelha img {
+    height: 170px;
+    margin-left: 0;
+  }
+
+  .usos-texto-wrapper { justify-content: flex-end; }
+
+  .usos-texto {
+    width: 100%;
+    max-width: 480px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .usos-texto h2 { font-size: 32px; }
+  .usos-texto .usos-intro {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .usos-texto p.bullet-text {
+    width: 100%;
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    padding-left: 28px;
+  }
+  .usos-texto .bullet { font-size: 20px; }
+
+  /* ===========================
+     NUVENS (textos + imagens)
+     =========================== */
+  .servico-nuvens { padding: 80px 50px; }
+
+  .nuvens-topo { margin-bottom: 50px; }
+  .nuvens-topo h2 { font-size: 32px; }
+
+  .nuvens-conteudo {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 35px;
+  }
+
+  .nuvens-textos {
+    margin-left: 0;
+    gap: 35px;
+  }
+
+  .nuvens-bloco1 h3 { font-size: 30px; font-weight: 600; }
+  .nuvens-bloco1 p {
+    width: auto;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  .nuvens-bloco p {
+    width: auto;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  .nuvens-final {
+    width: auto;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .nuvens-bloco h3 { font-size: 20px; }
+
+  .nuvens-imagens {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .nuvens-imagens img {
+    width: 100%;
+    max-width: 520px;
+    height: 340px;
+    object-fit: cover;
+  }
+
+  /* ===========================
+     APLICAÇÕES (imagem + texto)
+     =========================== */
+  .servico-aplicacoes {
+    height: auto;
+    padding: 80px 50px;
+    gap: 45px;
+    align-items: center;
+  }
+
+  .aplicacoes-imagem img {
+    width: 100%;
+    max-width: 520px;
+    height: 380px;
+    margin-left: 0;
+    object-fit: cover;
+  }
+
+  .aplicacoes-texto h2 {
+    position: static;
+    width: auto;
+    margin-top: 0;
+    right: auto;
+    font-size: 28px;
+  }
+
+  .textos {
+    width: auto;
+    margin-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .num-text {
+    font-size: 16px;
+    line-height: 1.7;
+    padding-left: 34px;
+  }
+
+  .num-text .num { left: 10px; font-size: 16px; }
+
+  /* ===========================
+     GRELHA CINZENTA (12 imgs)
+     =========================== */
+  .servico-grelha-cinzenta {
+    height: auto;
+    padding: 70px 50px;
+  }
+
+  .grelha-cinzenta-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .grelha-cinzenta-grid img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+  }
+
+  /* ===========================
+     POPUP (Tablet)
+     =========================== */
+  .popup-content {
+    max-width: 86%;
+    max-height: 86%;
+  }
+
+  .popup-content img { max-height: 72vh; }
+
+  .close-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+  }
+
+  .nav-btn {
+    font-size: 36px;
+    padding: 10px 14px;
+  }
+
+  /* ===========================
+     CONTACT FOOTER
+     =========================== */
+  .contact-footer {
+    height: 320px;
+    padding: 60px 50px;
+    background-attachment: scroll;
+  }
+
+  .contact-footer-title {
+    margin-top: 0;
+    font-size: 28px;
+  }
+
+  .contact-footer-subtitle {
+    font-size: 14px;
+    margin-top: 18px;
+    line-height: 1.6;
+  }
+
+  .btn-contactar-outline {
+    margin-top: 18px;
+    margin-bottom: 0;
+    padding: 13px 36px;
+    font-size: 10px;
+  }
+}
