@@ -1,0 +1,250 @@
+/* =========================================
+   SERVIÇO 2 — TABLET PACK (769px–1024px)
+   Cola ANTES do bloco mobile (<=768)
+========================================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  section, div, p, h1, h2, img {
+    max-width: 100%;
+  }
+
+  /* ===========================
+     TOPO (Banner)
+     =========================== */
+  .servico-topo {
+    height: 300px;
+  }
+
+  .servico-topo-texto {
+    left: 40px;
+    bottom: 50px;
+    width: calc(100% - 80px);
+    text-align: left;
+  }
+
+  .servico-topo-texto h1 {
+    font-size: 34px;
+    line-height: 1.15;
+    letter-spacing: 0.8px;
+  }
+
+  /* ===========================
+     SECÇÕES PRINCIPAIS (stack em tablet)
+     =========================== */
+  .servico-introducao {
+    flex-direction: column;
+    padding: 70px 48px;
+    gap: 28px;
+    text-align: center;
+    height: auto;
+  }
+
+  .servico-plantas {
+    flex-direction: column;
+    padding: 70px 48px;
+    gap: 28px;
+    text-align: center;
+    height: auto;
+  }
+
+  .servico-modelacao {
+    flex-direction: column;
+    padding: 70px 48px;
+    gap: 28px;
+    text-align: center;
+    height: auto;
+  }
+
+  /* ===========================
+     TEXTOS (remover margens negativas + widths fixos)
+     =========================== */
+  .servico-introducao-texto h2 {
+    margin: 0 0 16px 0;
+    font-size: 28px;
+  }
+
+  .servico-plantas-texto h2 {
+    margin: 0 0 16px 0;
+    font-size: 28px;
+  }
+
+  .servico-modelacao-texto h2 {
+    margin: 0 0 16px 0;
+    font-size: 28px;
+  }
+
+  .servico-introducao-texto p {
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 820px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .servico-plantas-texto p {
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 820px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .servico-modelacao-texto p {
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 820px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  /* mata o margin-left:-100px do desktop */
+  .servico-introducao-texto h2,
+  .servico-introducao-texto p,
+  .servico-plantas-texto h2,
+  .servico-plantas-texto p,
+  .servico-modelacao-texto h2,
+  .servico-modelacao-texto p {
+    margin-left: 0 !important;
+  }
+
+  /* ===========================
+     IMAGENS INTRODUÇÃO / PLANTAS
+     =========================== */
+  .servico-introducao-imagem img {
+    width: 100%;
+    max-width: 920px;
+    height: 360px;
+    object-fit: cover;
+    margin: 0 !important;
+    border-radius: 0;
+  }
+
+  .servico-plantas-imagem img {
+    width: 100%;
+    max-width: 920px;
+    height: 360px;
+    object-fit: cover;
+    margin: 0 !important;
+    border-radius: 0;
+  }
+
+  /* ===========================
+     MODELACAO 3D – GRID
+     Tablet: 2 colunas, alturas ajustadas
+     =========================== */
+  .modelacao-grid {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .modelacao-grid img {
+    height: 240px;
+  }
+
+  /* ===========================
+     GALERIA TOP + BOTTOM (Tablet)
+     TOP: 4 colunas (12 imagens => 3 filas de 4)
+     BOTTOM: 4 colunas com cada imagem a ocupar 2 colunas
+             => 5 grandes ficam 2 + 2 + 1 (última centrada)
+     =========================== */
+  .galeria-catalogo {
+    padding: 0 20px 0;
+  }
+
+  .galeria-grid-top {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .galeria-grid-top .grid-img {
+    height: 170px;
+  }
+
+  /* BOTTOM FIX */
+  .galeria-grid-bottom {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* cada “grande” ocupa 2 colunas (fica grande e alinhado) */
+  .galeria-grid-bottom .grid-img {
+    grid-column: span 2;
+    height: 240px;
+  }
+
+  /* última (5ª) centrada na última linha */
+  .galeria-grid-bottom .grid-img:last-child {
+    grid-column: 2 / span 2;
+  }
+
+  /* ===========================
+     POPUP (Tablet)
+     =========================== */
+  .popup-content {
+    max-width: 85%;
+    max-height: 85%;
+    padding: 10px;
+  }
+
+  .popup-content img {
+    max-height: 72vh;
+  }
+
+  .close-btn {
+    width: 42px;
+    height: 42px;
+    font-size: 30px;
+    top: 12px;
+    right: 12px;
+  }
+
+  .nav-btn {
+    font-size: 34px;
+    padding: 10px 14px;
+  }
+
+  .popup-caption {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  /* ===========================
+     CONTACT FOOTER
+     =========================== */
+  .contact-footer {
+    height: auto;
+    padding: 70px 48px;
+    background-attachment: scroll;
+  }
+
+  .contact-footer-title {
+    margin-top: 0;
+    font-size: 28px;
+  }
+
+  .contact-footer-subtitle {
+    font-size: 14px;
+    line-height: 1.65;
+    margin-top: 18px;
+  }
+
+  .btn-contactar-outline {
+    margin-top: 22px;
+    margin-bottom: 0;
+    padding: 13px 36px;
+    font-size: 11px;
+  }
+}
