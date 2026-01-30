@@ -1,0 +1,184 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #3b3939ff;
+    margin: 0;
+    color: hsl(0, 0%, 13%)
+}
+
+
+/* ---- scroll container ---- */
+
+.table-scroll {
+    max-height: 340px;
+    overflow-y: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+/* ---- esconder scrollbars mas manter scroll ---- */
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+/* ---- tabela estilizada ---- */
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background: #ccc;
+    z-index: 2;
+    cursor: default;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table tr:hover {
+    background: #fff5f5;
+    cursor: pointer;
+}
+
+.row-click {
+    cursor: pointer;
+}
+
+main.utilizador-container {
+    max-width: 1100px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 16px;
+    padding: 28px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, .1)
+}
+
+h1 {
+    color: #a30101;
+    border-bottom: 3px solid #a30101;
+    padding-bottom: 10px;
+    margin: 0 0 14px
+}
+
+section {
+    margin-top: 22px
+}
+
+.info p {
+    margin: 6px 0
+}
+
+.financeiro {
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 14px
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px
+}
+
+th,
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left
+}
+
+th {
+    background: #fafafa;
+    color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1
+}
+
+tr:hover {
+    background: #f9f9f9
+}
+
+.row-click {
+    cursor: pointer
+}
+
+.badge {
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700
+}
+
+.badge.pendente {
+    background: #ffc107;
+    color: #000
+}
+
+.badge.aceite {
+    background: #28a745
+}
+
+.badge.recusada {
+    background: #dc3545
+}
+
+.badge.adjudicada {
+    background: #007bff
+}
+
+.badge.Em-configuração {
+    background: #ffc107;
+    color: #000
+}
+
+.badge.Em-produção {
+    background: #007bff
+}
+
+.badge.Em-espera {
+    background: #6c757d
+}
+
+.badge.Concluído {
+    background: #28a745
+}
+
+.badge.cancelada {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #fff;
+    color: #a30101;
+    border: 2px solid #a30101;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background: #a30101;
+    color: #fff;
+}

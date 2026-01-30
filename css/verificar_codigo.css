@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #a30101, #330000);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.verify-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.verify-box {
+    background: grey;
+    color: #222;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    padding: 40px 35px;
+    text-align: center;
+    width: 350px;
+    animation: fadeIn 0.6s ease;
+}
+
+.verify-logo {
+    width: 320px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #a30101;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.input-code {
+    width: 90%;
+    padding: 12px;
+    font-size: 22px;
+    letter-spacing: 6px;
+    text-align: center;
+    border: 2px solid #a30101;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.input-code:focus {
+    border-color: #7d0000;
+    outline: none;
+    box-shadow: 0 0 8px rgba(163, 1, 1, 0.4);
+}
+
+.lembrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn-confirm {
+    background: #a30101;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.btn-confirm:hover {
+    background: #7d0000;
+    transform: scale(1.03);
+}
+
+.erro {
+    color: #dc3545;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

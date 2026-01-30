@@ -1,0 +1,70 @@
+body {
+    background: #262626;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.registo {
+    background: #fff;
+    color: #000;
+    width: 390px;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .25);
+    text-align: center;
+}
+
+h2 {
+    color: #a30101;
+    margin: 0 0 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #a30101;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 6px;
+}
+
+button:hover {
+    background: #7d0000;
+}
+
+.msg {
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.erro {
+    background: #ffe3e3;
+    color: #8a1c1c;
+    border: 1px solid #f2b3b3;
+}
+
+.sucesso {
+    background: #e6f8ee;
+    color: #0b6f3b;
+    border: 1px solid #c7f0d4;
+}

@@ -1,0 +1,205 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #3b3939ff;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.filtros {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filtro {
+    background: white;
+    border: 2px solid #a30101;
+    color: #a30101;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.clickable-table tr {
+    cursor: pointer;
+    transition: background 0.25s ease;
+}
+
+.clickable-table tr:hover {
+    background: #f8eaea;
+}
+
+.filtro:hover {
+    background: #a30101;
+    color: white;
+}
+
+.filtro.ativo {
+    background: #a30101;
+    color: white;
+}
+
+main {
+    margin: 100px auto;
+    max-width: 1300px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #a30101;
+    border-bottom: 3px solid #a30101;
+    padding-bottom: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.card {
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    color: #a30101;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.chart-box {
+    margin-top: 50px;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.tables {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.table {
+    flex: 1;
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 20px;
+    min-width: 400px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    color: #a30101;
+    text-align: left;
+}
+
+.filtro-cards {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.filtro-func {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.filtro-func .ff-btn {
+    padding: 6px 12px;
+    background: white;
+    border: 1px solid #a30101;
+    border-radius: 6px;
+    color: #a30101;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.filtro-func .ff-btn:hover {
+    background: #a30101;
+    color: white;
+}
+
+.filtro-func .ativo {
+    background: #a30101;
+    color: white;
+}
+
+.filtro-cards .fc-btn {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid #a30101;
+    background: white;
+    color: #a30101;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.filtro-cards .fc-btn:hover {
+    background: #a30101;
+    color: white;
+}
+
+.filtro-cards .ativo {
+    background: #a30101;
+    color: white;
+}
+
+.filtro-propostas {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.fp-btn {
+    padding: 6px 12px;
+    background: white;
+    border: 1px solid #a30101;
+    border-radius: 6px;
+    color: #a30101;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.fp-btn:hover {
+    background: #a30101;
+    color: white;
+}
+
+.fp-btn.ativo {
+    background: #a30101;
+    color: white;
+}

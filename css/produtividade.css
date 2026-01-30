@@ -1,0 +1,143 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #3b3939ff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background: #ccc;
+    z-index: 2;
+    cursor: default;
+}
+
+
+/* ===== CONTAINER COM SCROLL ===== */
+
+.table-scroll {
+    max-height: 420px;
+    /* Ajusta conforme quiseres */
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+/* ===== TABELA ===== */
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    min-width: 600px;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.styled-table tbody tr {
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.styled-table tbody tr:hover {
+    background: #f7f1f1;
+}
+
+main {
+    max-width: 1000px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #a30101;
+    border-bottom: 3px solid #a30101;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+tr:hover {
+    background: #fef3f3;
+    cursor: pointer;
+}
+
+.badge {
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.badge-top {
+    background: #a30101;
+    color: #fff;
+}
+
+.filter-bar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.filter-bar input,
+.filter-bar select {
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.filter-bar button {
+    background: #a30101;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.filter-bar button:hover {
+    background: #7d0000;
+}
+
+.reset {
+    background: #777;
+}
+
+.reset:hover {
+    background: #333;
+}

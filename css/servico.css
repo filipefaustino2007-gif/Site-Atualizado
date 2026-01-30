@@ -1,0 +1,330 @@
+@font-face {
+    font-family: 'Nimbus Sans Extended';
+    src: url('../fonts/nimbus-sans-extended.truetype') format('truetype');
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nimbus Sans Extended', Arial, sans-serif;
+}
+
+:root {
+    --tx-cinzento: #707070;
+}
+
+
+/* Topo (banner) */
+
+.servicos-topo {
+    position: relative;
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+}
+
+.servicos-topo-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+}
+
+
+/* Camada escura por cima da imagem */
+
+.servicos-topo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.servicos-topo-texto {
+    position: absolute;
+    bottom: 70px;
+    left: 45px;
+    color: #fff;
+    z-index: 3;
+}
+
+.servicos-topo-texto h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: normal;
+}
+
+
+/* Cartas de serviços */
+
+.services-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    background-color: #fff;
+    padding: 60px;
+}
+
+.service-card {
+    width: 600px;
+    height: 260px;
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Imagem */
+
+.service-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.6);
+    transition: transform 1s ease-in-out, filter 1s ease-in-out;
+    filter: brightness(1) grayscale(0);
+}
+
+
+/* Camada escura inicial */
+
+.service-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(65, 65, 65, 0.45);
+    transition: background 1s ease-in-out;
+    z-index: 1;
+}
+
+
+/*Texto sobreposto*/
+
+.service-overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+    width: 340px;
+    z-index: 2;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    white-space: normal;
+    word-break: keep-all;
+}
+
+.service-overlay h2 {
+    font-size: 20px;
+    font-weight: 650;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255);
+    transition: font-size 0.3s ease, margin-bottom 0.3s ease;
+}
+
+.service-overlay p {
+    font-size: 14px;
+    line-height: 26px;
+    color: rgba(255, 255, 255);
+    width: 333px;
+}
+
+
+/* Hover */
+
+.service-card:hover img {
+    transform: scale(1.95);
+    filter: brightness(0.6) grayscale(30%);
+}
+
+.service-card:hover::before {
+    background: rgba(255, 255, 255, 0.45);
+}
+
+.service-card:hover .service-overlay {
+    transform: translateY(-50%) scale(1.03);
+    opacity: 0.95;
+}
+
+.service-card:hover .service-overlay h2 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.service-card:hover .service-overlay p {
+    font-size: 14px;
+}
+
+.contact-footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url("../img/portofolio.png") center/cover no-repeat fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.contact-footer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.contact-footer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.282);
+    z-index: 1;
+}
+
+.contact-footer-content {
+    position: relative;
+    z-index: 2;
+}
+
+.contact-footer-title {
+    margin-top: -100px;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-footer-subtitle {
+    font-size: 16px;
+    color: #000;
+    margin-top: 30px;
+}
+
+
+/* Botão CONTACTAR (mesmo estilo/efeito do "VER TODOS") */
+
+.btn-contactar-outline {
+    margin-bottom: -50px;
+    position: relative;
+    display: inline-block;
+    padding: 13px 36px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #707070;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.btn-contactar-outline:hover {
+    border-color: #a30101;
+    color: #a30101;
+}
+
+
+/* Cantos superior-esquerdo */
+
+.btn-contactar-outline::before,
+.btn-contactar-outline::after {
+    content: "";
+    position: absolute;
+    border-color: #707070;
+    border-style: solid;
+    transition: width 0.5s ease, height 0.5s ease, border-color 0.5s ease;
+}
+
+
+/* Posições iniciais e tamanhos */
+
+.btn-contactar-outline::before {
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 45%;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+.btn-contactar-outline::after {
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 50%;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+
+/* HOVER → só bordas mudam (tamanho + cor) */
+
+.btn-contactar-outline:hover::before {
+    width: 100%;
+    height: 100%;
+    border-color: #a30101;
+    border-top-width: 2px;
+    border-left-width: 2px;
+}
+
+.btn-contactar-outline:hover::after {
+    width: 100%;
+    height: 100%;
+    border-color: #a30101;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+}
+
+
+/* Responsivo */
+
+@media (max-width: 768px) {
+    .contact-footer {
+        height: 230px;
+        padding: 40px 20px;
+        background-attachment: scroll;
+    }
+    .contact-footer-title {
+        font-size: 20px;
+    }
+    .contact-footer-subtitle {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .services-gallery {
+        flex-direction: column;
+        padding: 40px;
+    }
+    .service-card {
+        height: 350px;
+    }
+    .service-overlay {
+        left: 8%;
+        width: 100%;
+    }
+    .servicos-topo-texto {
+        left: 40px;
+        bottom: 30px;
+    }
+    .servicos-topo-texto h1 {
+        font-size: 34px;
+    }
+}

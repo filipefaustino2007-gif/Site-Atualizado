@@ -1,0 +1,196 @@
+/* ===== RESET BÁSICO ===== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ===== BODY ===== */
+
+body {
+    color: #000000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/capa_login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Faz a imagem ocupar todo o ecrã */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-attachment: fixed;
+    /* (opcional) Efeito fixo no scroll */
+}
+
+
+/* ===== CONTAINER PRINCIPAL ===== */
+
+.login-container {
+    width: 100%;
+    max-width: 550px;
+    /* 🔺 Aumentado (antes 420px) */
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+    padding: 60px 45px;
+    /* 🔺 Mais espaçamento interno */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 200px;
+}
+
+
+/* Título */
+
+.login-container h2 {
+    color: #a30101;
+    font-size: 34px;
+    /* 🔺 Maior título */
+    margin-bottom: 30px;
+}
+
+
+/* Inputs */
+
+.form-login input {
+    padding: 16px 18px;
+    /* 🔺 Inputs maiores */
+    font-size: 17px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.form-login button {
+    background-color: #a30101;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    font-size: 18px;
+    /* 🔺 Botão maior */
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.form-login button:hover {
+    background-color: #000;
+}
+
+
+/* ===== ANIMAÇÃO ===== */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ===== FORMULÁRIO ===== */
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form-login input:focus {
+    border-color: #a30101;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(163, 1, 1, 0.2);
+}
+
+.form-login button:active {
+    transform: scale(0.97);
+}
+
+.newsletter-invite {
+    background: #fff;
+    color: #222;
+    border-radius: 12px;
+    padding: 28px;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 0.8s ease;
+}
+
+.newsletter-invite h3 {
+    color: #a30101;
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.newsletter-invite p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn-registar {
+    display: inline-block;
+    background: #a30101;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-registar:hover {
+    background: #7d0000;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* ===== ERRO DE LOGIN ===== */
+
+.erro-login {
+    margin-top: 18px;
+    color: #a30101;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgba(163, 1, 1, 0.1);
+    border: 1px solid #a30101;
+    border-radius: 6px;
+    padding: 10px;
+    animation: fadeIn 0.3s ease-in;
+}
+
+
+/* ===== RESPONSIVO ===== */
+
+@media (max-width: 500px) {
+    .login-container {
+        max-width: 90%;
+        padding: 40px 25px;
+    }
+    .login-container h2 {
+        font-size: 24px;
+    }
+}

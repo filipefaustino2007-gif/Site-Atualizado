@@ -1,0 +1,676 @@
+/* ==============================
+   FONTES E RESET GLOBAL
+================================*/
+
+@font-face {
+    font-family: 'Nimbus Sans Extended';
+    src: url('../fonts/nimbus-sans-extended.truetype') format('truetype');
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nimbus Sans Extended', Arial, sans-serif;
+}
+
+
+/* ==============================
+   CABEÇALHO
+================================*/
+
+.main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #3f3b34;
+    z-index: 1000;
+}
+
+
+/* ==============================
+   LOGO
+================================*/
+
+.logo img {
+    margin-top: 3px;
+    margin-left: 62px;
+    height: 52px;
+}
+
+
+/* ==============================
+   NAVEGAÇÃO
+================================*/
+
+.navbar {
+    margin-left: 120px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+/* Links principais */
+
+.navbar a {
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+    padding-bottom: 0;
+}
+
+
+/* Linha animada por baixo dos links principais */
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -47.5px;
+    width: 0%;
+    height: 2px;
+    background-color: #a30101;
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.navbar a.active::after {
+    width: 100%;
+    background-color: #a30101;
+}
+
+
+/* Botão login */
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.login-btn a {
+    width: 75px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid #a30101;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.25s ease;
+}
+
+
+/* Hover no botão LOGIN */
+
+.login-btn a:hover {
+    background-color: #a30101;
+    border-color: #a30101;
+    color: #ffffff;
+}
+
+
+/* Não queremos a linha animada no botão LOGIN */
+
+.login-btn a::after {
+    content: none !important;
+}
+
+
+/* ==============================
+   SELETOR DE IDIOMA
+================================*/
+
+.language-selector {
+    position: relative;
+}
+
+.language-form {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Botão principal de idioma */
+
+.language-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 0px;
+    padding: 8px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: rgba(0, 0, 0, 0.35);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: background 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+}
+
+
+/* Estado hover / focus */
+
+.language-toggle:hover,
+.language-toggle:focus {
+    outline: none;
+    border-color: #a30101;
+    box-shadow: 0 0 0 1px rgba(163, 1, 1, 0.5);
+}
+
+
+/* Estado aberto (quando o .language-selector recebe a classe .open via JS) */
+
+.language-selector.open .language-toggle {
+    background: #ffffff;
+    color: #111111;
+    border-color: #a30101;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Texto do idioma atual */
+
+.language-label {
+    white-space: nowrap;
+}
+
+
+/* Setinha */
+
+.language-chevron {
+    display: inline-block;
+    font-size: 10px;
+    transform-origin: center;
+    transition: transform 0.2s ease;
+    transform: rotate(-90deg);
+    /* ▼ vira → quando fechado */
+}
+
+
+/* Rodar seta quando o menu está aberto */
+
+.language-selector.open .language-chevron {
+    transform: rotate(0deg);
+}
+
+
+/* Dropdown de idiomas */
+
+.language-menu {
+    --option-height: 40px;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 10px);
+    width: 140px;
+    max-height: calc(var(--option-height) * 4);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0 !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #0f0f0f;
+    list-style: none;
+    padding: 6px 0;
+    margin: 0;
+    border: 1px solid #2b2b2b;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(6px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0s linear 0.2s;
+    z-index: 2100;
+    border: 1px solid #a30101;
+}
+
+.lang-flag {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 8px;
+    vertical-align: left;
+}
+
+.language-menu li {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* Hover nas opções */
+
+.language-option:hover,
+.language-option:focus {
+    outline: none;
+    background: rgba(163, 1, 1, 0.15);
+    color: #ffffff;
+    padding-left: 18px;
+}
+
+
+/* Mostrar dropdown quando o JS adiciona .open ao .language-selector */
+
+.language-selector.open .language-menu {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0s;
+}
+
+
+/* Cada opção de idioma */
+
+.language-option {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    padding: 14px 25px;
+    min-height: 45px;
+    background: transparent;
+    border: none;
+    color: #f5f5f5;
+    font-size: 13px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: background 0.2s ease, color 0.2s ease, padding-left 0.2s ease;
+}
+
+
+/* ✅ SETA IDIOMAS (Bootstrap icon) — Direita → Baixo */
+
+.language-toggle i.bi-caret-right-fill {
+    display: inline-block;
+    transform: rotate(0deg);
+    /* → */
+    transform-origin: center;
+    transition: transform 0.2s ease;
+}
+
+
+/* quando o menu abre */
+
+.language-selector.open .language-toggle i.bi-caret-right-fill {
+    transform: rotate(90deg);
+    /* ↓ */
+}
+
+
+/* Scroll mais suave */
+
+.language-menu::-webkit-scrollbar {
+    width: 6px;
+}
+
+.language-menu::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.language-menu::-webkit-scrollbar-thumb {
+    background: rgba(163, 1, 1, 0.4);
+    border-radius: 4px;
+}
+
+.language-menu::-webkit-scrollbar-thumb:hover {
+    background: rgba(163, 1, 1, 0.6);
+}
+
+
+/* ==============================
+   DROPDOWN PORTFOLIO
+================================*/
+
+.portfolio-dropdown {
+    position: relative;
+}
+
+
+/* “Ponte” invisível entre o link e o menu (evita o menu desaparecer ao descer o rato) */
+
+.portfolio-dropdown::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+}
+
+
+/* Caixa do menu de portfolio */
+
+.portfolio-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 42px);
+    margin-top: 0;
+    width: 185px;
+    background: #ffffff;
+    color: #000000;
+    flex-direction: column;
+    border: none;
+    box-shadow: none;
+    z-index: 2000;
+}
+
+
+/* Links internos do dropdown portfolio */
+
+.portfolio-menu a {
+    display: block;
+    padding: 15px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* Hover nos links internos */
+
+.portfolio-menu a:hover {
+    color: #7a7a7a;
+}
+
+
+/* Mostrar menu ao passar o rato */
+
+.portfolio-dropdown:hover .portfolio-menu {
+    display: flex;
+}
+
+
+/* Remover linha animada nos links internos */
+
+.portfolio-menu a::after,
+.portfolio-menu a:hover::after,
+.portfolio-menu a.active::after {
+    content: none !important;
+    display: none !important;
+}
+
+
+/* Link ativo dentro do menu PORTFOLIO */
+
+.portfolio-menu a.active {
+    color: #a30101;
+    background-color: #f0f0f0;
+}
+
+.portfolio-menu a.active:hover {
+    color: #7a7a7a;
+}
+
+
+/* ==============================
+   DROPDOWN SERVIÇOS
+================================*/
+
+.servicos-dropdown {
+    position: relative;
+}
+
+
+/* Ponte invisível */
+
+.servicos-dropdown::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+}
+
+
+/* Caixa do menu serviços */
+
+.servicos-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 42px);
+    margin-top: 0;
+    width: 190px;
+    background: #ffffff;
+    color: #000000;
+    flex-direction: column;
+    border: none;
+    box-shadow: none;
+    z-index: 2000;
+}
+
+
+/* Links internos do dropdown serviços */
+
+.servicos-menu a {
+    display: block;
+    padding: 15px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* Hover */
+
+.servicos-menu a:hover {
+    color: #7a7a7a;
+}
+
+
+/* Mostrar menu ao passar o rato */
+
+.servicos-dropdown:hover .servicos-menu {
+    display: flex;
+}
+
+
+/* Remover linha vermelha animada nos links internos */
+
+.servicos-menu a::after,
+.servicos-menu a:hover::after,
+.servicos-menu a.active::after {
+    content: none !important;
+    display: none !important;
+}
+
+
+/* (se um dia quiseres marcar um serviço específico como ativo) */
+
+.servicos-menu a.active {
+    color: #861f1f;
+    background-color: #f0f0f0;
+}
+
+.servicos-menu a.active:hover {
+    color: #7a7a7a;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+
+/* =========================================
+   ESCONDER SETAS (SERVIÇOS / PORTFOLIO) NO PC
+   Só aparecem no mobile (cabecalho-mobile.css)
+========================================= */
+
+
+/* Desktop / PC */
+
+@media (min-width: 769px) {
+    .dropdown-toggle {
+        display: none !important;
+    }
+}
+
+
+/* ===== SIDEBAR ===== */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -700px;
+    width: 380px;
+    height: 100vh;
+    background: linear-gradient(145deg, #1a1a1a 0%, #000 100%);
+    color: #fff;
+    padding: 35px 28px;
+    box-shadow: 5px 0 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.35s ease;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar.aberta {
+    left: 0;
+}
+
+
+/* Sidebar Header */
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+}
+
+#fecharSidebar {
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#fecharSidebar:hover {
+    color: #a30101;
+}
+
+
+/* User Box */
+
+.user-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.user-box:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.user-icon {
+    font-size: 42px;
+    color: #a30101;
+}
+
+.user-info {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.user-nome {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.user-acesso {
+    font-size: 13px;
+    color: white;
+}
+
+
+/* Sidebar Menu */
+
+.sidebar-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.sidebar-menu a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+.sidebar-menu a:hover {
+    background: rgba(163, 1, 1, 0.25);
+    color: #fff;
+    padding-left: 22px;
+}
+
+
+/* Logout Button */
+
+.logout-btn a {
+    background: #a30101;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.logout-btn a:hover {
+    background: white;
+    color: #a30101;
+}

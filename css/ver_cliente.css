@@ -1,0 +1,182 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: grey;
+    margin: 0;
+}
+
+.table-scroll {
+    max-height: 360px;
+    overflow-y: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+/* esconder scroll mas manter funcional */
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table tr:hover {
+    background: #fff5f5;
+    cursor: pointer;
+}
+
+.row-click {
+    cursor: pointer;
+}
+
+.cliente-container {
+    max-width: 1000px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.row-click {
+    cursor: pointer;
+}
+
+.row-click:hover {
+    background: #fdf2f2;
+    transition: background .2s ease;
+}
+
+h1 {
+    color: #a30101;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.row-click:hover {
+    background-color: #fdf2f2 !important;
+    transition: background-color 0.25s ease;
+}
+
+.info-box {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.propostas-box h2 {
+    color: #a30101;
+    border-bottom: 2px solid #a30101;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    /* garante alinhamento fixo entre <th> e <td> */
+}
+
+th,
+td {
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #fff;
+    color: #a30101;
+    border: 2px solid #a30101;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background: #a30101;
+    color: #fff;
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #fdf2f2;
+    transition: background-color 0.2s ease;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background: #ccc;
+    z-index: 2;
+    cursor: default;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.badge.adjudicada {
+    background: #007bff;
+    color: white;
+}
+
+.badge.pendente {
+    background: #ffc107;
+    color: #222;
+}
+
+.badge.cancelada {
+    background: #dc3545;
+    color: white;
+}
+
+.badge.aceite {
+    background: #28a745;
+    color: white;
+}
+
+.btn.ver {
+    background: #a30101;
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn.ver:hover {
+    background: #7d0000;
+}

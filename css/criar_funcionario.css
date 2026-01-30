@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #3b3939ff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #a30101;
+    border-bottom: 3px solid #a30101;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+input,
+select {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button {
+    background: #a30101;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background: #7d0000;
+}
+
+.msg {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.msg.sucesso {
+    background: #e6f8ee;
+    border: 1px solid #c7f0d4;
+    color: #0b6f3b;
+}
+
+.msg.erro {
+    background: #ffecec;
+    border: 1px solid #f2c2c2;
+    color: #9b1d1d;
+}

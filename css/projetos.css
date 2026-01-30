@@ -1,0 +1,743 @@
+/* =========================================================
+   PROJETOS.CSS (compacto + largo + bonito)
+   - colunas apertadas mas legíveis
+   - header sticky alinhado
+   - tabela larga (scroll X se preciso)
+   - linhas clicáveis
+   - money com sublinha (≈ EUR)
+   - tooltip serviços (usa o teu .servicos-pill + JS)
+   ========================================================= */
+
+:root {
+    --bg: #2f2e2e;
+    --card: #ffffff;
+    --text: #111827;
+    --muted: #6b7280;
+    --line: #e5e7eb;
+    --head: #f8fafc;
+    --hover: #fff1f2;
+    --brand: #a30101;
+    --brand2: #7d0000;
+    --ok: #065f46;
+    --ok2: #0b7d58;
+    --warn: #f59e0b;
+    --bad: #b91c1c;
+    --info: #2563eb;
+    --shadow: 0 12px 24px rgba(0, 0, 0, .12);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+
+/* Container mais largo */
+
+main.projetos-container {
+    width: min(1920px, calc(100% - 20px));
+    margin: 16px auto;
+    background: var(--card);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+/* Título compacto */
+
+h1 {
+    margin: 2px 0 10px;
+    color: var(--brand);
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+thead th {
+    text-align: left;
+}
+
+
+/* Filtros compactos */
+
+.filter-bar {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 0 10px;
+    padding: 8px;
+    border-radius: 12px;
+    background: var(--head);
+    border: 1px solid var(--line);
+}
+
+.filter-bar input,
+.filter-bar select {
+    height: 34px;
+    padding: 6px 8px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    font-size: 12px;
+    background: #fff;
+    outline: none;
+    min-width: 140px;
+}
+
+.filter-bar button {
+    height: 34px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 12px;
+    transition: .12s ease;
+    background: var(--brand);
+    color: #fff;
+}
+
+.filter-bar button:hover {
+    background: var(--brand2);
+}
+
+.filter-bar .reset {
+    background: #6b7280;
+}
+
+.filter-bar .reset:hover {
+    background: #374151;
+}
+
+
+/* fxBox (se estiver inline no HTML, isto dá uma base bonita na mesma) */
+
+#fxBox {
+    margin: 8px 0 !important;
+    padding: 8px !important;
+    border-radius: 12px !important;
+    border: 1px solid var(--line) !important;
+    background: var(--head) !important;
+}
+
+#fxBox input {
+    height: 32px !important;
+    border-radius: 10px !important;
+    padding: 6px 8px !important;
+    font-size: 12px !important;
+}
+
+
+/* Wrapper da tabela: permite scroll X e Y */
+
+.table-wrapper {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: auto;
+    background: #fff;
+    max-height: calc(100vh - 260px);
+}
+
+
+/* Scrollbar discreta */
+
+.table-wrapper::-webkit-scrollbar {
+    height: 9px;
+    width: 9px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(17, 24, 39, .18);
+    border-radius: 999px;
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+    background: rgba(17, 24, 39, .06);
+}
+
+
+/* Tabela larga e compacta */
+
+table {
+    width: max(1600px, 100%);
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 12px;
+}
+
+
+/* Header sticky alinhado */
+
+thead th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--head);
+    border-bottom: 1px solid var(--line);
+    padding: 8px 8px;
+    white-space: nowrap;
+    font-weight: 900;
+    text-align: left;
+}
+
+
+/* Células compactas */
+
+tbody td {
+    padding: 6px 8px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+
+/* Linhas clicáveis */
+
+tr.clickable {
+    cursor: pointer;
+    transition: background .12s ease;
+}
+
+tr.clickable:hover {
+    background: var(--hover);
+}
+
+
+/* Texto longo (comentários etc.) */
+
+.cell-clip {
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* Money (principal + sublinha) */
+
+
+/* Money (principal + sublinha) — centrado na célula */
+
+.money {
+    display: flex;
+    /* em vez de inline-flex */
+    flex-direction: column;
+    align-items: center;
+    /* centra o conteúdo */
+    justify-content: center;
+    gap: 1px;
+    width: 100%;
+    /* ocupa a célula toda */
+    min-width: 0;
+    /* não força largura */
+    text-align: center;
+}
+
+.money-main {
+    font-weight: 900;
+}
+
+.money-sub {
+    font-size: 10.5px;
+    color: var(--muted);
+    line-height: 1.1;
+    white-space: nowrap;
+}
+
+
+/* Badges compactos + estados */
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 900;
+    border: 1px solid rgba(0, 0, 0, .06);
+    text-transform: capitalize;
+}
+
+
+/* Os teus estados vêm com espaços -> o PHP já mete class com hífens */
+
+.badge.em-processamento {
+    background: rgba(245, 158, 11, .18);
+    color: #7a4b00;
+}
+
+.badge.em-produção,
+.badge.em-producao {
+    background: rgba(37, 99, 235, .14);
+    color: #1d4ed8;
+}
+
+.badge.concluído,
+.badge.concluido {
+    background: rgba(6, 95, 70, .14);
+    color: var(--ok);
+}
+
+.badge.cancelado {
+    background: rgba(185, 28, 28, .14);
+    color: var(--bad);
+}
+
+
+/* Badge Sim/Não (entregue/pago) usando as tuas classes adjudicada/pendente */
+
+.badge.adjudicada {
+    background: rgba(6, 95, 70, .14);
+    color: var(--ok);
+}
+
+.badge.pendente {
+    background: rgba(245, 158, 11, .18);
+    color: #7a4b00;
+}
+
+
+/* =========================================================
+   SERVIÇOS (pill)
+   - o tooltip grande está a ser desenhado pelo teu JS (sx-tooltip)
+   - aqui só deixamos o pill bonito
+   ========================================================= */
+
+.servicos-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: rgba(163, 1, 1, .10);
+    border: 1px solid rgba(163, 1, 1, .18);
+    color: var(--brand);
+    font-weight: 900;
+    font-size: 11px;
+    cursor: help;
+}
+
+
+/* Tuning: colunas mais “apertadas” onde faz sentido */
+
+
+/* Data */
+
+td:nth-child(2),
+th:nth-child(2) {
+    min-width: 78px;
+    text-align: center;
+}
+
+
+/* Cliente */
+
+td:nth-child(3),
+th:nth-child(3) {
+    min-width: 120px;
+    text-align: center;
+}
+
+
+/* Estado */
+
+td:nth-child(4),
+th:nth-child(4) {
+    min-width: 110px;
+    text-align: center;
+}
+
+
+/* Total s/ IVA */
+
+td:nth-child(5),
+th:nth-child(5) {
+    min-width: 110px;
+    text-align: center;
+}
+
+
+/* Nº Proposta */
+
+td:nth-child(6),
+th:nth-child(6) {
+    min-width: 160px;
+    text-align: center;
+}
+
+
+/* Nome Obra */
+
+td:nth-child(7),
+th:nth-child(7) {
+    min-width: 80px;
+    text-align: center;
+}
+
+
+/* Serviços */
+
+td:nth-child(8),
+th:nth-child(8) {
+    min-width: 90px;
+    text-align: center;
+}
+
+
+/* Colunas de valores (Sub Custos -> Margem): centra header + células */
+
+td:nth-child(9),
+th:nth-child(9),
+td:nth-child(10),
+th:nth-child(10),
+td:nth-child(11),
+th:nth-child(11),
+td:nth-child(12),
+th:nth-child(12),
+td:nth-child(13),
+th:nth-child(13),
+td:nth-child(14),
+th:nth-child(14) {
+    text-align: center;
+    min-width: 110px;
+    /* ajusta se quiseres mais apertado */
+}
+
+
+/* Tempo */
+
+td:nth-child(15),
+th:nth-child(15) {
+    min-width: 90px;
+    text-align: center;
+}
+
+
+/* Entregue */
+
+td:nth-child(16),
+th:nth-child(16) {
+    min-width: 90px;
+    text-align: center;
+}
+
+
+/* Pago */
+
+td:nth-child(17),
+th:nth-child(17) {
+    min-width: 220px;
+    text-align: center;
+}
+
+
+/* Comentários */
+
+td:nth-child(18),
+th:nth-child(18) {
+    min-width: 110px;
+    text-align: center;
+}
+
+
+/* Comissão */
+
+td:nth-child(19),
+th:nth-child(19) {
+    min-width: 150px;
+    text-align: center;
+}
+
+
+/* Empresa */
+
+td:nth-child(20),
+th:nth-child(20) {
+    min-width: 120px;
+    text-align: center;
+}
+
+td:nth-child(21),
+th:nth-child(21) {
+    min-width: 120px;
+    text-align: center;
+}
+
+
+/* Hover vermelho como queres */
+
+.row-main.clickable:hover td {
+    background: rgba(163, 1, 1, 0.10);
+}
+
+
+/* Linha selecionada (fixa) */
+
+.row-main.is-selected td {
+    background: rgba(163, 1, 1, 0.18) !important;
+}
+
+.row-main.is-selected {
+    outline: 2px solid rgba(163, 1, 1, 0.35);
+    outline-offset: -2px;
+}
+
+
+/* botão seta/pin */
+
+.btn-pin {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .15s ease;
+}
+
+.btn-pin:hover {
+    background: #fafafa;
+    transform: translateY(-1px);
+}
+
+.cell-comment .comment-meta {
+    margin-top: 6px;
+    font-size: 11px;
+    color: #666;
+    font-weight: 800;
+    white-space: nowrap;
+    opacity: .9;
+}
+
+.cell-comment .comment-meta .who {
+    color: #7a0f0f;
+}
+
+.cell-comment .comment-meta .when {
+    color: #666;
+    font-weight: 700;
+}
+
+
+/* quando selecionado, seta vira para baixo (efeito visual) */
+
+.row-main.is-selected .btn-pin i {
+    transform: rotate(90deg);
+}
+
+
+/* comentário editável (mantém do que tinhas) */
+
+.comment-edit {
+    min-width: 220px;
+    max-width: 520px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.comment-edit:focus {
+    border-color: #a30101;
+    box-shadow: 0 0 0 3px rgba(163, 1, 1, .12);
+    background: #fff;
+}
+
+.comment-edit.is-dirty {
+    border-color: #f59e0b;
+    background: #fff7ed;
+}
+
+
+/* ===== Top Scroll ===== */
+
+.top-scroll-wrap {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    padding: 8px 0 6px;
+    background: #fff;
+}
+
+.top-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 14px;
+    border-radius: 999px;
+    background: #f3f4f6;
+    border: 1px solid #eee;
+}
+
+.top-scroll-inner {
+    height: 1px;
+}
+
+
+/* Scrollbar bonito (webkit) */
+
+.top-scroll::-webkit-scrollbar {
+    height: 12px;
+}
+
+.top-scroll::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    border-radius: 999px;
+}
+
+.top-scroll::-webkit-scrollbar-thumb {
+    background: #a30101;
+    border-radius: 999px;
+    border: 2px solid #f3f4f6;
+}
+
+
+/* Firefox */
+
+.top-scroll {
+    scrollbar-color: #a30101 #f3f4f6;
+    scrollbar-width: thin;
+}
+
+
+/* ===== Expand button ===== */
+
+.cell-expand {
+    text-align: center;
+}
+
+.btn-expand {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .15s ease;
+}
+
+.btn-expand:hover {
+    background: #fafafa;
+    transform: translateY(-1px);
+}
+
+.row-expanded .btn-expand i {
+    transform: rotate(90deg);
+}
+
+
+/* ===== Comment Excel-like ===== */
+
+.comment-edit {
+    min-width: 220px;
+    max-width: 520px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.comment-edit:focus {
+    border-color: #a30101;
+    box-shadow: 0 0 0 3px rgba(163, 1, 1, .12);
+    background: #fff;
+}
+
+.comment-edit.is-dirty {
+    border-color: #f59e0b;
+    background: #fff7ed;
+}
+
+
+/* Linha expandida */
+
+.row-detail td {
+    background: #fafafa;
+    border-top: 1px solid #eee;
+    padding: 14px 16px;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.detail-box {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 14px;
+    padding: 10px 12px;
+}
+
+.detail-title {
+    font-weight: 900;
+    color: #111;
+    margin-bottom: 6px;
+}
+
+.detail-text {
+    color: #333;
+    font-weight: 700;
+    line-height: 1.25;
+    white-space: pre-wrap;
+}
+
+
+/* Em ecrãs pequenos */
+
+@media (max-width: 900px) {
+    .detail-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* NIF */
+
+
+/* Em ecrãs pequenos: mantém mas deixa scroll */
+
+@media (max-width: 900px) {
+    main.projetos-container {
+        width: calc(100% - 14px);
+        margin: 12px auto;
+        padding: 8px;
+    }
+    .filter-bar input,
+    .filter-bar select {
+        min-width: 120px;
+    }
+    table {
+        width: max(1500px, 100%);
+    }
+}

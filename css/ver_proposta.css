@@ -1,0 +1,492 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #3b3939ff;
+    margin: 0;
+    color: #222;
+}
+
+
+/* ===== Botão bonito: Confirmar Pagamento Inicial ===== */
+
+.btn-pagamento-confirmar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 16px;
+    border-radius: 14px;
+    border: 1px solid rgba(163, 1, 1, 0.18);
+    background: linear-gradient(180deg, rgba(163, 1, 1, 0.10), rgba(163, 1, 1, 0.06));
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+
+.btn-pagamento-confirmar:hover {
+    transform: translateY(-1px);
+    border-color: rgba(163, 1, 1, 0.30);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.10);
+}
+
+.btn-pagamento-confirmar:active {
+    transform: translateY(0px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.08);
+}
+
+.btn-pagamento-confirmar .btn-ico {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(163, 1, 1, 0.12);
+    color: #a30101;
+    font-size: 20px;
+}
+
+.btn-pagamento-confirmar .btn-texto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 1.15;
+}
+
+.btn-pagamento-confirmar .btn-titulo {
+    font-weight: 800;
+    color: #222;
+    font-size: 15px;
+}
+
+.btn-pagamento-confirmar .btn-sub {
+    margin-top: 2px;
+    font-size: 12.5px;
+    color: #666;
+}
+
+
+/* ===== Popup: botões (reutiliza o teu tema) ===== */
+
+.popup-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.btn-confirmar {
+    border: none;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 800;
+    cursor: pointer;
+    background: #0f8a3b;
+    color: white;
+    transition: transform .12s ease, opacity .12s ease;
+}
+
+.money-strong .money-main {
+    font-weight: 700;
+}
+
+.btn-confirmar:hover {
+    transform: translateY(-1px);
+}
+
+.btn-confirmar:active {
+    transform: translateY(0px);
+    opacity: .9;
+}
+
+
+/* confirmar "perigoso" (cancelar) */
+
+.btn-confirmar.danger {
+    background: #a30101;
+}
+
+.btn-cancelar {
+    border: 1px solid rgba(0, 0, 0, .12);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 800;
+    cursor: pointer;
+    background: #fff;
+    color: #333;
+    transition: transform .12s ease;
+}
+
+.btn-cancelar:hover {
+    transform: translateY(-1px);
+}
+
+
+/* === Scroll interno só para tabelas de histórico === */
+
+.table-scroll {
+    max-height: 300px;
+    /* altura máxima do scroll */
+    overflow-y: auto;
+    /* ativa scroll vertical */
+    overflow-x: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #ffffff;
+    margin-top: 10px;
+}
+
+
+/* Estilo da tabela interna */
+
+.tabela-historico {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 550px;
+    /* evita quebrar colunas se a tabela for grande */
+}
+
+.tabela-historico th {
+    background: #ccc;
+    padding: 10px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    /* 🔥 Cabeçalho fica fixo quando faz scroll */
+    z-index: 10;
+}
+
+.tabela-historico td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.tabela-historico tr:hover {
+    background: #f7f7f7;
+    cursor: pointer;
+}
+
+
+/* Barra de scroll suave */
+
+.table-scroll::-webkit-scrollbar-thumb {
+    background: #c6c6c6;
+    border-radius: 8px;
+}
+
+.table-scroll::-webkit-scrollbar-thumb:hover {
+    background: #a30101;
+}
+
+header {
+    background: #a30101;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.button {
+    background: white;
+    color: #a30101;
+    text-decoration: none;
+    border: solid;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border-color: #a30101;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #a30101;
+    border-bottom: 2px solid #a30101;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 10px 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #f2f2f2;
+}
+
+tr:hover {
+    background: #fafafa;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.badge.pendente {
+    background: #ffc107;
+    color: #222;
+}
+
+.badge.cancelada {
+    background: #a30101;
+    color: white;
+}
+
+.badge.adjudicada {
+    background: #065f46;
+    color: white;
+}
+
+.imagem-proposta {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagem-proposta img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ==== Visualização da imagem da proposta ==== */
+
+.imagem-proposta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #fafafa, #f0f0f0);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 25px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s ease;
+}
+
+.imagem-proposta:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.imagem-proposta img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.badge-area {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #e5e5e5;
+    background: #f3f3f3;
+    color: #444;
+}
+
+.badge-area.exterior {
+    background: rgba(163, 1, 1, .08);
+    border-color: rgba(163, 1, 1, .25);
+    color: #7d0000;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #fff;
+    color: #a30101;
+    border: 2px solid #a30101;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-left: 620px;
+}
+
+.btn-voltar:hover {
+    background: #a30101;
+    color: #fff;
+}
+
+.btn-acao {
+    display: inline-block;
+    margin: 5px 10px 0 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-acao.verde {
+    background: #065f46;
+}
+
+.btn-acao.verde:hover {
+    background: #0b7d58;
+}
+
+.btn-acao.vermelho {
+    background: #a30101;
+}
+
+.btn-acao.vermelho:hover {
+    background: #c30606;
+}
+
+.btn-acao {
+    background: #a30101;
+}
+
+.clickable-row {
+    cursor: pointer;
+    transition: background 0.25s ease;
+}
+
+.clickable-row:hover {
+    background-color: #f8eaea;
+}
+
+.pagamento-inicial {
+    margin-top: 40px;
+    background: #fafafa;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.pagamento-box label {
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+.campo-pagamento {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.campo-pagamento input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.btn-reset {
+    background: #fff;
+    color: #a30101;
+    border: 2px solid #a30101;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-reset:hover {
+    background: #a30101;
+    color: white;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.popup-box {
+    background: white;
+    padding: 25px;
+    width: 340px;
+    border-radius: 12px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.popup-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-confirmar {
+    background: #2ecc71;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-confirmar:hover {
+    background: #25a35a;
+}
+
+.btn-cancelar {
+    background: #dc3545;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cancelar:hover {
+    background: #c0392b;
+}

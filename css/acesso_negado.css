@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: grey;
+    /* cinzento suave */
+}
+
+.denied-container {
+    max-width: 600px;
+    margin: 130px auto;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+    padding: 40px 50px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.denied-icon {
+    font-size: 85px;
+    color: #a30101;
+    margin-bottom: 15px;
+    animation: pulse 1.5s infinite;
+}
+
+h2 {
+    color: #a30101;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.btn-voltar {
+    margin-top: 22px;
+    display: inline-block;
+    padding: 12px 26px;
+    background: #a30101;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.btn-voltar:hover {
+    background: #7d0000;
+}
+
+
+/* Animações */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

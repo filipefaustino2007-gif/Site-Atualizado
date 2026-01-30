@@ -1,0 +1,355 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #3b3939ff;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ===== Toggle Exterior (Switch bonito) ===== */
+
+.area-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-top: 10px;
+    padding: 10px 12px;
+    border: 1px solid #e7e7e7;
+    background: linear-gradient(180deg, #fff, #fafafa);
+    border-radius: 14px;
+}
+
+.area-toggle .toggle-texts {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.area-toggle .toggle-title {
+    font-weight: 700;
+    color: #222;
+    font-size: 13px;
+}
+
+.area-toggle .toggle-sub {
+    font-size: 12px;
+    color: #666;
+}
+
+.switch {
+    position: relative;
+    width: 48px;
+    height: 28px;
+    flex: 0 0 auto;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    background: #d9d9d9;
+    border-radius: 999px;
+    transition: 0.2s ease;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .06);
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    top: 3px;
+    background: #fff;
+    border-radius: 999px;
+    transition: 0.2s ease;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, .12);
+}
+
+.switch input:checked+.slider {
+    background: #a30101;
+}
+
+.switch input:checked+.slider:before {
+    transform: translateX(20px);
+}
+
+.area-toggle .badge {
+    margin-left: auto;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #f0f0f0;
+    color: #444;
+    border: 1px solid #e5e5e5;
+}
+
+.area-toggle.is-exterior .badge {
+    background: rgba(163, 1, 1, .08);
+    border-color: rgba(163, 1, 1, .25);
+    color: #7d0000;
+}
+
+
+/* === Caixa dos Totais === */
+
+.totais-box {
+    margin-top: 25px;
+    padding: 20px;
+    border-left: 4px solid #a30101;
+    background: #fafafa;
+    border-radius: 12px;
+}
+
+.totais-box h2 {
+    margin: 0 0 15px 0;
+    color: #a30101;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* === Tabela dos Totais === */
+
+.totais-tabela {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.totais-tabela td {
+    padding: 10px 4px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.totais-tabela td:first-child {
+    font-weight: 600;
+    color: #444;
+}
+
+.totais-tabela td:last-child {
+    text-align: right;
+    font-weight: 600;
+    color: #000;
+}
+
+
+/* === Linha Total Final === */
+
+.totais-tabela .total-final td {
+    border-top: 2px solid #a30101 !important;
+    border-bottom: none;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #a30101;
+}
+
+
+/* === Input do Desconto === */
+
+.desconto-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+    height: 20px;
+}
+
+.desconto-wrapper input {
+    width: 70px;
+    text-align: right;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #a30101;
+    border-bottom: 3px solid #a30101;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.servico-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: #fafafa;
+    position: relative;
+}
+
+.btn {
+    background: #a30101;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #700000;
+}
+
+.btn-remove {
+    position: solid;
+    right: 10px;
+    top: 10px;
+    background: #444;
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
+.btn-remove-servico {
+    position: solid;
+    right: 10px;
+    top: 10px;
+    background: #444;
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
+select,
+input[type="text"],
+input[type="number"] {
+    width: 98%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.area-section {
+    margin-top: 20px;
+    display: none;
+}
+
+.area-item {
+    border: 1px dashed #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #fdfdfd;
+}
+
+.button {
+    margin-left: 600px;
+    background: white;
+    color: #a30101;
+    text-decoration: none;
+    border: solid;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border-color: #a30101;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #f2f2f2;
+}
+
+
+/* ==== Upload de imagem (criar_proposta) ==== */
+
+.upload-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fafafa;
+    border: 2px dashed #a30101;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.upload-wrapper:hover {
+    background: #fff5f5;
+    border-color: #7d0000;
+}
+
+.upload-wrapper label {
+    font-weight: 600;
+    color: #a30101;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.upload-wrapper input[type="file"] {
+    display: none;
+}
+
+.upload-preview {
+    margin-top: 12px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.upload-preview img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.btn-reset {
+    background: #ffffff;
+    color: #a30101;
+    border: 2px solid #a30101;
+    border-radius: 8px;
+    padding: 4px 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: -4px;
+}
+
+.btn-reset:hover {
+    background: #a30101;
+    color: white;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #fff;
+    color: #a30101;
+    border: 2px solid #a30101;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background: #a30101;
+    color: #fff;
+}

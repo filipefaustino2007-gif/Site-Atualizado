@@ -1,0 +1,141 @@
+/* === BASE / FUNDO === */
+body{
+  margin: 0;
+  background: #1e1e1e; /* ✅ antes era branco */
+  color: #fff;         /* ✅ para texto ficar legível */
+}
+
+/* === HERO (topo) === */
+.pp-hero{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  min-height: 240px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+  align-items:flex-end;
+  justify-content:flex-start;
+
+  /* ✅ linha vermelha */
+  border-bottom: 4px solid #a30101;
+}
+
+/* ✅ camada preta MAIS escura */
+.pp-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: rgba(0,0,0,.70); /* antes era .55 */
+}
+
+.pp-hero h1{
+  position:relative;
+  z-index:1;
+  color:#fff;
+  text-align:center;
+  padding:0 16px;
+  font-size: clamp(24px, 3.2vw, 46px);
+  margin-bottom: 90px;
+  margin-left: 30px;
+}
+
+.pp-main{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 28px 16px 60px;
+}
+
+.pp-section{ margin: 26px 0; }
+.pp-section h2{ margin: 0 0 14px; font-size: 22px; color:#fff; }
+
+.pp-galeria{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+.pp-galeria img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  border-radius: 0;
+  display:block;
+}
+
+.pp-docs{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+/* ✅ PDF card em dark */
+.pp-pdf-card{
+  background:#111; /* antes #ffffff */
+  border-radius: 16px;
+  overflow:hidden;
+  box-shadow: 0 10px 22px rgba(0,0,0,.25);
+}
+
+.pp-pdf-card iframe{
+  width:100%;
+  height:360px;
+  display:block;
+}
+
+.pp-pdf-info{
+  padding: 12px 14px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.pp-pdf-info p{
+  margin:0;
+  font-weight:800;
+  font-size:14px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  color:#fff; /* ✅ */
+}
+
+.pp-pdf-info a{
+  text-decoration:none;
+  font-weight:900;
+  color:#a30101;
+}
+
+/* === BOTÃO VOLTAR === */
+.pp-back{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 18px;
+  padding: 12px 18px;
+
+  background: #a30101;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+
+  border-radius: 3px;
+
+  transition: transform .25s ease, box-shadow .25s ease, filter .25s ease;
+}
+
+.pp-back i{
+  transition: transform .25s ease;
+}
+
+.pp-back:hover{
+  filter: brightness(1.05);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.25);
+}
+
+.pp-back:hover i{
+  transform: translateX(-4px);
+}
