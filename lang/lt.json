@@ -1,0 +1,442 @@
+{
+  "nav": {
+    "home": "MĀJAS",
+    "about": "PAR",
+    "services": "PAKALPOJUMI",
+
+    "laser_scan": "Lāzerskenēšana un 3D uzmērīšana",
+    "design_3d": "2D zīmēšana un 3D modelēšana",
+    "uav_drone": "UAV/DRONA fotogrammetrija",
+
+    "portfolio": "PORTFELIS",
+    "residential": "Dzīvojamo māju Mēri.",
+    "urban": "Pilsētu Mēri.",
+    "commercial": "Komerciālie Mēri.",
+    "industrial": "Industriālie Mēri.",
+
+    "contacts": "KONTAKTI",
+    "login": "LOGIN"
+  },
+
+  "contact": {
+    "meta_title": "Kontakti - SupremeXpansion",
+    "hero_alt": "SupremeXpansion kontakti",
+    "hero_title": "KONTAKTI",
+
+    "form": {
+      "title": "Sazinieties ar mums",
+      "intro": "Lai sazinātos ar mums, varat izmantot mūsu tīmekļa vietnē pieejamo formu, nosūtīt e-pastu uz norādīto adresi vai piezvanīt. Mūsu komanda ir gatava jums palīdzēt un atbildēt uz jebkuriem jautājumiem.",
+
+      "fields": {
+        "name": "Vārds",
+        "email": "E-pasts",
+        "phone": "Mobilais",
+        "reason_placeholder": "Sazināšanās iemesls",
+        "reason_budget": "Piedāvājuma pieprasījums",
+        "reason_partnership": "Sadarbības piedāvājums",
+        "reason_support": "Klientu atbalsts",
+        "reason_other": "Cits iemesls",
+        "subject": "Temats",
+        "message": "Ziņojums"
+      },
+
+      "consent_text": "Es piekrītu, ka šī vietne drīkst glabāt manus iesniegtos datus, lai atbildētu uz manu pieprasījumu.",
+      "submit": "Sūtīt",
+      "success": "Veiksmīgi nosūtīts!"
+    },
+
+    "info": {
+      "phone_title": "TĀLRUNIS",
+      "phone_number_pt": "PT +351 935 584 011",
+      "phone_number_ing": "UK +44 7557 795 968",
+      "pt_note": "(Zvana uz mobilo tīklu)",
+      "email_title": "E-PASTS",
+      "email_text": "info@supremexpansion.com"
+    }
+  },
+
+  "home": {
+    "meta_title": "SupremeXpansion - Mēs uztveram realitāti",
+
+    "slides": {
+      "slide1": {
+        "title": "LĀZERSKENĒŠANA UN 3D UZMĒRĪŠANA",
+        "text": "Lāzerskenēšana un punktu mākoņi ir modernas tehnoloģijas, kas ļauj precīzi uztvert objektu formu un izmērus 3D formātā."
+      },
+      "slide2": {
+        "title": "2D ZĪMĒŠANA UN 3D MODEĻU VEIDOŠANA",
+        "text": "Mēs izstrādājam rasējumus un modeļus, izmantojot punktu mākoņus vai jebkuru citu pieejamu un vēlamu metodi."
+      },
+      "slide3": {
+        "title": "UAV/DRONA FOTOGRAMMETRIJA",
+        "text": "Fotogrammetrija ir māksla un zinātne, kas ļauj iegūt precīzus mērījumus un trīsdimensiju informāciju no divdimensiju attēliem."
+      }
+    },
+
+    "services": {
+      "laser": {
+        "title": "Lāzerskenēšana un 3D uzmērīšana",
+        "text": "Mēs veicam arhitektūras, kultūras mantojuma, komercobjektu un industriālos uzmērījumus. Mēs izstrādājam detalizētus As-Built dokumentus un piedāvājam specializētu vēsturisko ēku monitoringu."
+      },
+      "design": {
+        "title": "2D zīmēšana un 3D modelēšana",
+        "text": "Mēs izstrādājam plānus, griezumus un fasādes DWG formātā. Strādājam ar 3D modelēšanu vairākās programmatūrās, tostarp BIM (Building Information Modelling) vidē."
+      },
+      "drone": {
+        "title": "UAV/Drona fotogrammetrija",
+        "text": "Mēs atbalstām topogrāfiskos uzmērījumus, industriālo un dzīvojamo ēku fotogrammetriju, kā arī virtuālu 3D modeļu un digitālu reljefa modeļu (DTM) izstrādi.",
+        "rtext": ""
+      }
+    },
+
+    "why": {
+      "title_strong": "Kāpēc izvēlēties sadarbību",
+      "title_rest": "ar SupremeXpansion?",
+      "experience": {
+        "title": "Pieredze un darba kvalitāte",
+        "text": "Vairāk nekā 25 gadu pieredze un modernākās tehnoloģijas nodrošina precizitāti un detalizāciju katrā uzmērījumā un 3D modelī."
+      },
+      "tech": {
+        "title": "Tehnoloģijas un rīki",
+        "text": "Mēs izmantojam modernas 2D un 3D tehnoloģijas, nodrošinot uzticamus un efektīvus rezultātus, kas gatavi integrēšanai jūsu projektos."
+      },
+      "price": {
+        "title": "Pieejamas cenas",
+        "text": "Tehniska kvalitāte par godīgām cenām — piemērotas projektiem jebkurā mērogā, no nelielām renovācijām līdz lieliem attīstības projektiem."
+      },
+      "support": {
+        "title": "Teicams klientu atbalsts",
+        "text": "Ciešs un caurspīdīgs atbalsts ikvienā posmā, nodrošinot nepārtrauktu palīdzību un pilnīgu klienta vajadzību ievērošanu."
+      }
+
+      },
+
+    "portfolio": {
+      "title": "Portfelis",
+      "view_all": "SKATĪT VISU"
+    },
+
+    "contact_section": {
+      "title": "Sazinieties ar mums",
+      "subtitle": "Jautājumu vai neskaidrību gadījumā, lūdzu, sazinieties ar mums.",
+      "button": "KONTAKTI"
+    },
+
+    "carousel_section": {
+      "img1": "North Finchley projekts Lielbritānijā",
+      "img2": "Alentežu īpašums",
+      "img3": "Koimbras pašvaldības stadions",
+      "img4": "Longras spirta rūpnīca",
+      "img5": "Cofersan noliktavas",
+      "img6": "Ēkas renovācija",
+      "img7": "Taberna do Quinzena",
+      "img8": "Drupas",
+      "img9": "Mājokļu projekts",
+      "img10": "Mājas uzmērīšana",
+      "img11": "Noliktavas uzmērīšana",
+      "img12": "Pārtikas rūpnīca",
+      "img13": "Tilta veidņi",
+      "img14": "CNEMA",
+      "img15": "Santarēmā esoša māja",
+      "img16": "Tvaika līnijas Kārdifā, Lielbritānijā",
+      "img17": "Drona kartēšana Londonā, Lielbritānijā"
+    }
+  },
+
+  "politicas": {
+    "meta_title": "Privātuma politika - SupremeXpansion",
+    "title": "PRIVĀTUMA POLITIKA",
+    "texts": {
+      "texts1": {
+        "title": "Kas mēs esam",
+        "about": "Mūsu tīmekļa vietnes adrese ir: "
+      },
+
+      "texts2": {
+        "title": "Komentāri",
+        "about1": "Kad apmeklētāji atstāj komentārus vietnē, tiek saglabāti dati, kas parādīti komentāra formā, kā arī apmeklētāja IP adrese un pārlūkprogrammas lietotāja aģents, lai palīdzētu noteikt surogātpastu.",
+        "about2": "Anonīms virknis, kas izveidots no jūsu e-pasta adreses (saukts par hash), var tikt nosūtīts Gravatar pakalpojumam, lai pārbaudītu, vai jūs to izmantojat. Gravatar privātuma politika ir pieejama šeit: ",
+        "about3": "Pēc jūsu komentāra apstiprināšanas jūsu profila attēls kļūst redzams publiski komentāra kontekstā."
+      },
+
+      "texts3": {
+        "title": "Multivide",
+        "about": "Augšupielādējot attēlus vietnē, ieteicams izvairīties no attēliem ar iebūvētiem ģeolokācijas datiem (EXIF GPS). Apmeklētāji var lejupielādēt un iegūt ģeolokācijas datus no attēliem vietnē."
+      },
+
+      "texts4": {
+        "title": "Sīkdatnes",
+        "about1": "Ja atstājat komentāru mūsu vietnē, varat izvēlēties saglabāt savu vārdu, e-pastu un vietni sīkdatnēs. Tas ir jūsu ērtībai, lai jums nebūtu jāpārvada šie dati, atstājot citu komentāru. Šīs sīkdatnes ir derīgas vienu gadu.",
+        "about2": "Ja apmeklējat mūsu pieteikšanās lapu, tiks iestatīta pagaidu sīkdatne, lai noteiktu, vai jūsu pārlūks pieņem sīkdatnes. Šī sīkdatne nesatur personas datus un tiek dzēsta pēc pārlūka aizvēršanas.",
+        "about3": "Kad pieteiksieties, tiks iestatītas vairākas sīkdatnes, lai saglabātu jūsu pieteikšanās informāciju un ekrāna iestatījumus. Pieteikšanās sīkdatnes ir derīgas divas dienas, bet ekrāna opciju sīkdatnes — vienu gadu. Ja izvēlēsieties “Atcerēties mani”, jūsu pieteikšanās būs spēkā divas nedēļas. Izrakstoties pieteikšanās sīkdatnes tiks dzēstas.",
+        "about4": "Ja rediģējat vai publicējat rakstu, jūsu pārlūkā tiks saglabāta papildu sīkdatne. Tā nesatur personas datus un tikai norāda tikko rediģētā satura ID. Tā izbeidzas pēc vienas dienas."
+      },
+
+      "texts5": {
+        "title": "Iegultais saturs no citām vietnēm",
+        "about1": "Raksti šajā vietnē var ietvert iegultu saturu (piemēram, videoklipus, attēlus, rakstus u.c.). Iegultais saturs no citām vietnēm darbojas tieši tāpat kā tad, ja apmeklētājs būtu apmeklējis šīs vietnes.",
+        "about2": "Šīs vietnes var vākt datus par jums, izmantot sīkdatnes, ieviest trešo pušu izsekošanu un uzraudzīt jūsu mijiedarbību ar iegulto saturu, tostarp ja jums ir konts un esat pieteicies šajās vietnēs."
+      },
+
+      "texts6": {
+        "title": "Ar ko mēs dalāmies ar jūsu datiem",
+        "about": "Ja pieprasīsiet paroles atiestatīšanu, jūsu IP adrese tiks iekļauta atiestatīšanas e-pastā."
+      },
+
+      "texts7": {
+        "title": "Cik ilgi mēs glabājam jūsu datus",
+        "about1": "Ja atstājat komentāru, komentārs un tā metadati tiek glabāti bez termiņa. Tas ļauj automātiski atpazīt un apstiprināt turpmākos komentārus bez moderācijas rindas.",
+        "about2": "Lietotājiem, kuri reģistrējas mūsu vietnē (ja tādi ir), mēs glabājam viņu sniegto personisko informāciju lietotāja profilā.",
+        "about3": "Visi lietotāji jebkurā laikā var apskatīt, rediģēt vai dzēst savu personisko informāciju (izņemot lietotājvārdu). Vietnes administratori var arī rediģēt šo informāciju."
+      },
+
+      "texts8": {
+        "title": "Kādas tiesības jums ir pār jūsu datiem",
+        "about": "Ja jums ir konts šajā vietnē vai esat atstājuši komentārus, varat pieprasīt eksportētu failu ar jūsu personas datiem, tostarp visu informāciju, ko esat mums snieguši. Varat pieprasīt arī visu jūsu datu dzēšanu. Tas neattiecas uz datiem, kurus mums ir pienākums glabāt administratīviem, juridiskiem vai drošības nolūkiem."
+      },
+
+      "texts9": {
+        "title": "Kur tiek nosūtīti jūsu dati",
+        "about": "Apmeklētāju komentāri var tikt pārbaudīti ar automatizētu surogātpasta noteikšanas pakalpojumu."
+      }
+    }
+  },
+
+  "portfolio": {
+    "meta_title": "Portfelis - SupremeXpansion",
+    "title": "PORTFELIS",
+    "comerciais": {
+      "meta_title": "Komerciālie Mērijumi portfelis - SupremeXpansion",
+      "title": "KOMERCIĀLIE MĒRĪJUMI"
+    },
+    "industriais": {
+      "meta_title": "Industriālie Mērijumi portfelis - SupremeXpansion",
+      "title": "INDUSTRIĀLIE MĒRĪJUMI"
+    },
+    "residenciais": {
+      "meta_title": "Dzīvojamo māju Mērijumi portfelis - SupremeXpansion",
+      "title": "DZĪVOJAMO MĀJU MĒRĪJUMI"
+    },
+
+    "urbanos": {
+        "meta_title": "Pilsētu Mērijumi portfelis - SupremeXpansion",
+        "title": "PILSĒTU MĒRĪJUMI"
+}
+},
+
+"rodape": {
+"title": "2025 © SupremeXpansion - Mēs uztveram realitāti",
+"text1": "Visas tiesības aizsargātas",
+"text2": "Privātuma politika",
+"servicos": "Pakalpojumi",
+"servico1": "Lāzera skenēšana un 3D uzmērījumi",
+"servico2": "2D rasēšana un 3D modelēšana",
+"servico3": "UAV/Drona fotogrammetrija",
+"contactos": "Kontakti",
+"telefone": "Tālrunis",
+"chamada": "(Zvans uz nacionālo mobilo tīklu)",
+"numPT": "PT +351 935 584 011",
+"numING": "UK +44 7557 795 968",
+"email": "E-pasts",
+"email_text": "info@supremexpansion.com"
+},
+
+"servicos": {
+"meta_title": "Pakalpojumi - SupremeXpansion",
+"text": "PAKALPOJUMI"
+},
+
+"servico1": {
+"meta_title": "Lāzera skenēšana un 3D uzmērījumi - SupremeXpansion",
+"title": "Lāzera skenēšana un 3D uzmērījumi",
+"serv1": {
+"title": "Lāzera skenēšana un punktu mākoņi",
+"text": "Lāzera skenēšana sekundēs uztver miljonus punktu, radot ļoti precīzus 3D punktu mākoni. Šī tehnoloģija ļauj precīzi modelēt un dokumentēt jebkuru fizisko telpu — ideāli arhitektūras, inženierijas un būvniecības projektiem."
+},
+
+"arquitetonicos": {
+"title": "Arhitektūras uzmērījumi",
+"text": "Mēs esam lāzera skenēšanas uzmērījumu speciālisti, radot precīzus punktu mākoņus, kurus izmanto 3D modeļu, plānu un detalizētu fasāžu ģenerēšanai. Mūsu pieredzējā komanda cieši sadarbojas ar klientiem, lai nodrošinātu risinājumus katram projektam."
+},
+
+"levantamentos": {
+"title": "Iekštelpu, ārtelpu un ielu uzmērījumi",
+"text1": "Mēs izmantojam lāzera skenēšanu, lai precīzi kartētu iekštelpas, ārtelpas un ielas. Mēs izveidojam detalizētus 3D modeļus, kas atbalsta arhitektūru, inženieriju, pilsētvides plānošanu, rehabilitāciju un saglabāšanu. No ēku iekšpuses līdz ielām un laukumiem mēs nodrošinām uzticamus datus analīzei, projektēšanai un",
+"text2": "lēmumu pieņemšanai."
+},
+
+"asbuilts": {
+"title": "Kā būvēts dokumentācija",
+"text": "Mēs sagatavojam precīzu tehnisko dokumentāciju par būvniecības reālo stāvokli, ideāli piemērota atjaunošanai, paplašināšanai vai izmaiņām. Mūsu As-Builts ietver grīdas plānus, sekcijas, fasādes un būvdarbu detaļas, kas patiesi atspoguļo izpildīto darbu, kalpojot kā stabila pamats nākamām iejaukšanās darbībām."
+},
+
+"monitorizacao": {
+"title": "Vēsturisko ēku uzraudzība",
+"text": "Mēs izmantojam lāzera skenēšanu, lai precīzi uzraudzītu vēsturiskās ēkas. Šī tehnoloģija ļauj konstatēt struktūras izmaiņas laika gaitā un atbalsta saglabāšanu un restaurāciju ar detalizētiem un reālistiskiem 3D modeļiem, kas ir būtiski drošības un mantojuma vietu ilglaicības nodrošināšanai."
+}
+},
+
+"servico2": {
+"meta_title": "2D rasēšana un 3D modelēšana - SupremeXpansion",
+"title": "2D rasēšana un 3D modelēšana",
+
+"introducao": {
+"title": "2D rasēšana un 3D modelēšana",
+"text": "Mēs apvienojam tehnisko 2D rasēšanu un 3D modelēšanu, lai radītu precīzus un reālistiskus telpu un struktūru attēlojumus. Šie rīki ļauj efektīvi vizualizēt, plānot un sazināties par projektiem — no grīdas plāniem un sekcijām līdz detalizētiem trīsdimensiju modeļiem."
+},
+
+"plantas": {
+"title": "Grīdas plāni, sekcijas un fasādes",
+"text": "Mēs izveidojam detalizētus un precīzus tehniskos rasējumus, pielāgojot katra klienta vajadzībām. Mūsu komanda apvieno 3D modelēšanas ekspertīzi ar 2D rasēšanas stingrību, nodrošinot uzticamus rezultātus noteiktajos termiņos un budžetos."
+},
+
+"modelacao": {
+"title": "3D modelēšana",
+"text": "Mēs radām precīzus un reālistiskus 3D modeļus, pielāgojot tos katra projekta vajadzībām. Mēs apvienojam modernu tehnoloģiju ar pieredzējušu komandu arhitektūrā, inženierijā un dizainā, nodrošinot kvalitāti, termiņus un pilnīgu klientu apmierinātību."
+}
+},
+
+"servico3": {
+"meta_title": "UAV/Drona fotogrammetrija - SupremeXpansion",
+"title": "UAV/Drona fotogrammetrija",
+
+"fotogrametria": {
+"title": "Fotogrammetrija",
+"text": "Mēs pārveidojam ar droniem iegūtos gaisa attēlus par detalizētiem un precīziem 3D modeļiem. Izmantojot modernu programmatūru, mēs iegūstam būtisku metrisku un trīsdimensiju informāciju arhitektūras, inženierijas un plānošanas projektiem."
+},
+
+"tecnicas": {
+"title": "Galvenās fotogrammetrijas tehnikas:",
+"subtitle1": "Gaisa kartēšana:",
+"text1": "Mēs izveidojam augstas izšķirtspējas kartes lauksaimniecībai, pilsētvides plānošanai un vides uzraudzībai, ideāli stratēģisku lēmumu pieņemšanai.",
+"subtitle2": "3D modelēšana:",
+"text2": "Mēs ģenerējam detalizētus trīsdimensiju modeļus par reljefu, struktūrām un objektiem, kas noder arhitektūrā, arheoloģijā un būvniecībā.",
+"subtitle3": "Tilpuma aprēķins:",
+"text3": "Mēs veicam precīzus tilpuma mērījumus krājumu kontrolei, izrakumiem un resursu pārvaldībai inženierijas un ieguves projektos."
+},
+
+"vantagens": {
+"title": "Fotogrammetrijas priekšrocības:",
+"subtitle1": "Liela precizitāte:",
+"text1": "Nodrošina ļoti uzticamus mērījumus un modeļus, ideāli nozarēm, kas prasa tehnisku precizitāti.",
+"subtitle2": "Izmaksu efektivitāte:",
+"text2": "Samazina laiku un resursus, aizstājot tradicionālās metodes ar gaisa uzmērījumiem, izmantojot dronus.",
+"subtitle3": "Datu vizualizācijas skaidrība:",
+"text3": "Detalizēti 3D modeļi un kartes atvieglo sarežģītas informācijas analīzi un komunikāciju.",
+"subtitle4": "Datu vākšana grūti sasniedzamās vietās:",
+"text4": "Ļauj vākt datus attālos vai bīstamos apvidos ar samazinātu cilvēku risku.",
+"subtitle5": "Plaša gaisa uzmērījumi:",
+"text5": "Piemērojams mežsaimniecībā, ieguvē un vides pētījumos, nodrošinot kritiski svarīgus datus plānošanai."
+},
+
+"mdt": {
+"title": "Digitālā reljefa modeļa (DTM) izveide",
+"subtitle1": "Kas ir Digitālais reljefa modelis (DTM)?",
+"text1": "Digitālais reljefa modelis ir precīza trīsdimensiju Zemes virsmas attēlojuma forma, balstīta uz augstuma punktiem, kas iegūti, izmantojot topogrāfiskos uzmērījumus, dronus, attālinātos sensorus vai satelītu attēlus. Šie punkti tiek apstrādāti, lai radītu digitālu tīklu, kas precīzi atspoguļo reljefa morfoloģiju.",
+"subtitle2": "Kā darbojas DTM?",
+"text2": "DTM ir būtisks instruments plānošanai un analīzei inženierzinātnēs, arhitektūrā, vides darbu veikšanā un sabiedrisko infrastruktūras projektu īstenošanā. Tas ļauj aprēķināt slīpumus, apjomus, infrastruktūras izlīdzinājumu, erozijas riska novērtēšanu un drenāžas plānošanu, kā arī daudz citas lietojumprogrammas.",
+"subtitle3": "Kontūru līniju loma",
+"text3": "Kopā ar kontūru līnijām DTM sniedz skaidru izpratni par augstuma variācijām. Šīs līnijas savieno punktus ar vienādu augstumu un ir būtiskas topogrāfisko plānu un ģeotelpisko analīžu modeļu izveidē.<br><br>SupremeXpansion mēs izveidojam augstas izšķirtspējas DTM, pielāgotus katra projekta mērogam un detalizācijas pakāpei, nodrošinot uzticamus tehniskos datus pamatotiem lēmumiem."
+},
+
+"wrapper": {
+"title": "DTM un kontūru līniju lietojumi un pielietojumi",
+"intro": "Digitālie reljefa modeļi un kontūru līnijas ir daudzpusīgi rīki ar dažādiem praktiskiem pielietojumiem:",
+"subtitle1": "Kartogrāfija:",
+"text1": "Precīza reljefa attēlošana topogrāfiskajās kartēs.",
+"subtitle2": "Inženierija:",
+"text2": "Darbu, ceļu un drenāžas sistēmu plānošana, balstoties uz reljefa morfoloģiju.",
+"subtitle3": "Pilsētvides plānošana:",
+"text3": "Reljefa analīze, lai atbalstītu pilsētvides attīstību un mazinātu dabas riskus.",
+"subtitle4": "Ģeoloģija:",
+"text4": "Augsnes struktūras pētīšana un ģeoloģisko veidojumu identificēšana.",
+"subtitle5": "Dabisko resursu pārvaldība:",
+"text5": "Atbalsts mežu saglabāšanā, ūdens pārvaldībā un ilgtspējīgā zemes izmantošanā."
+},
+
+"nuvens": {
+"title": "Punktu mākoņi, izmantojot fotogrammetriju",
+"subtitle1": "Kas ir fotogrammetrija?",
+"text1": "Fotogrammetrija ir uzlabota tehnika, kas pārvērš divdimensiju attēlus ļoti precīzos trīsdimensiju attēlojumos. Uzņemot vairākus objekta vai teritorijas fotoattēlus no dažādiem leņķiem un apstrādājot tos ar specializētu programmatūru, ir iespējams radīt blīvus un detalizētus punktu mākoņus — miljoniem punktu kopas, kas attēlo virsmu, struktūru vai reljefa reālo ģeometriju.",
+"subtitle2": "Kā tas darbojas?",
+"text2": "Process sākas ar attēlu vākšanu, parasti veicot to ar UAV/droniem vai zemes kamerām. No attēlu pārklāšanās programmatūra identificē kopīgus punktus — sauktus par kontrolpunktiem — un aprēķina to pozīciju trīsdimensiju telpā. Rezultāts ir punktu mākonis, kas precīzi atspoguļo uzņemtā objekta vai vides formu, izmēru un tekstūru.",
+"subtitle3": "Priekšrocības",
+"text3": "SupremeXpansion mēs apvienojam fotogrammetriju ar mūsu modelēšanas un uzmērījumu pieredzi, lai nodrošinātu uzticamus punktu mākoņus, gatavus integrēšanai jebkurā projekta posmā.",
+"topic1": "Liela precizitāte:",
+"subtext1": "Ideāli piemērots mērījumiem, dokumentācijai un modelēšanai.",
+"topic2": "Daudzpusība:",
+"subtext2": "Piemērojams reljefam, fasādēm, iekštelpām, mantojuma objektiem utt.",
+"topic3": "Izmaksu efektivitāte:",
+"subtext3": "Samazina nepieciešamību pēc tradicionālās uzmērīšanas iekārtas.",
+"topic4": "Skaidra vizualizācija:",
+"subtext4": "Iespējama analīze un simulācijas digitālā 3D vidē."
+},
+
+"aplicacoes": {
+"title": "Punktu mākoņu pielietojums fotogrammetrijā:",
+"subtitle1": "Kartēšana un topogrāfija:",
+"text1": "Precīzu topogrāfisko karšu un digitālo reljefa modeļu ģenerēšana.",
+"subtitle2": "Būvinženierija:",
+"text2": "Atbalsts darbu plānošanai un uzraudzībai, piemēram, ceļiem, tiltiem un ēkām.",
+"subtitle3": "Mantojuma saglabāšana:",
+"text3": "Monumentu un vēsturisku objektu 3D dokumentācija saglabāšanai un restaurācijai.",
+"subtitle4": "Precīzā lauksaimniecība:",
+"text4": "Kultūru analīze, kaitēkļu noteikšana un efektīva laistīšanas pārvaldība, balstoties uz reljefu un apjomu.",
+"subtitle5": "Ģeoloģija un ieguve:",
+"text5": "Raktuves modelēšana, reljefa analīze un minerālu krājumu novērtēšana."
+}
+},
+
+"sobre": {
+"meta_title": "Par mums - SupremeXpansion",
+"title": "PAR MUMS",
+"sobre": "Par ",
+"supreme": "SupremeXpansion",
+
+"experiencia": {
+"title": "Pieredze un darba kvalitāte",
+"text": "Ar vairāk nekā 25 gadu pieredzi nozarē mēs nodrošinām izcilu pakalpojumu, apvienojot modernās tehnoloģijas ar augsti kvalificētas komandas zināšanām. Mēs esam arhitektūras uzmērījumu un 3D modelēšanas ar lāzera skenēšanu speciālisti, nodrošinot tehnisko precizitāti un uzmanību detaļām katrā projektā."
+},
+
+"tecnologia": {
+"title": "Tehnoloģijas un rīki",
+"text": "Mēs strādājam ar vismodernākajām 2D un 3D tehnoloģijām, nodrošinot uzticamus rezultātus, kas atbilst nozares standartiem, optimizējot katru projektu ar rīkiem, kas uzlabo precizitāti, efektivitāti un galīgo kvalitāti."
+},
+
+"preco": {
+"title": "Pieejamas cenas",
+"text": "Mēs uzskatām, ka kvalitātei nav jābūt nepieejamai. Tāpēc SupremeXpansion mēs sniedzam izcilus tehniskos pakalpojumus par konkurētspējīgām cenām, piemērotus projektiem jebkurā mērogā — no nelielas renovācijas līdz lieliem attīstības projektiem."
+},
+
+"suporte": {
+"title": "Izcils klientu atbalsts",
+"text": "Mēs novērtējam attiecības, kas veidotas uz uzticību un caurspīdīgumu. Tāpēc SupremeXpansion mēs nodrošinām ciešu atbalstu visos projekta posmos — no pirmā kontakta līdz galīgajai piegādei. Mēs vienmēr esam pieejami, lai atbildētu uz jautājumiem, pielāgotu risinājumus un nodrošinātu, ka katrs klients jūtas informēts, atbalstīts un pilnībā apmierināts."
+},
+
+"resumo": {
+"text": "Kopsavilkumā mēs esam pieredzējusi uzņēmuma ar modernām tehnoloģijām, piedāvājot pieejamas cenas un izcilu klientu atbalstu. Mēs esam apņēmušies nodrošināt vislabāko iespējamo pakalpojumu un garantēt, ka katram klientam ir izcila pieredze, strādājot ar mums."
+},
+
+    "equipa": {
+      "title": "Komanda",
+      "membro1": "Hugo Pinto",
+      "cargo1": "Vadošais partneris",
+      "membro2": "Carlos Serrão",
+      "cargo2": "Vecākais arhitekts",
+      "membro3": "Marisa Pinto",
+      "cargo3": "Administrācija",
+      "membro4": "Ana Vieira",
+      "cargo4": "Arhitekte",
+      "membro5": "Luiza Vilela",
+      "cargo5": "Arhitekte",
+      "membro6": "Marco Pintão",
+      "cargo6": "Tehniskais rasētājs",
+      "membro7": "Hryhoriy Kit",
+      "cargo7": "3D modelētājs",
+      "membro8": "Susana Oliveira",
+      "cargo8": "Pārdošanas tehniķe",
+      "membro9": "David Pinto",
+      "cargo9": "IT tehniķis"
+    }
+  }
+}

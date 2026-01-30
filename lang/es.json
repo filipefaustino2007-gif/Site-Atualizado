@@ -1,0 +1,441 @@
+{
+  "nav": {
+    "home": "INICIO",
+    "about": "SOBRE",
+    "services": "SERVICIOS",
+
+    "laser_scan": "Escaneado láser y levantamientos 3D",
+    "design_3d": "Dibujo 2D y modelado 3D",
+    "uav_drone": "Fotogrametría UAV/DRONE",
+
+    "portfolio": "PORTFOLIO",
+    "residential": "Lev. Residenciales",
+    "urban": "Lev. Urbanos",
+    "commercial": "Lev. Comerciales",
+    "industrial": "Lev. Industriales",
+
+    "contacts": "CONTACTO",
+    "login": "LOGIN"
+  },
+
+  "contact": {
+    "meta_title": "Contacto - SupremeXpansion",
+    "hero_alt": "Contacto SupremeXpansion",
+    "hero_title": "CONTACTO",
+
+    "form": {
+      "title": "Contáctenos",
+      "intro": "Para ponerse en contacto con nosotros, puede utilizar el formulario disponible en nuestra web, enviar un correo electrónico a la dirección indicada o llamarnos por teléfono. Nuestro equipo estará dispuesto a atenderle y a responder a cualquier pregunta que pueda tener.",
+
+      "fields": {
+        "name": "Nombre",
+        "email": "Correo electrónico",
+        "phone": "Móvil",
+        "reason_placeholder": "Motivo del contacto",
+        "reason_budget": "Solicitud de presupuesto",
+        "reason_partnership": "Propuesta de colaboración",
+        "reason_support": "Soporte al cliente",
+        "reason_other": "Otro motivo",
+        "subject": "Asunto",
+        "message": "Mensaje"
+      },
+
+      "consent_text": "Acepto que este sitio web almacene la información que envío para poder responder a mi consulta.",
+      "submit": "Enviar",
+      "success": "¡Enviado con éxito!"
+    },
+
+    "info": {
+      "phone_title": "TELÉFONO",
+      "phone_number_pt": "PT +351 935 584 011",
+      "phone_number_ing": "UK +44 7557 795 968",
+      "pt_note": "(Llamada a la red móvil nacional)",
+      "email_title": "EMAIL",
+      "email_text": "info@supremexpansion.com"
+    }
+  },
+
+  "home": {
+    "meta_title": "SupremeXpansion - Capturamos la Realidad",
+
+    "slides": {
+      "slide1": {
+        "title": "ESCANEADO LÁSER Y LEVANTAMIENTOS 3D",
+        "text": "El escaneado láser y las nubes de puntos son tecnologías avanzadas que permiten capturar con precisión la forma y las dimensiones de los objetos en 3D."
+      },
+      "slide2": {
+        "title": "DIBUJO 2D Y MODELADO 3D",
+        "text": "Producimos dibujos y modelos a partir de nubes de puntos o mediante cualquier otro método disponible y preferido."
+      },
+      "slide3": {
+        "title": "FOTOGRAMETRÍA UAV/DRONE",
+        "text": "La fotogrametría es el arte y la ciencia de extraer mediciones precisas e información tridimensional a partir de imágenes bidimensionales."
+      }
+    },
+
+    "services": {
+      "laser": {
+        "title": "Escaneado láser y levantamientos 3D",
+        "text": "Realizamos levantamientos arquitectónicos, de patrimonio, comerciales e industriales. Producimos As-Builts detallados y ofrecemos monitorización especializada de edificios históricos."
+      },
+      "design": {
+        "title": "Dibujo 2D y modelado 3D",
+        "text": "Elaboramos planos, secciones y alzados en formato DWG. Trabajamos con modelado 3D en múltiples programas, incluyendo flujos de trabajo BIM (Building Information Modelling)."
+      },
+      "drone": {
+        "title": "Fotogrametría UAV/Drone",
+        "text": "Ofrecemos apoyo en levantamientos topográficos, fotogrametría industrial y residencial, así como la creación de modelos 3D virtuales y modelos digitales",
+        "rtext": "del terreno (DTM)."
+      }
+    },
+
+    "why": {
+      "title_strong": "Por qué elegir trabajar",
+      "title_rest": "con SupremeXpansion?",
+      "experience": {
+        "title": "Experiencia y calidad de trabajo",
+        "text": "Más de 25 años de experiencia y tecnología de vanguardia garantizan precisión y detalle en cada levantamiento y modelo 3D."
+      },
+      "tech": {
+        "title": "Tecnología y herramientas",
+        "text": "Utilizamos tecnologías avanzadas 2D y 3D, entregando resultados fiables, eficientes y listos para integrarse en sus proyectos."
+      },
+      "price": {
+        "title": "Precios asequibles",
+        "text": "Calidad técnica a precios justos, adaptados a proyectos de cualquier tamaño — desde pequeñas rehabilitaciones hasta grandes desarrollos."
+      },
+      "support": {
+        "title": "Excelente atención al cliente",
+        "text": "Acompañamiento cercano y transparente en todas las fases, con apoyo continuo y total dedicación al cliente."
+      }
+    },
+
+    "portfolio": {
+      "title": "Portfolio",
+      "view_all": "VER TODO"
+    },
+
+    "contact_section": {
+      "title": "Póngase en contacto",
+      "subtitle": "Para cualquier pregunta o aclaración, contáctenos.",
+      "button": "CONTACTO"
+    },
+
+    "carousel_section": {
+      "img1": "Proyecto North Finchley UK",
+      "img2": "Herdade Alentejo",
+      "img3": "Estadio Municipal de Coimbra",
+      "img4": "Destilería Longra",
+      "img5": "Almacenes Cofersan",
+      "img6": "Rehabilitación de edificio",
+      "img7": "Taberna do Quinzena",
+      "img8": "Ruina",
+      "img9": "Proyecto de vivienda",
+      "img10": "Levantamiento de vivienda",
+      "img11": "Levantamiento de almacén",
+      "img12": "Fábrica alimentaria",
+      "img13": "Encofrado de puente",
+      "img14": "CNEMA",
+      "img15": "Casa en Santarém",
+      "img16": "Líneas de vapor en Cardiff UK",
+      "img17": "Mapeo con dron Londres UK"
+    }
+  },
+
+  "politicas": {
+    "meta_title": "Política de privacidad - SupremeXpansion",
+    "title": "POLÍTICA DE PRIVACIDAD",
+    "texts": {
+      "texts1": {
+        "title": "Quiénes somos",
+        "about": "La dirección de nuestra web es: "
+      },
+
+      "texts2": {
+        "title": "Comentarios",
+        "about1": "Cuando los visitantes dejan comentarios en el sitio, se almacenan los datos presentes en el formulario de comentarios, así como la dirección IP y el agente de usuario del navegador, para ayudar en la detección de spam.",
+        "about2": "Una cadena anónima creada a partir de su correo electrónico (también llamada hash) puede enviarse al servicio Gravatar para comprobar si lo está utilizando. La política de privacidad de Gravatar está disponible aquí: ",
+        "about3": "Después de que su comentario sea aprobado, la imagen de su perfil será visible al público en el contexto de su comentario."
+      },
+
+      "texts3": {
+        "title": "Multimedia",
+        "about": "Al subir imágenes al sitio, debe evitar incluir imágenes con datos de geolocalización incrustados (EXIF GPS). Los visitantes pueden descargar y extraer los datos de geolocalización de las imágenes del sitio."
+      },
+
+      "texts4": {
+        "title": "Cookies",
+        "about1": "Si deja un comentario en nuestro sitio, puede optar por guardar su nombre, dirección de correo y sitio web en cookies. Estas cookies son para su comodidad, para que no tenga que volver a rellenar sus datos cuando deje otro comentario. Estas cookies duran un año.",
+        "about2": "Si visita nuestra página de inicio de sesión, se establecerá una cookie temporal para determinar si su navegador acepta cookies. Esta cookie no contiene datos personales y se elimina al cerrar el navegador.",
+        "about3": "Al iniciar sesión, también se configurarán varias cookies para guardar su información de inicio de sesión y sus preferencias de visualización. Las cookies de inicio de sesión duran dos días y las cookies de opciones de pantalla duran un año. Si selecciona “Recordarme”, su inicio de sesión persistirá durante dos semanas. Al cerrar sesión, las cookies de inicio de sesión se eliminarán.",
+        "about4": "Si edita o publica un artículo, se guardará una cookie adicional en su navegador. Esta cookie no incluye datos personales, solo indica el ID del contenido que acaba de editar. Expira tras 1 día."
+      },
+
+      "texts5": {
+        "title": "Contenido incrustado de otros sitios",
+        "about1": "Los artículos en este sitio pueden incluir contenido incrustado (por ejemplo: vídeos, imágenes, artículos, etc.). El contenido incrustado de otros sitios se comporta exactamente como si el visitante hubiera visitado esos sitios.",
+        "about2": "Estos sitios pueden recopilar datos sobre usted, usar cookies, incrustar rastreos de terceros y monitorizar su interacción con el contenido incrustado, incluyendo rastrear su interacción si tiene una cuenta y ha iniciado sesión en esos sitios."
+      },
+
+      "texts6": {
+        "title": "Con quién compartimos sus datos",
+        "about": "Si solicita restablecer la contraseña, su IP se incluirá en el correo de restablecimiento."
+      },
+
+      "texts7": {
+        "title": "Durante cuánto tiempo conservamos sus datos",
+        "about1": "Si deja un comentario, el comentario y sus metadatos se almacenan indefinidamente. Esto se hace para que sea posible reconocer y aprobar automáticamente cualquier comentario posterior, en lugar de mantenerlo en una cola de moderación.",
+        "about2": "Para los usuarios que se registran en nuestro sitio (si los hubiera), también almacenamos la información personal proporcionada en su perfil de usuario.",
+        "about3": "Todos los usuarios pueden ver, editar o eliminar su información personal en cualquier momento (excepto que no pueden cambiar su nombre de usuario). Los administradores del sitio también pueden ver y editar esa información."
+      },
+
+      "texts8": {
+        "title": "Qué derechos tiene sobre sus datos",
+        "about": "Si tiene una cuenta en este sitio, o ha dejado comentarios, puede solicitar un archivo/exportación con los datos personales que guardamos sobre usted, incluidos los datos que nos haya proporcionado. También puede solicitar que eliminemos los datos personales que guardemos sobre usted. Esto no incluye los datos que estemos obligados a conservar por motivos administrativos, legales o de seguridad."
+      },
+
+      "texts9": {
+        "title": "A dónde se envían sus datos",
+        "about": "Los comentarios de los visitantes pueden ser verificados mediante un servicio automático de detección de spam."
+      }
+    }
+  },
+
+  "portfolio": {
+    "meta_title": "Portfolio - SupremeXpansion",
+    "title": "PORTFOLIO",
+    "comerciais": {
+      "meta_title": "Portafolio Levantamientos Comerciales - SupremeXpansion",
+      "title": "LEVANTAMIENTOS COMERCIALES"
+    },
+    "industriais": {
+      "meta_title": "Portafolio Levantamientos Industriales - SupremeXpansion",
+      "title": "LEVANTAMIENTOS INDUSTRIALES"
+    },
+    "residenciais": {
+      "meta_title": "Portafolio Levantamientos Residenciales - SupremeXpansion",
+      "title": "LEVANTAMIENTOS RESIDENCIALES"
+    },
+
+    "urbanos": {
+      "meta_title": "Portafolio Levantamientos Urbanos - SupremeXpansion",
+      "title": "LEVANTAMIENTOS URBANOS"
+    }
+  },
+
+  "rodape": {
+    "title": "2025 © SupremeXpansion - Capturamos la Realidad",
+    "text1": "Todos los derechos reservados",
+    "text2": "Política de privacidad",
+    "servicos": "Servicios",
+    "servico1": "Escaneado láser y levantamientos 3D",
+    "servico2": "Dibujo 2D y modelado 3D",
+    "servico3": "Fotogrametría UAV/Drone",
+    "contactos": "Contacto",
+    "telefone": "Teléfono",
+    "chamada": "(Llamada a la red móvil nacional)",
+    "numPT": "PT +351 935 584 011",
+    "numING": "UK +44 7557 795 968",
+    "email": "Email",
+    "email_text": "info@supremexpansion.com"
+  },
+
+  "servicos": {
+    "meta_title": "Servicios - SupremeXpansion",
+    "text": "SERVICIOS"
+  },
+
+  "servico1": {
+    "meta_title": "Escaneado Láser y Levantamientos 3D - SupremeXpansion",
+    "title": "Escaneado láser y levantamientos 3D",
+    "serv1": {
+      "title": "Escaneado láser y nubes de puntos",
+      "text": "El escaneado láser captura millones de puntos en segundos, creando nubes de puntos 3D de alta precisión. Esta tecnología permite modelar y documentar con rigor cualquier espacio físico — ideal para proyectos de arquitectura, ingeniería y construcción."
+    },
+
+    "arquitetonicos": {
+      "title": "Levantamientos arquitectónicos",
+      "text": "Somos especialistas en levantamientos mediante escaneado láser, creando nubes de puntos precisas para generar modelos 3D, planos y alzados detallados. Nuestro equipo experimentado trabaja mano a mano con los clientes para garantizar soluciones adaptadas a cada proyecto."
+    },
+
+    "levantamentos": {
+      "title": "Levantamientos de interiores, exteriores y calles",
+      "text1": "Utilizamos escaneado láser para mapear con alta precisión espacios interiores, exteriores y calles. Creamos modelos 3D detallados que respaldan proyectos de arquitectura, ingeniería, urbanismo, rehabilitación y conservación. Desde interiores de edificios hasta calles y plazas, entregamos datos fiables para análisis, diseño y",
+      "text2": "toma de decisiones."
+    },
+
+    "asbuilts": {
+      "title": "Documentación As-Built",
+      "text": "Producimos documentación técnica precisa del estado real de la construcción, ideal para rehabilitaciones, ampliaciones o modificaciones. Nuestros As-Builts incluyen planos, secciones, alzados y detalles constructivos fieles a la obra ejecutada, sirviendo de base sólida para cualquier intervención futura."
+    },
+
+    "monitorizacao": {
+      "title": "Monitorización de edificios históricos",
+      "text": "Utilizamos escaneado láser para monitorizar edificios históricos con elevada precisión. Esta tecnología permite detectar cambios estructurales a lo largo del tiempo y apoya la conservación y restauración con modelos 3D detallados y fieles a la realidad, esenciales para garantizar la seguridad y la longevidad del patrimonio."
+    }
+  },
+
+  "servico2": {
+    "meta_title": "Dibujo 2D y Modelado 3D - SupremeXpansion",
+    "title": "Dibujo 2D y modelado 3D",
+
+    "introducao": {
+      "title": "Dibujo 2D y modelado 3D",
+      "text": "Combinamos dibujo técnico 2D y modelado 3D para crear representaciones precisas y realistas de espacios y estructuras. Estas herramientas permiten visualizar, planificar y comunicar proyectos con eficiencia — desde planos y secciones hasta modelos tridimensionales detallados."
+    },
+
+    "plantas": {
+      "title": "Planos, secciones y alzados",
+      "text": "Creamos dibujos técnicos detallados y precisos, adaptados a las necesidades de cada cliente. Nuestro equipo combina experiencia en modelado 3D con el rigor del dibujo 2D, garantizando resultados fiables, entregados dentro de los plazos y presupuestos acordados."
+    },
+
+    "modelacao": {
+      "title": "Modelado 3D",
+      "text": "Creamos modelos 3D precisos y realistas, adaptados a las necesidades de cada proyecto. Combinamos tecnología avanzada con un equipo experimentado en arquitectura, ingeniería y diseño, asegurando calidad, cumplimiento de plazos y plena satisfacción de nuestros clientes."
+    }
+  },
+
+  "servico3": {
+    "meta_title": "Fotogrametría UAV/Drone - SupremeXpansion",
+    "title": "Fotogrametría UAV/Drone",
+
+    "fotogrametria": {
+      "title": "Fotogrametría",
+      "text": "Transformamos imágenes aéreas capturadas por drones en modelos 3D detallados y precisos. Utilizando software avanzado, extraemos información métrica y tridimensional esencial para proyectos de arquitectura, ingeniería y planificación."
+    },
+
+    "tecnicas": {
+      "title": "Principales técnicas de fotogrametría:",
+      "subtitle1": "Mapeo aéreo:",
+      "text1": "Creamos mapas de alta resolución para agricultura, planificación urbana y monitorización ambiental, ideales para la toma de decisiones estratégicas.",
+      "subtitle2": "Modelado 3D:",
+      "text2": "Generamos modelos tridimensionales detallados del terreno, estructuras y objetos, útiles en arquitectura, arqueología y construcción.",
+      "subtitle3": "Cálculo de volúmenes:",
+      "text3": "Realizamos mediciones precisas de volúmenes para control de existencias, excavaciones y gestión de recursos en proyectos de ingeniería y minería."
+    },
+
+    "vantagens": {
+      "title": "Ventajas de la fotogrametría:",
+      "subtitle1": "Alta precisión:",
+      "text1": "Garantiza mediciones y modelos extremadamente fiables, ideales para sectores que exigen rigor técnico.",
+      "subtitle2": "Eficiencia de costes:",
+      "text2": "Reduce tiempo y recursos al sustituir métodos tradicionales por levantamientos aéreos con drones.",
+      "subtitle3": "Visualización clara de datos:",
+      "text3": "Modelos 3D y mapas detallados facilitan el análisis y la comunicación de información compleja.",
+      "subtitle4": "Captura en zonas difíciles:",
+      "text4": "Permite la captura de datos en lugares remotos o peligrosos, con menor riesgo humano.",
+      "subtitle5": "Levantamientos aéreos amplios:",
+      "text5": "Aplicable en áreas como silvicultura, minería y medio ambiente, proporcionando datos críticos para la planificación."
+    },
+
+    "mdt": {
+      "title": "Modelo Digital del Terreno (DTM)",
+      "subtitle1": "¿Qué es un Modelo Digital del Terreno (DTM)?",
+      "text1": "Un Modelo Digital del Terreno es una representación tridimensional precisa de la superficie terrestre, basada en puntos de elevación obtenidos mediante levantamientos topográficos, drones, sensores remotos o imágenes por satélite. Estos puntos se procesan para generar una malla digital que refleja con precisión la morfología del terreno.",
+      "subtitle2": "¿Cómo funciona un MDT?",
+      "text2": "El MDT es una herramienta esencial para la planificación y el análisis en proyectos de ingeniería, arquitectura, medio ambiente y obras públicas. Permite calcular pendientes, volúmenes, orientar infraestructuras, evaluar riesgos de erosión y planificar drenajes, entre otras aplicaciones.",
+      "subtitle3": "El papel de las curvas de nivel",
+      "text3": "Asociado a las curvas de nivel, el MDT ofrece una lectura clara de la variación altimétrica del terreno. Estas curvas unen puntos con la misma altitud y son fundamentales para la producción de planos topográficos y modelos de análisis geoespacial.<br><br>En SupremeXpansion, generamos MDTs de alta resolución ajustados a la escala y detalle exigidos por cada proyecto, asegurando datos técnicos fiables para decisiones fundamentadas."
+    },
+
+    "wrapper": {
+      "title": "Usos y aplicaciones del MDT y las curvas de nivel",
+      "intro": "Los Modelos Digitales del Terreno y las curvas de nivel son herramientas versátiles con múltiples aplicaciones prácticas:",
+      "subtitle1": "Cartografía:",
+      "text1": "Representación precisa del relieve en mapas topográficos.",
+      "subtitle2": "Ingeniería:",
+      "text2": "Planificación de obras, carreteras y sistemas de drenaje basados en la morfología del terreno.",
+      "subtitle3": "Planificación urbana:",
+      "text3": "Análisis del relieve para apoyar el desarrollo urbano y mitigar riesgos naturales.",
+      "subtitle4": "Geología:",
+      "text4": "Estudio de la estructura del suelo e identificación de formaciones geológicas.",
+      "subtitle5": "Gestión de recursos naturales:",
+      "text5": "Apoyo en la conservación de bosques, gestión hídrica y uso sostenible del suelo."
+    },
+
+    "nuvens": {
+      "title": "Nubes de puntos mediante fotogrametría",
+      "subtitle1": "¿Qué es la fotogrametría?",
+      "text1": "La fotogrametría es una técnica avanzada que transforma imágenes bidimensionales en representaciones tridimensionales de alta precisión. Al capturar múltiples fotografías de un objeto o área desde diferentes ángulos y procesarlas con software especializado, es posible generar nubes de puntos densas y detalladas — conjuntos de millones de puntos que representan la geometría real de superficies, estructuras o terreno.",
+      "subtitle2": "¿Cómo funciona?",
+      "text2": "El proceso comienza con la recopilación de imágenes, generalmente realizadas por UAVs/drones o cámaras terrestres. A partir de la superposición de estas imágenes, el software identifica puntos comunes — llamados puntos de control — y calcula su posición en el espacio tridimensional. El resultado es una nube de puntos que refleja con gran precisión la forma, dimensión y textura del objeto o entorno captado.",
+      "subtitle3": "Ventajas",
+      "text3": "En SupremeXpansion combinamos la fotogrametría con nuestra experiencia en modelado y levantamientos para proporcionar nubes de puntos fiables, listas para integrarse en cualquier fase del proyecto.",
+      "topic1": "Alta precisión:",
+      "subtext1": "Ideal para mediciones, documentación y modelado.",
+      "topic2": "Versatilidad:",
+      "subtext2": "Aplicable en terrenos, fachadas, interiores, patrimonio, etc.",
+      "topic3": "Rentable:",
+      "subtext3": "Reduce la necesidad de equipos de topografía tradicionales.",
+      "topic4": "Visualización clara:",
+      "subtext4": "Permite análisis y simulaciones en un entorno 3D digital."
+    },
+
+    "aplicacoes": {
+      "title": "Aplicaciones de las nubes de puntos en fotogrametría:",
+      "subtitle1": "Cartografía y topografía:",
+      "text1": "Generación de mapas topográficos y modelos digitales del terreno con alta precisión.",
+      "subtitle2": "Ingeniería civil:",
+      "text2": "Apoyo a la planificación y monitorización de obras como carreteras, puentes y edificios.",
+      "subtitle3": "Preservación del patrimonio:",
+      "text3": "Documentación 3D de monumentos y sitios históricos para conservación y restauración.",
+      "subtitle4": "Agricultura de precisión:",
+      "text4": "Análisis de cultivos, detección de plagas y gestión eficiente del riego basada en relieve y volumen.",
+      "subtitle5": "Geología y minería:",
+      "text5": "Modelado de minas, análisis del terreno y evaluación de depósitos minerales."
+    }
+  },
+
+  "sobre": {
+    "meta_title": "Quiénes somos - SupremeXpansion",
+    "title": "QUIÉNES SOMOS",
+    "sobre": "Acerca de ",
+    "supreme": "SupremeXpansion",
+
+    "experiencia": {
+      "title": "Experiencia y calidad de trabajo",
+      "text": "Con más de 25 años de experiencia en el sector, ofrecemos un servicio de excelencia, combinando tecnología de vanguardia con el know-how de un equipo altamente cualificado. Somos especialistas en levantamientos arquitectónicos y modelado 3D con escaneado láser, asegurando precisión técnica y atención al detalle en cada proyecto."
+    },
+
+    "tecnologia": {
+      "title": "Tecnología y herramientas",
+      "text": "Trabajamos con las tecnologías 2D y 3D más avanzadas, garantizando resultados fiables y compatibles con los estándares actuales del sector, optimizando cada proyecto con herramientas que elevan la precisión, la eficiencia y la calidad final del trabajo."
+    },
+
+    "preco": {
+      "title": "Precios asequibles",
+      "text": "Creemos que la calidad no tiene por qué ser inaccesible. Por ello, en SupremeXpansion ofrecemos servicios técnicos de excelencia a precios competitivos, adaptados a la realidad de proyectos de cualquier escala — desde pequeñas rehabilitaciones hasta grandes desarrollos."
+    },
+
+    "suporte": {
+      "title": "Excelente atención al cliente",
+      "text": "Valoramos las relaciones basadas en la confianza y la transparencia. Por eso, en SupremeXpansion garantizamos un acompañamiento cercano en todas las fases del proyecto — desde el primer contacto hasta la entrega final. Estamos siempre disponibles para resolver dudas, adaptar soluciones y asegurar que cada cliente se sienta informado, acompañado y plenamente satisfecho."
+    },
+
+    "resumo": {
+      "text": "En resumen, somos una empresa experimentada, con tecnología de vanguardia, ofrecemos precios asequibles y excelente atención al cliente. Estamos comprometidos a proporcionar el mejor servicio posible y a garantizar que cada cliente tenga una experiencia extraordinaria al trabajar con nosotros."
+    },
+
+    "equipa": {
+      "title": "Equipo",
+      "membro1": "Hugo Pinto",
+      "cargo1": "Socio Gerente",
+      "membro2": "Carlos Serrão",
+      "cargo2": "Arquitecto Senior",
+      "membro3": "Marisa Pinto",
+      "cargo3": "Administración",
+      "membro4": "Ana Vieira",
+      "cargo4": "Arquitecta",
+      "membro5": "Luiza Vilela",
+      "cargo5": "Arquitecta",
+      "membro6": "Marco Pintão",
+      "cargo6": "Delineante",
+      "membro7": "Hryhoriy Kit",
+      "cargo7": "Modelador 3D",
+      "membro8": "Susana Oliveira",
+      "cargo8": "Técnica Comercial",
+      "membro9": "David Pinto",
+      "cargo9": "Técnico IT"
+    }
+  }
+}

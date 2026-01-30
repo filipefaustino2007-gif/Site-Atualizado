@@ -1,0 +1,442 @@
+{
+  "nav": {
+    "home": "DOMŮ",
+    "about": "O NÁS",
+    "services": "SLUŽBY",
+
+    "laser_scan": "Laserové skenování a 3D měření",
+    "design_3d": "2D výkresy a 3D modelování",
+    "uav_drone": "UAV/DRON fotogrammetrie",
+
+    "portfolio": "PORTFOLIO",
+    "residential": "Rezidenční Měř.",
+    "urban": "Městská Měř.",
+    "commercial": "Komerční Měř.",
+    "industrial": "Průmyslová Měř.",
+
+    "contacts": "KONTAKTY",
+    "login": "LOGIN"
+  },
+
+  "contact": {
+    "meta_title": "Kontakty - SupremeXpansion",
+    "hero_alt": "Kontakty SupremeXpansion",
+    "hero_title": "KONTAKTY",
+
+    "form": {
+      "title": "Kontaktujte nás",
+      "intro": "Pro kontakt s námi můžete použít formulář na našem webu, poslat e-mail na uvedenou adresu nebo nám zavolat. Náš tým je připraven pomoci a zodpovědět vaše dotazy.",
+
+      "fields": {
+        "name": "Jméno",
+        "email": "E-mail",
+        "phone": "Mobil",
+        "reason_placeholder": "Důvod kontaktu",
+        "reason_budget": "Žádost o cenovou nabídku",
+        "reason_partnership": "Nabídka partnerství",
+        "reason_support": "Zákaznická podpora",
+        "reason_other": "Jiný důvod",
+        "subject": "Předmět",
+        "message": "Zpráva"
+      },
+
+      "consent_text": "Souhlasím, aby tyto stránky ukládaly uvedené údaje za účelem odpovědi na můj dotaz.",
+      "submit": "Odeslat",
+      "success": "Úspěšně odesláno!"
+    },
+
+    "info": {
+      "phone_title": "TELEFON",
+      "phone_number_pt": "PT +351 935 584 011",
+      "phone_number_ing": "UK +44 7557 795 968",
+      "pt_note": "(Hovor na mobilní síť v rámci země)",
+      "email_title": "E-MAIL",
+      "email_text": "info@supremexpansion.com"
+    }
+  },
+
+  "home": {
+    "meta_title": "SupremeXpansion - Zachycujeme realitu",
+
+    "slides": {
+      "slide1": {
+        "title": "LASEROVÉ SKENOVÁNÍ A 3D MĚŘENÍ",
+        "text": "Laserové skenování a mračna bodů jsou pokročilé technologie umožňující přesné zachycení tvaru a rozměrů objektů ve 3D."
+      },
+      "slide2": {
+        "title": "2D VÝKRESY A 3D MODELOVÁNÍ",
+        "text": "Vytváříme výkresy a modely pomocí mračen bodů nebo jakékoli jiné dostupné a preferované metody."
+      },
+      "slide3": {
+        "title": "UAV/DRON FOTOGRAMMETRIE",
+        "text": "Fotogrammetrie je umění a věda získávání přesných měření a trojrozměrných informací z dvojrozměrných snímků."
+      }
+    },
+
+    "services": {
+      "laser": {
+        "title": "Laserové skenování a 3D měření",
+        "text": "Provádíme architektonická, památková, komerční a průmyslová měření. Zpracováváme detailní As-Built dokumentaci a nabízíme specializovaný monitoring historických budov."
+      },
+      "design": {
+        "title": "2D výkresy a 3D modelování",
+        "text": "Vytváříme půdorysy, řezy a pohledy ve formátu DWG. Pracujeme s 3D modelováním v různých softwarových řešeních, včetně BIM pracovních postupů."
+      },
+      "drone": {
+        "title": "UAV/Dron fotogrammetrie",
+        "text": "Podporujeme topografická měření, průmyslovou a rezidenční fotogrammetrii a také tvorbu virtuálních 3D modelů a digitálních modelů terénu (DTM).",
+        "rtext": ""
+      }
+    },
+
+    "why": {
+      "title_strong": "Proč si vybrat spolupráci",
+      "title_rest": "se SupremeXpansion?",
+      "experience": {
+        "title": "Zkušenosti a kvalita práce",
+        "text": "Více než 25 let zkušeností a špičková technologie zajišťují přesnost a detail v každém měření a 3D modelu."
+      },
+      "tech": {
+        "title": "Technologie a nástroje",
+        "text": "Používáme pokročilé 2D a 3D technologie a poskytujeme spolehlivé, efektivní výsledky připravené k integraci do vašich projektů."
+      },
+      "price": {
+        "title": "Dostupná cena",
+        "text": "Technická kvalita za férové ceny, vhodná pro projekty jakéhokoli rozsahu — od malých rekonstrukcí po velké stavby."
+      },
+      "support": {
+        "title": "Vynikající zákaznická podpora",
+        "text": "Blízká a transparentní podpora v každé fázi, s kontinuální asistencí a maximální péčí o klienta."
+      }
+    },
+
+    "portfolio": {
+      "title": "Portfolio",
+      "view_all": "ZOBRAZIT VŠE"
+    },
+
+    "contact_section": {
+      "title": "Kontaktujte nás",
+      "subtitle": "Pro jakékoli dotazy či upřesnění nás kontaktujte.",
+      "button": "KONTAKTY"
+    },
+
+    "carousel_section": {
+      "img1": "Projekt North Finchley UK",
+      "img2": "Usedlost Alentejo",
+      "img3": "Městský stadion Coimbra",
+      "img4": "Palírna Longra",
+      "img5": "Sklady Cofersan",
+      "img6": "Rekonstrukce budovy",
+      "img7": "Taberna do Quinzena",
+      "img8": "Ruina",
+      "img9": "Rezidenční projekt",
+      "img10": "Vyměření domu",
+      "img11": "Vyměření skladu",
+      "img12": "Potravinářská továrna",
+      "img13": "Bednění mostu",
+      "img14": "CNEMA",
+      "img15": "Dům v Santarému",
+      "img16": "Parní potrubí v Cardiffu UK",
+      "img17": "Dronové mapování Londýn UK"
+    }
+  },
+
+  "politicas": {
+  "meta_title": "Zásady ochrany osobních údajů - SupremeXpansion",
+  "title": "ZÁSADY OCHRANY OSOBNÍCH ÚDAJŮ",
+  "texts": {
+    "texts1": {
+      "title": "Kdo jsme",
+      "about": "Adresa našich webových stránek je: "
+    },
+
+    "texts2": {
+      "title": "Komentáře",
+      "about1": "Když návštěvníci zanechají komentáře na webu, ukládají se údaje zobrazené ve formuláři komentářů spolu s IP adresou návštěvníka a identifikátorem prohlížeče, aby bylo možné pomoci s detekcí spamu.",
+      "about2": "Anonymní řetězec vytvořený z vaší e-mailové adresy (také nazývaný hash) může být odeslán službě Gravatar za účelem ověření, zda ji používáte. Zásady ochrany osobních údajů služby Gravatar jsou k dispozici zde: ",
+      "about3": "Po schválení vašeho komentáře se vaše profilová fotografie stane veřejně viditelnou v kontextu vašeho komentáře."
+    },
+
+    "texts3": {
+      "title": "Média",
+      "about": "Při nahrávání obrázků na web byste se měli vyhnout nahrávání obrázků s vloženými geolokačními údaji (EXIF GPS). Návštěvníci mohou z obrázků na webu stáhnout a extrahovat geolokační údaje."
+    },
+
+    "texts4": {
+      "title": "Cookies",
+      "about1": "Pokud na našem webu zanecháte komentář, můžete se rozhodnout uložit své jméno, e-mailovou adresu a webovou stránku do souborů cookie. Tyto soubory slouží pro vaše pohodlí, abyste při zanechání dalšího komentáře nemuseli znovu zadávat své údaje. Tyto cookies budou platné po dobu jednoho roku.",
+      "about2": "Pokud navštívíte naši přihlašovací stránku, bude nastaven dočasný soubor cookie, aby se zjistilo, zda váš prohlížeč přijímá cookies. Tento soubor cookie neobsahuje žádné osobní údaje a je odstraněn po zavření prohlížeče.",
+      "about3": "Po přihlášení se nastaví několik cookies pro uložení vašich přihlašovacích údajů a preferencí zobrazení obrazovky. Přihlašovací cookies trvají dva dny a cookies nastavení obrazovky jeden rok. Pokud zvolíte možnost „Zapamatovat si mě“, vaše přihlášení zůstane aktivní po dobu dvou týdnů. Po odhlášení budou přihlašovací cookies odstraněny.",
+      "about4": "Pokud upravíte nebo publikujete článek, uloží se ve vašem prohlížeči další soubor cookie. Tento soubor cookie neobsahuje žádné osobní údaje a pouze označuje ID obsahu, který jste právě upravili. Jeho platnost vyprší po jednom dni."
+    },
+
+    "texts5": {
+      "title": "Vložený obsah z jiných webových stránek",
+      "about1": "Články na tomto webu mohou obsahovat vložený obsah (např.: videa, obrázky, články atd.). Vložený obsah z jiných webových stránek se chová přesně tak, jako by návštěvník navštívil tyto webové stránky.",
+      "about2": "Tyto webové stránky mohou shromažďovat údaje o vás, používat cookies, vkládat sledování třetích stran a monitorovat vaši interakci s vloženým obsahem, včetně sledování vaší interakce, pokud máte účet a jste na těchto webových stránkách přihlášeni."
+    },
+
+    "texts6": {
+      "title": "S kým sdílíme vaše údaje",
+      "about": "Pokud požádáte o obnovení hesla, vaše IP adresa bude uvedena v e-mailu pro obnovení hesla."
+    },
+
+    "texts7": {
+      "title": "Jak dlouho uchováváme vaše údaje",
+      "about1": "Pokud zanecháte komentář, komentář a jeho metadata jsou uchovávány po neomezenou dobu. To je proto, aby bylo možné automaticky rozpoznat a schválit následné komentáře místo jejich držení ve frontě na moderování.",
+      "about2": "Uživatelům, kteří se zaregistrují na našem webu (pokud existují), také ukládáme osobní údaje, které poskytli ve svém uživatelském profilu.",
+      "about3": "Všichni uživatelé mohou kdykoli zobrazit, upravit nebo odstranit své osobní údaje (s výjimkou změny uživatelského jména). Správci webu mohou tyto informace také zobrazit a upravit."
+    },
+
+    "texts8": {
+      "title": "Jaká práva máte ke svým údajům",
+      "about": "Pokud máte na tomto webu účet nebo jste zanechali komentáře, můžete požádat o exportovaný soubor osobních údajů, které o vás uchováváme, včetně všech údajů, které jste nám poskytli. Můžete také požádat o vymazání všech osobních údajů, které o vás uchováváme. To se netýká údajů, které jsme povinni uchovávat pro administrativní, právní nebo bezpečnostní účely."
+    },
+
+    "texts9": {
+      "title": "Kam jsou vaše údaje odesílány",
+      "about": "Komentáře návštěvníků mohou být kontrolovány prostřednictvím automatizované služby pro detekci spamu."
+    }
+  }
+},
+
+  "portfolio": {
+    "meta_title": "Portfolio - SupremeXpansion",
+    "title": "PORTFOLIO",
+    "comerciais": {
+      "meta_title": "Komerční měření - Portfolio SupremeXpansion",
+      "title": "KOMERČNÍ MĚŘENÍ"
+    },
+    "industriais": {
+      "meta_title": "Průmyslové měření - Portfolio SupremeXpansion",
+      "title": "PRŮMYSLOVÁ MĚŘENÍ"
+    },
+    "residenciais": {
+      "meta_title": "Rezidenční měření - Portfolio SupremeXpansion",
+      "title": "REZIDENČNÍ MĚŘENÍ"
+    },
+
+    "urbanos": {
+      "meta_title": "Městské měření - Portfolio SupremeXpansion",
+      "title": "MĚSTSKÁ MĚŘENÍ"
+    }
+  },
+
+  "rodape": {
+  "title": "2025 © SupremeXpansion - Zachycujeme realitu",
+  "text1": "Všechna práva vyhrazena",
+  "text2": "Zásady ochrany osobních údajů",
+  "servicos": "Služby",
+  "servico1": "Laserové skenování a 3D měření",
+  "servico2": "2D výkresy a 3D modelování",
+  "servico3": "UAV/Drone fotogrammetrie",
+  "contactos": "Kontakty",
+  "telefone": "Telefon",
+  "chamada": "(Hovor do národní mobilní sítě)",
+  "numPT": "PT +351 935 584 011",
+  "numING": "UK +44 7557 795 968",
+  "email": "Email",
+  "email_text": "info@supremexpansion.com"
+},
+
+"servicos": {
+  "meta_title": "Služby - SupremeXpansion",
+  "text": "SLUŽBY"
+},
+
+"servico1": {
+  "meta_title": "Laserové skenování a 3D měření - SupremeXpansion",
+  "title": "Laserové skenování a 3D měření",
+
+  "serv1": {
+    "title": "Laserové skenování a mračna bodů",
+    "text": "Laserové skenování zachytí během několika sekund miliony bodů a vytváří vysoce přesná 3D mračna bodů. Tato technologie umožňuje přesné modelování a dokumentaci jakéhokoli fyzického prostoru — ideální pro architekturu, inženýrství a stavební projekty."
+  },
+
+  "arquitetonicos": {
+    "title": "Architektonická měření",
+    "text": "Jsme specialisté na laserové skenování, produkujeme přesná mračna bodů používaná k tvorbě 3D modelů, půdorysů a detailních pohledů. Náš zkušený tým úzce spolupracuje s klienty, aby zajistil řešení přizpůsobená každému projektu."
+  },
+
+  "levantamentos": {
+    "title": "Interiérová, exteriérová a uliční měření",
+    "text1": "Pomocí laserového skenování mapujeme interiéry, venkovní prostory a ulice s vysokou přesností. Vytváříme detailní 3D modely, které podporují architekturu, inženýrství, územní plánování, rekonstrukce a konzervaci. Od interiérů budov až po ulice a náměstí poskytujeme spolehlivá data pro analýzu, návrh a",
+    "text2": "rozhodování."
+  },
+
+  "asbuilts": {
+    "title": "As-Built dokumentace",
+    "text": "Vytváříme přesnou technickou dokumentaci skutečného stavu stavby, ideální pro rekonstrukce, přístavby nebo úpravy. Naše As-Builts zahrnují půdorysy, řezy, pohledy a stavební detaily, které věrně odrážejí provedené práce a slouží jako pevný základ pro jakýkoli budoucí zásah."
+  },
+
+  "monitorizacao": {
+    "title": "Monitoring historických budov",
+    "text": "Používáme laserové skenování k monitorování historických budov s vysokou přesností. Tato technologie umožňuje detekci strukturálních změn v průběhu času a podporuje konzervaci a restaurování pomocí detailních a realistických 3D modelů, které jsou zásadní pro bezpečnost a životnost památkových objektů."
+  }
+},
+
+"servico2": {
+  "meta_title": "2D výkresy a 3D modelování - SupremeXpansion",
+  "title": "2D výkresy a 3D modelování",
+
+  "introducao": {
+    "title": "2D výkresy a 3D modelování",
+    "text": "Kombinujeme technické 2D kreslení a 3D modelování k vytváření přesných a realistických reprezentací prostorů a staveb. Tyto nástroje umožňují efektivní vizualizaci, plánování a komunikaci projektů — od půdorysů a řezů po detailní trojrozměrné modely."
+  },
+
+  "plantas": {
+    "title": "Půdorysy, řezy a pohledy",
+    "text": "Vytváříme detailní a přesné technické výkresy přizpůsobené potřebám každého klienta. Náš tým kombinuje odborné znalosti 3D modelování s precizností 2D kreslení, čímž zajišťuje spolehlivé výsledky v dohodnutých termínech a rozpočtech."
+  },
+
+  "modelacao": {
+    "title": "3D modelování",
+    "text": "Vytváříme přesné a realistické 3D modely přizpůsobené potřebám každého projektu. Kombinujeme pokročilé technologie s vysoce zkušeným týmem v oblasti architektury, inženýrství a designu, což zajišťuje kvalitu, termíny a plnou spokojenost zákazníků."
+  }
+},
+
+"servico3": {
+  "meta_title": "UAV/Drone fotogrammetrie - SupremeXpansion",
+  "title": "UAV/Drone fotogrammetrie",
+
+  "fotogrametria": {
+    "title": "Fotogrammetrie",
+    "text": "Transformujeme letecké snímky zachycené drony na detailní a přesné 3D modely. Pomocí pokročilého softwaru extrahujeme zásadní metrické a trojrozměrné informace pro architekturu, inženýrství a plánování."
+  },
+
+  "tecnicas": {
+    "title": "Hlavní techniky fotogrammetrie:",
+    "subtitle1": "Letecké mapování:",
+    "text1": "Vytváříme mapy ve vysokém rozlišení pro zemědělství, územní plánování a sledování životního prostředí, ideální pro strategické rozhodování.",
+    "subtitle2": "3D modelování:",
+    "text2": "Generujeme detailní trojrozměrné modely terénu, staveb a objektů, užitečné v architektuře, archeologii a stavebnictví.",
+    "subtitle3": "Výpočet objemu:",
+    "text3": "Provádíme přesná měření objemů pro skladové zásoby, výkopy a správu zdrojů v inženýrství a těžebním průmyslu."
+  },
+
+  "vantagens": {
+    "title": "Výhody fotogrammetrie:",
+    "subtitle1": "Vysoká přesnost:",
+    "text1": "Zajišťuje velmi spolehlivá měření a modely, ideální pro obory vyžadující technickou přesnost.",
+    "subtitle2": "Úspornost:",
+    "text2": "Snižuje čas a náklady nahrazením tradičních metod leteckými průzkumy pomocí dronů.",
+    "subtitle3": "Jasná vizualizace dat:",
+    "text3": "Detailní 3D modely a mapy usnadňují analýzu a komunikaci složitých informací.",
+    "subtitle4": "Snímání dat v obtížných oblastech:",
+    "text4": "Umožňuje sběr dat ve vzdálených nebo nebezpečných oblastech s nižším rizikem pro člověka.",
+    "subtitle5": "Komplexní letecké průzkumy:",
+    "text5": "Vhodné pro lesnictví, těžbu a environmentální studie, poskytující kritická data pro plánování."
+  },
+
+  "mdt": {
+    "title": "Digitální model terénu (DTM)",
+    "subtitle1": "Co je Digitální model terénu (DTM)?",
+    "text1": "Digitální model terénu je přesná trojrozměrná reprezentace zemského povrchu založená na výškových bodech získaných topografickými měřeními, drony, vzdálenými senzory nebo satelitními snímky. Tyto body jsou zpracovány do digitální sítě, která přesně odráží morfologii terénu.",
+    "subtitle2": "Jak DTM funguje?",
+    "text2": "DTM je zásadní nástroj pro plánování a analýzy v inženýrství, architektuře, environmentálních projektech a veřejné infrastruktuře. Umožňuje výpočet sklonů, objemů, trasování infrastruktury, hodnocení eroze a plánování odvodnění.",
+    "subtitle3": "Role vrstevnic",
+    "text3": "Společně s vrstevnicemi poskytuje DTM jasné pochopení výškových změn. Tyto čáry spojují body se stejnou nadmořskou výškou a jsou zásadní pro tvorbu topografických plánů a geoprostorových modelů.<br><br>Ve SupremeXpansion vytváříme vysoce přesné DTM přizpůsobené měřítku a detailu každého projektu, čímž zajišťujeme spolehlivá technická data pro kvalifikovaná rozhodnutí."
+  },
+
+  "wrapper": {
+    "title": "Využití a aplikace DTM a vrstevnic",
+    "intro": "Digitální modely terénu a vrstevnice jsou univerzální nástroje s mnoha praktickými aplikacemi:",
+    "subtitle1": "Kartografie:",
+    "text1": "Přesné zobrazení terénu na topografických mapách.",
+    "subtitle2": "Inženýrství:",
+    "text2": "Plánování staveb, silnic a odvodňovacích systémů na základě tvaru terénu.",
+    "subtitle3": "Urbanismus:",
+    "text3": "Analýza terénu pro podporu rozvoje měst a zmírnění přírodních rizik.",
+    "subtitle4": "Geologie:",
+    "text4": "Studium struktury půdy a identifikace geologických útvarů.",
+    "subtitle5": "Správa přírodních zdrojů:",
+    "text5": "Podpora ochrany lesů, hospodaření s vodou a udržitelného využívání půdy."
+  },
+
+  "nuvens": {
+    "title": "Mračna bodů z fotogrammetrie",
+    "subtitle1": "Co je fotogrammetrie?",
+    "text1": "Fotogrammetrie je pokročilá technika, která převádí dvourozměrné snímky na vysoce přesné trojrozměrné reprezentace. Zachycením více fotografií objektu nebo oblasti z různých úhlů a jejich zpracováním ve specializovaném softwaru je možné vytvořit hustá a detailní mračna bodů — soubory milionů bodů, které reprezentují skutečnou geometrii povrchů, staveb nebo terénu.",
+    "subtitle2": "Jak to funguje?",
+    "text2": "Proces začíná sběrem snímků, obvykle pomocí UAV/drone nebo pozemních kamer. Z překryvů těchto snímků software identifikuje společné body — tzv. kontrolní body — a vypočítá jejich polohu v trojrozměrném prostoru. Výsledkem je mračno bodů, které přesně odráží tvar, rozměry a texturu zachyceného objektu nebo prostředí.",
+    "subtitle3": "Výhody",
+    "text3": "Ve SupremeXpansion kombinujeme fotogrammetrii s naší odborností v modelování a měření, čímž poskytujeme spolehlivá mračna bodů připravená k integraci v jakékoli fázi projektu.",
+    "topic1": "Vysoká přesnost:",
+    "subtext1": "Ideální pro měření, dokumentaci a modelování.",
+    "topic2": "Univerzálnost:",
+    "subtext2": "Vhodné pro terén, fasády, interiéry, památky atd.",
+    "topic3": "Nákladová efektivita:",
+    "subtext3": "Snižuje potřebu tradičního měřicího vybavení.",
+    "topic4": "Jasná vizualizace:",
+    "subtext4": "Umožňuje analýzy a simulace v digitálním 3D prostředí."
+  },
+
+  "aplicacoes": {
+    "title": "Aplikace mračen bodů ve fotogrammetrii:",
+    "subtitle1": "Mapování a topografie:",
+    "text1": "Tvorba přesných topografických map a digitálních modelů terénu.",
+    "subtitle2": "Stavební inženýrství:",
+    "text2": "Podpora plánování a monitorování staveb, jako jsou silnice, mosty a budovy.",
+    "subtitle3": "Ochrana památek:",
+    "text3": "3D dokumentace památek a historických objektů pro konzervaci a restaurování.",
+    "subtitle4": "Precizní zemědělství:",
+    "text4": "Analýza plodin, detekce škůdců a efektivní řízení zavlažování na základě terénu a objemu.",
+    "subtitle5": "Geologie a těžba:",
+    "text5": "Modelování dolů, analýza terénu a hodnocení ložisek nerostů."
+  }
+},
+
+"sobre": {
+  "meta_title": "O nás - SupremeXpansion",
+  "title": "O NÁS",
+  "sobre": "O ",
+  "supreme": "SupremeXpansion",
+
+  "experiencia": {
+    "title": "Zkušenosti a kvalita práce",
+    "text": "S více než 25 lety zkušeností v oboru poskytujeme vynikající služby kombinující nejmodernější technologie a know-how vysoce kvalifikovaného týmu. Jsme specialisté na architektonická měření a 3D modelování pomocí laserového skenování, čímž zajišťujeme technickou přesnost a detail v každém projektu."
+  },
+
+  "tecnologia": {
+    "title": "Technologie a nástroje",
+    "text": "Pracujeme s nejpokročilejšími 2D a 3D technologiemi, které zajišťují spolehlivé výsledky kompatibilní se současnými standardy v oboru a optimalizují každý projekt nástroji, které zvyšují přesnost, efektivitu a výslednou kvalitu."
+  },
+
+  "preco": {
+    "title": "Dostupné ceny",
+    "text": "Věříme, že kvalita nemusí být nedostupná. Proto ve SupremeXpansion poskytujeme vynikající technické služby za konkurenceschopné ceny, vhodné pro projekty jakékoli velikosti — od malých rekonstrukcí až po velké stavební záměry."
+  },
+
+  "suporte": {
+    "title": "Vynikající zákaznická podpora",
+    "text": "Ceníme si vztahů založených na důvěře a transparentnosti. Proto ve SupremeXpansion zajišťujeme úzkou podporu ve všech fázích projektu — od prvního kontaktu až po finální dodání. Jsme vždy k dispozici pro zodpovězení otázek, úpravu řešení a zajištění toho, aby se každý klient cítil informovaný, podporovaný a plně spokojený."
+  },
+
+  "resumo": {
+    "text": "Stručně řečeno, jsme zkušená společnost s nejmodernější technologií, která nabízí dostupné ceny a vynikající zákaznickou podporu. Zavazujeme se poskytovat nejlepší možné služby a zajistit, aby každý klient měl s námi výjimečnou zkušenost."
+  },
+
+    "equipa": {
+      "title": "Tým",
+      "membro1": "Hugo Pinto",
+      "cargo1": "Jednatel",
+      "membro2": "Carlos Serrão",
+      "cargo2": "Senior architekt",
+      "membro3": "Marisa Pinto",
+      "cargo3": "Administrativa",
+      "membro4": "Ana Vieira",
+      "cargo4": "Architektka",
+      "membro5": "Luiza Vilela",
+      "cargo5": "Architektka",
+      "membro6": "Marco Pintão",
+      "cargo6": "Technický kreslič",
+      "membro7": "Hryhoriy Kit",
+      "cargo7": "3D modelář",
+      "membro8": "Susana Oliveira",
+      "cargo8": "Obchodní technička",
+      "membro9": "David Pinto",
+      "cargo9": "IT technik"
+    }
+  }
+}

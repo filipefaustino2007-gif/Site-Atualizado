@@ -1,0 +1,442 @@
+{
+  "nav": {
+    "home": "HEM",
+    "about": "OM OSS",
+    "services": "TJÄNSTER",
+
+    "laser_scan": "Laserskanning och 3D-uppmätningar",
+    "design_3d": "2D-ritning och 3D-modellering",
+    "uav_drone": "UAV/DRÖNAR Fotogrammetri",
+
+    "portfolio": "PORTFÖLJ",
+    "residential": "Bostadsmät.",
+    "urban": "Stadsmät.",
+    "commercial": "Kommersiell Mät.",
+    "industrial": "Industriell Mät.",
+
+    "contacts": "KONTAKT",
+    "login": "LOGIN"
+  },
+
+  "contact": {
+    "meta_title": "Contacts - SupremeXpansion",
+    "hero_alt": "SupremeXpansion Kontakter",
+    "hero_title": "KONTAKTER",
+
+    "form": {
+      "title": "Kontakta Oss",
+      "intro": "För att kontakta oss kan du använda formuläret på vår webbplats, skicka ett e-postmeddelande till den angivna adressen eller ringa oss. Vårt team står redo att hjälpa dig och besvara alla frågor du kan ha.",
+
+      "fields": {
+        "name": "Namn",
+        "email": "E-post",
+        "phone": "Mobil",
+        "reason_placeholder": "Anledning till kontakt",
+        "reason_budget": "Begär en offert",
+        "reason_partnership": "Förslag på partnerskap",
+        "reason_support": "Kundsupport",
+        "reason_other": "Annan anledning",
+        "subject": "Ärende",
+        "message": "Meddelande"
+      },
+
+      "consent_text": "Jag samtycker till att denna webbplats lagrar min information för att kunna svara på min förfrågan.",
+      "submit": "Skicka",
+      "success": "Skickat framgångsrikt!"
+    },
+
+    "info": {
+      "phone_title": "TELEFON",
+      "phone_number_pt": "PT +351 935 584 011",
+      "phone_number_ing": "UK +44 7557 795 968",
+      "pt_note": "(Samtal till det nationella mobilnätet)",
+      "email_title": "E-POST",
+      "email_text": "info@supremexpansion.com"
+    }
+  },
+
+  "home": {
+    "meta_title": "SupremeXpansion - We Capture Reality",
+
+    "slides": {
+      "slide1": {
+        "title": "LASERSKANNING OCH 3D-UPPMÄTNINGAR",
+        "text": "Laserskanning och punktmoln är avancerade tekniker som möjliggör precis fångst av form och dimensioner av objekt i 3D."
+      },
+      "slide2": {
+        "title": "2D-RITNING OCH 3D-MODELLERING",
+        "text": "Vi producerar ritningar och modeller med hjälp av punktmoln eller andra tillgängliga metoder."
+      },
+      "slide3": {
+        "title": "UAV/DRÖNAR FOTOGRAMMETRI",
+        "text": "Fotogrammetri är konsten och vetenskapen att extrahera exakta mätningar och tredimensionell information från tvådimensionella bilder."
+      }
+    },
+
+    "services": {
+      "laser": {
+        "title": "Laserskanning och 3D-uppmätningar",
+        "text": "Vi utför arkitektoniska, kulturhistoriska, kommersiella och industriella uppmätningar. Vi producerar detaljerade As-Built och erbjuder specialiserad övervakning av historiska byggnader."
+      },
+      "design": {
+        "title": "2D-ritning och 3D-modellering",
+        "text": "Vi producerar planritningar, sektioner och fasader i DWG-format. Vi arbetar med 3D-modellering i flera olika programvaror, inklusive BIM-arbetsflöden (Building Information Modelling)."
+      },
+      "drone": {
+        "title": "UAV/Drönar Fotogrammetri",
+        "text": "Vi stödjer topografiska undersökningar, industriell och bostadsfotogrammetri samt skapandet av virtuella 3D-modeller och digitala terrängmodeller (DTM).",
+        "rtext": ""
+      }
+    },
+
+    "why": {
+      "title_strong": "Varför välja att arbeta",
+      "title_rest": "med SupremeXpansion?",
+      "experience": {
+        "title": "Erfarenhet och Arbetskvalitet",
+        "text": "Mer än 25 års erfarenhet och avancerad teknik säkerställer precision och detalj i varje uppmätning och 3D-modell."
+      },
+      "tech": {
+        "title": "Teknik och Verktyg",
+        "text": "Vi använder avancerad 2D- och 3D-teknik och levererar tillförlitliga, effektiva resultat som är redo att integreras i dina projekt."
+      },
+      "price": {
+        "title": "Prisvärda Tjänster",
+        "text": "Teknisk kvalitet till rätt pris, lämplig för projekt i alla storlekar — från små renoveringar till stora utvecklingar."
+      },
+      "support": {
+        "title": "Utmärkt Kundsupport",
+        "text": "Nära och transparent support i varje steg, med kontinuerlig assistans och fullständig dedikation till kunden."
+      }
+    },
+
+    "portfolio": {
+      "title": "Portfölj",
+      "view_all": "VISA ALLA"
+    },
+
+    "contact_section": {
+      "title": "Kontakta oss",
+      "subtitle": "För frågor eller förtydliganden, kontakta oss.",
+      "button": "KONTAKTER"
+    },
+
+    "carousel_section": {
+      "img1": "North Finchley-projektet UK",
+      "img2": "Alentejo-egendom",
+      "img3": "Coimbra kommunala stadion",
+      "img4": "Longra-destilleri",
+      "img5": "Cofersan lager",
+      "img6": "Byggnadsrenovering",
+      "img7": "Taberna do Quinzena",
+      "img8": "Ruin",
+      "img9": "Bostadsprojekt",
+      "img10": "Husmätning",
+      "img11": "Lagermätning",
+      "img12": "Livsmedelsfabrik",
+      "img13": "Broform",
+      "img14": "CNEMA",
+      "img15": "Hus i Santarém",
+      "img16": "Ångledningar i Cardiff UK",
+      "img17": "Drönarkartering London UK"
+    }
+  },
+
+  "politicas": {
+    "meta_title": "Privacy Policy - SupremeXpansion",
+    "title": "INTEGRITETSPOLICY",
+    "texts": {
+      "texts1": {
+        "title": "Vilka Vi Är",
+        "about": "Adressen till vår webbplats är: "
+      },
+
+      "texts2": {
+        "title": "Kommentarer",
+        "about1": "När besökare lämnar kommentarer på webbplatsen sparas den data som visas i kommentarsformuläret, tillsammans med besökarens IP-adress och webbläsarens användaragent, för att hjälpa till att upptäcka spam.",
+        "about2": "En anonym sträng skapad från din e-postadress (även kallad hash) kan skickas till Gravatar-tjänsten för att kontrollera om du använder den. Gravatars integritetspolicy finns här: ",
+        "about3": "Efter att din kommentar har godkänts blir din profilbild synlig för allmänheten i samband med kommentaren."
+      },
+
+      "texts3": {
+        "title": "Media",
+        "about": "När du laddar upp bilder till webbplatsen bör du undvika att ladda upp bilder med inbäddad geografisk data (EXIF GPS). Besökare kan ladda ner och extrahera geolokaliseringsdata från bilder på webbplatsen."
+      },
+
+      "texts4": {
+        "title": "Cookies",
+        "about1": "Om du lämnar en kommentar på vår webbplats kan du välja att spara ditt namn, din e-postadress och din webbplats i cookies. Detta är för din bekvämlighet så att du inte behöver ange dina uppgifter igen när du lämnar en ny kommentar. Dessa cookies varar i ett år.",
+        "about2": "Om du besöker vår inloggningssida kommer en tillfällig cookie att sättas för att avgöra om din webbläsare accepterar cookies. Denna cookie innehåller inga personuppgifter och raderas när du stänger webbläsaren.",
+        "about3": "När du loggar in sätts flera cookies för att spara din inloggningsinformation och skärminställningar. Inloggningscookies varar i två dagar och skärmalternativcookies i ett år. Om du väljer ”Kom ihåg mig” kommer din inloggning att kvarstå i två veckor. När du loggar ut tas inloggningscookies bort.",
+        "about4": "Om du redigerar eller publicerar en artikel sparas en ytterligare cookie i din webbläsare. Den innehåller inga personuppgifter och anger endast ID:t för det innehåll du just redigerat. Den upphör att gälla efter en dag."
+      },
+
+      "texts5": {
+        "title": "Inbäddat Innehåll från Andra Webbplatser",
+        "about1": "Artiklar på denna webbplats kan innehålla inbäddat innehåll (t.ex. videor, bilder, artiklar etc.). Inbäddat innehåll från andra webbplatser beter sig på samma sätt som om besökaren hade besökt den webbplatsen.",
+        "about2": "Dessa webbplatser kan samla in data om dig, använda cookies, integrera tredjepartsspårning och övervaka din interaktion med det inbäddade innehållet, inklusive spåra din interaktion om du har ett konto och är inloggad på dessa webbplatser."
+      },
+
+      "texts6": {
+        "title": "Vem Vi Delar Din Data Med",
+        "about": "Om du begär en återställning av lösenord kommer din IP-adress att inkluderas i återställningsmeddelandet."
+      },
+
+      "texts7": {
+        "title": "Hur Längre Vi Behåller Din Data",
+        "about1": "Om du lämnar en kommentar sparas kommentaren och dess metadata på obestämd tid. Detta är så att vi automatiskt kan känna igen och godkänna eventuella uppföljande kommentarer i stället för att hålla dem i en moderationskö.",
+        "about2": "För användare som registrerar sig på vår webbplats (om några) lagrar vi även den personliga information de anger i sin profil.",
+        "about3": "Alla användare kan se, redigera eller radera sin personliga information när som helst (förutom att de inte kan ändra sitt användarnamn). Webbplatsadministratörer kan också se och redigera denna information."
+      },
+
+      "texts8": {
+        "title": "Vilka Rättigheter Du Har Över Din Data",
+        "about": "Om du har ett konto på denna webbplats eller har lämnat kommentarer kan du begära en exportfil med de personuppgifter vi lagrar om dig, inklusive all data du har lämnat till oss. Du kan också begära att vi raderar alla personuppgifter vi har om dig. Detta inkluderar inte data som vi är skyldiga att behålla för administrativa, juridiska eller säkerhetsändamål."
+      },
+
+      "texts9": {
+        "title": "Vart Din Data Skickas",
+        "about": "Besökarkommentarer kan kontrolleras via en automatiserad spamdetekteringstjänst."
+      }
+    }
+  },
+
+  "portfolio": {
+    "meta_title": "Portfolio - SupremeXpansion",
+    "title": "PORTFÖLJ",
+    "comerciais": {
+      "meta_title": "Commercial Survey Portfolio - SupremeXpansion",
+      "title": "KOMMERSIELLA MÄTNINGAR"
+    },
+    "industriais": {
+      "meta_title": "Industrial Survey Portfolio - SupremeXpansion",
+      "title": "INDUSTRIELLA MÄTNINGAR"
+    },
+    "residenciais": {
+      "meta_title": "Residential Survey Portfolio - SupremeXpansion",
+      "title": "BOSTADSMÄTNINGAR"
+    },
+
+    "urbanos": {
+      "meta_title": "Urban Survey Portfolio - SupremeXpansion",
+      "title": "STADSMÄTNINGAR"
+    }
+  },
+
+  "rodape": {
+    "title": "2025 © SupremeXpansion - Vi fångar verkligheten",
+    "text1": "Alla rättigheter förbehållna",
+    "text2": "Integritetspolicy",
+    "servicos": "Tjänster",
+    "servico1": "Laserskanning och 3D-uppmätningar",
+    "servico2": "2D-ritningar och 3D-modellering",
+    "servico3": "UAV/Drönarfotogrammetri",
+    "contactos": "Kontakter",
+    "telefone": "Telefon",
+    "chamada": "(Samtal till nationellt mobilnät)",
+    "numPT": "PT +351 935 584 011",
+    "numING": "UK +44 7557 795 968",
+    "email": "E-post",
+    "email_text": "info@supremexpansion.com"
+},
+
+"servicos": {
+    "meta_title": "Tjänster - SupremeXpansion",
+    "text": "TJÄNSTER"
+},
+
+"servico1": {
+    "meta_title": "Laserskanning och 3D-uppmätningar - SupremeXpansion",
+    "title": "Laserskanning och 3D-uppmätningar",
+
+    "serv1": {
+      "title": "Laserskanning och punktmoln",
+      "text": "Laserskanning fångar miljoner punkter på sekunder och skapar mycket precisa 3D-punktmoln. Denna teknik möjliggör exakt modellering och dokumentation av alla fysiska utrymmen — idealiskt för arkitektur-, ingenjörs- och byggprojekt."
+    },
+
+    "arquitetonicos": {
+      "title": "Arkitektoniska uppmätningar",
+      "text": "Vi är specialister på laserskanningsuppmätningar och producerar exakta punktmoln som används för att skapa 3D-modeller, planritningar och detaljerade fasader. Vårt erfarna team arbetar nära kunder för att säkerställa lösningar anpassade till varje projekt."
+    },
+
+    "levantamentos": {
+      "title": "Invändiga, utvändiga och gatubaserade uppmätningar",
+      "text1": "Vi använder laserskanning för att kartlägga invändiga utrymmen, utvändiga områden och gator med hög precision. Vi skapar detaljerade 3D-modeller som stödjer arkitektur, ingenjörsvetenskap, stadsplanering, rehabilitering och konserveringsprojekt. Från byggnadsinteriörer till gator och torg levererar vi tillförlitlig data för analys, design och",
+      "text2": "beslutsfattande."
+    },
+
+    "asbuilts": {
+      "title": "As-Built-dokumentation",
+      "text": "Vi producerar exakt teknisk dokumentation av det verkliga skicket av en konstruktion, idealiskt för renoveringar, utbyggnader eller förändringar. Våra As-Builts inkluderar planritningar, sektioner, fasader och konstruktionsdetaljer som troget speglar det utförda arbetet — en solid grund för framtida interventioner."
+    },
+
+    "monitorizacao": {
+      "title": "Övervakning av historiska byggnader",
+      "text": "Vi använder laserskanning för att övervaka historiska byggnader med hög precision. Denna teknik möjliggör upptäckt av strukturella förändringar över tid och stödjer konservering och restaurering med detaljerade och realistiska 3D-modeller som är avgörande för säkerhet och bevarande av kulturarv."
+    }
+},
+
+"servico2": {
+    "meta_title": "2D-ritningar och 3D-modellering - SupremeXpansion",
+    "title": "2D-ritningar och 3D-modellering",
+
+    "introducao": {
+      "title": "2D-ritningar och 3D-modellering",
+      "text": "Vi kombinerar teknisk 2D-ritning och 3D-modellering för att skapa exakta och realistiska representationer av utrymmen och strukturer. Dessa verktyg möjliggör effektiv visualisering, planering och kommunikation av projekt — från planritningar och sektioner till detaljerade tredimensionella modeller."
+    },
+
+    "plantas": {
+      "title": "Planritningar, sektioner och fasader",
+      "text": "Vi skapar detaljerade och precisa tekniska ritningar anpassade efter varje kunds behov. Vårt team kombinerar 3D-modelleringsexpertis med noggrann 2D-ritning för att säkerställa tillförlitliga resultat levererade inom överenskomna tidsramar och budgetar."
+    },
+
+    "modelacao": {
+      "title": "3D-modellering",
+      "text": "Vi skapar exakta och realistiska 3D-modeller anpassade efter projektets behov. Vi kombinerar avancerad teknik med ett mycket erfaret team inom arkitektur, ingenjörsvetenskap och design för att säkerställa kvalitet, tidshållning och full kundnöjdhet."
+    }
+},
+
+"servico3": {
+    "meta_title": "UAV/Drönarfotogrammetri - SupremeXpansion",
+    "title": "UAV/Drönarfotogrammetri",
+
+    "fotogrametria": {
+      "title": "Fotogrammetri",
+      "text": "Vi omvandlar luftbilder tagna av drönare till detaljerade och exakta 3D-modeller. Med hjälp av avancerad programvara extraherar vi viktig metrisk och tredimensionell information för arkitektur-, ingenjörs- och planeringsprojekt."
+    },
+
+    "tecnicas": {
+      "title": "Huvudsakliga fotogrammetritekniker:",
+      "subtitle1": "Luftkartläggning:",
+      "text1": "Vi skapar högupplösta kartor för jordbruk, stadsplanering och miljöövervakning — idealiskt för strategiskt beslutsfattande.",
+      "subtitle2": "3D-modellering:",
+      "text2": "Vi genererar detaljerade tredimensionella modeller av terräng, strukturer och objekt, användbara inom arkitektur, arkeologi och byggnation.",
+      "subtitle3": "Volymberäkning:",
+      "text3": "Vi utför precisa volymmätningar för lagerkontroll, utgrävningar och resursförvaltning inom ingenjörs- och gruvprojekt."
+    },
+
+    "vantagens": {
+      "title": "Fördelar med fotogrammetri:",
+      "subtitle1": "Hög noggrannhet:",
+      "text1": "Säkerställer mycket tillförlitliga mätningar och modeller — idealiskt för sektorer som kräver teknisk precision.",
+      "subtitle2": "Kostnadseffektivitet:",
+      "text2": "Minskar tid och resurser genom att ersätta traditionella metoder med luftundersökningar med drönare.",
+      "subtitle3": "Tydlig datavisualisering:",
+      "text3": "Detaljerade 3D-modeller och kartor underlättar analys och kommunikation av komplex information.",
+      "subtitle4": "Datainsamling i svår terräng:",
+      "text4": "Möjliggör datainsamling i avlägsna eller farliga områden med minskad risk för människor.",
+      "subtitle5": "Omfattande luftundersökningar:",
+      "text5": "Tillämpligt inom områden som skogsbruk, gruvdrift och miljöstudier och tillhandahåller kritisk data för planering."
+    },
+
+    "mdt": {
+      "title": "Digital Terrängmodell (DTM)",
+      "subtitle1": "Vad är en Digital Terrängmodell (DTM)?",
+      "text1": "En digital terrängmodell är en exakt tredimensionell representation av jordens yta, baserad på höjdpunkter som erhålls genom topografiska undersökningar, drönare, fjärrsensorer eller satellitbilder. Dessa punkter bearbetas för att generera ett digitalt nät som exakt återspeglar terrängens morfologi.",
+      "subtitle2": "Hur fungerar en DTM?",
+      "text2": "DTM är ett viktigt verktyg för planering och analys inom ingenjörsarbete, arkitektur, miljöarbete och offentlig infrastruktur. Det möjliggör beräkning av lutningar, volymer, linjeföring, erosionsriskbedömning och dräneringsplanering, bland många andra användningar.",
+      "subtitle3": "Höjdkurvornas roll",
+      "text3": "Tillsammans med höjdkurvor ger DTM en tydlig förståelse av höjdvariationer. Dessa linjer kopplar punkter med samma höjd och är grundläggande för att producera topografiska kartor och geospatiala analysmodeller.<br><br>På SupremeXpansion skapar vi högupplösta DTM:er anpassade till skalan och detaljerna som krävs för varje projekt, vilket säkerställer tillförlitlig teknisk data för välgrundade beslut."
+    },
+
+    "wrapper": {
+      "title": "Användningsområden för DTM och höjdkurvor",
+      "intro": "Digitala terrängmodeller och höjdkurvor är mångsidiga verktyg med flera praktiska tillämpningar:",
+      "subtitle1": "Kartografi:",
+      "text1": "Exakt representation av terräng på topografiska kartor.",
+      "subtitle2": "Ingenjörsvetenskap:",
+      "text2": "Planering av arbeten, vägar och dräneringssystem baserat på terrängens form.",
+      "subtitle3": "Stadsplanering:",
+      "text3": "Terränganalys för att stödja stadsutveckling och mildra naturrelaterade risker.",
+      "subtitle4": "Geologi:",
+      "text4": "Studier av jordstruktur och identifiering av geologiska formationer.",
+      "subtitle5": "Naturresurshantering:",
+      "text5": "Stöd för skogsvård, vattenförvaltning och hållbar markanvändning."
+    },
+
+    "nuvens": {
+      "title": "Punktmoln med fotogrammetri",
+      "subtitle1": "Vad är fotogrammetri?",
+      "text1": "Fotogrammetri är en avancerad teknik som förvandlar tvådimensionella bilder till mycket exakta tredimensionella representationer. Genom att fånga flera fotografier av ett objekt eller område från olika vinklar och bearbeta dem med specialiserad programvara kan man generera täta och detaljerade punktmoln — samlingar av miljontals punkter som representerar den verkliga geometrin hos ytor, strukturer eller terräng.",
+      "subtitle2": "Hur fungerar det?",
+      "text2": "Processen börjar med bildinsamling, vanligtvis utförd av UAV/drönare eller markkameror. Utifrån överlappande bilder identifierar programvaran gemensamma punkter — så kallade kontrollpunkter — och beräknar deras position i tredimensionellt utrymme. Resultatet är ett punktmoln som exakt speglar formen, dimensionerna och texturen hos det fångade objektet eller miljön.",
+      "subtitle3": "Fördelar",
+      "text3": "På SupremeXpansion kombinerar vi fotogrammetri med vår expertis inom modellering och uppmätningar för att leverera tillförlitliga punktmoln, redo att integreras i varje projektfas.",
+      "topic1": "Hög noggrannhet:",
+      "subtext1": "Idealisk för mätning, dokumentation och modellering.",
+      "topic2": "Mångsidighet:",
+      "subtext2": "Tillämpligt på terräng, fasader, interiörer, kulturarv osv.",
+      "topic3": "Kostnadseffektivt:",
+      "subtext3": "Minskar behovet av traditionell mätutrustning.",
+      "topic4": "Tydlig visualisering:",
+      "subtext4": "Möjliggör analys och simuleringar i en digital 3D-miljö."
+    },
+
+    "aplicacoes": {
+      "title": "Användningsområden för punktmoln inom fotogrammetri:",
+      "subtitle1": "Kartläggning och topografi:",
+      "text1": "Generering av exakta topografiska kartor och digitala terrängmodeller.",
+      "subtitle2": "Civilingenjörsarbete:",
+      "text2": "Stöd vid planering och övervakning av vägar, broar och byggnader.",
+      "subtitle3": "Kulturarvsbevarande:",
+      "text3": "3D-dokumentation av monument och historiska platser för konservering och restaurering.",
+      "subtitle4": "Precisionsjordbruk:",
+      "text4": "Grödanalys, skadedetektering och effektiv bevattningsplanering baserat på terräng och volym.",
+      "subtitle5": "Geologi och gruvdrift:",
+      "text5": "Gruvmodellering, terränganalys och bedömning av mineralfyndigheter."
+    }
+},
+
+"sobre": {
+    "meta_title": "Om oss - SupremeXpansion",
+    "title": "OM OSS",
+    "sobre": "Om ",
+    "supreme": "SupremeXpansion",
+
+    "experiencia": {
+      "title": "Erfarenhet och arbetskvalitet",
+      "text": "Med mer än 25 års erfarenhet inom sektorn erbjuder vi utmärkt service, kombinerat med avancerad teknik och ett mycket kvalificerat team. Vi är specialister på arkitektoniska uppmätningar och 3D-modellering med laserskanning, vilket säkerställer teknisk noggrannhet och uppmärksamhet på detaljer i varje projekt."
+    },
+
+    "tecnologia": {
+      "title": "Teknologi och verktyg",
+      "text": "Vi arbetar med de mest avancerade 2D- och 3D-teknologierna och säkerställer tillförlitliga resultat kompatibla med branschens standarder. Vi optimerar varje projekt med verktyg som förbättrar precision, effektivitet och slutkvalitet."
+    },
+
+    "preco": {
+      "title": "Prisvärda tjänster",
+      "text": "Vi anser att kvalitet inte behöver vara otillgänglig. Därför erbjuder SupremeXpansion tekniska tjänster av hög kvalitet till konkurrenskraftiga priser, anpassade till projekt av alla storlekar — från små renoveringar till stora utvecklingsprojekt."
+    },
+
+    "suporte": {
+      "title": "Utmärkt kundsupport",
+      "text": "Vi värdesätter relationer byggda på förtroende och transparens. Därför säkerställer vi nära stöd under alla projektfaser — från första kontakt till slutleverans. Vi finns alltid tillgängliga för att besvara frågor, anpassa lösningar och säkerställa att varje kund känner sig informerad, stöttad och helt nöjd."
+    },
+
+    "resumo": {
+      "text": "Sammanfattningsvis är vi ett erfaret företag med avancerad teknik, konkurrenskraftiga priser och utmärkt kundsupport. Vi är engagerade i att leverera bästa möjliga service och säkerställa att varje kund får en enastående upplevelse."
+    },
+
+    "equipa": {
+      "title": "Team",
+      "membro1": "Hugo Pinto",
+      "cargo1": "Verkställande delägare",
+      "membro2": "Carlos Serrão",
+      "cargo2": "Senior arkitekt",
+      "membro3": "Marisa Pinto",
+      "cargo3": "Administration",
+      "membro4": "Ana Vieira",
+      "cargo4": "Arkitekt",
+      "membro5": "Luiza Vilela",
+      "cargo5": "Arkitekt",
+      "membro6": "Marco Pintão",
+      "cargo6": "Teknisk ritare",
+      "membro7": "Hryhoriy Kit",
+      "cargo7": "3D-modellerare",
+      "membro8": "Susana Oliveira",
+      "cargo8": "Säljingenjör",
+      "membro9": "David Pinto",
+      "cargo9": "IT-tekniker"
+    }
+  }
+}

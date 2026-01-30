@@ -1,0 +1,442 @@
+{
+  "nav": {
+    "home": "PAGRINDINIS",
+    "about": "APIE",
+    "services": "PASLAUGOS",
+
+    "laser_scan": "Lazerinis skenavimas ir 3D matavimai",
+    "design_3d": "2D brėžiniai ir 3D modeliavimas",
+    "uav_drone": "UAV/DRONE fotogrametrija",
+
+    "portfolio": "PORTFELIS",
+    "residential": "Gyvenamieji Tyr.",
+    "urban": "Urbanistiniai Tyr.",
+    "commercial": "Komerciniai Tyr.",
+    "industrial": "Pramoniniai Tyr.",
+
+    "contacts": "KONTAKTAI",
+    "login": "LOGIN"
+  },
+
+  "contact": {
+    "meta_title": "Kontaktai - SupremeXpansion",
+    "hero_alt": "SupremeXpansion Kontaktai",
+    "hero_title": "KONTAKTAI",
+
+    "form": {
+      "title": "Susisiekite su mumis",
+      "intro": "Norėdami su mumis susisiekti, galite naudoti formą mūsų svetainėje, siųsti el. laišką nurodytu adresu arba paskambinti telefonu. Mūsų komanda pasiruošusi padėti ir atsakyti į visus jūsų klausimus.",
+
+      "fields": {
+        "name": "Vardas",
+        "email": "El. paštas",
+        "phone": "Telefonas",
+        "reason_placeholder": "Kontaktavimo priežastis",
+        "reason_budget": "Kainos pasiūlymo užklausa",
+        "reason_partnership": "Partnerystės pasiūlymas",
+        "reason_support": "Klientų palaikymas",
+        "reason_other": "Kita priežastis",
+        "subject": "Tema",
+        "message": "Žinutė"
+      },
+
+      "consent_text": "Sutinku, kad ši svetainė saugotų mano pateiktą informaciją, kad galėtų atsakyti į mano užklausą.",
+      "submit": "Siųsti",
+      "success": "Sėkmingai išsiųsta!"
+    },
+
+    "info": {
+      "phone_title": "TELEFONAS",
+      "phone_number_pt": "PT +351 935 584 011",
+      "phone_number_ing": "UK +44 7557 795 968",
+      "pt_note": "(Skambutis į nacionalinį mobilųjį tinklą)",
+      "email_title": "EL. PAŠTAS",
+      "email_text": "info@supremexpansion.com"
+    }
+  },
+
+  "home": {
+    "meta_title": "SupremeXpansion - Mes fiksuojame realybę",
+
+    "slides": {
+      "slide1": {
+        "title": "LAZERINIS SKENAVIMAS IR 3D MATAVIMAI",
+        "text": "Lazerinis skenavimas ir taškų debesys – tai pažangios technologijos, leidžiančios tiksliai užfiksuoti objektų formą ir matmenis 3D formatu."
+      },
+      "slide2": {
+        "title": "2D BRĖŽINIAI IR 3D MODELIAVIMAS",
+        "text": "Rengiame brėžinius ir modelius naudodami taškų debesis arba bet kurį kitą pageidaujamą metodą."
+      },
+      "slide3": {
+        "title": "UAV/DRONE FOTOGRAMETRIJA",
+        "text": "Fotogrametrija – tai menas ir mokslas, leidžiantis iš dviejų dimensijų vaizdų išgauti tikslius matavimus ir trimatę informaciją."
+      }
+    },
+
+    "services": {
+      "laser": {
+        "title": "Lazerinis skenavimas ir 3D matavimai",
+        "text": "Atliekame architektūrinius, paveldo, komercinius ir pramoninius matavimus. Rengiame detalius As-Built dokumentus ir siūlome specializuotą istorinių pastatų stebėseną."
+      },
+      "design": {
+        "title": "2D brėžiniai ir 3D modeliavimas",
+        "text": "Rengiame aukštų planus, pjūvius ir fasadus DWG formatu. Dirbame su 3D modeliavimu įvairiose programose, įskaitant BIM darbo eigas."
+      },
+      "drone": {
+        "title": "UAV/Drone fotogrametrija",
+        "text": "Palaikome topografinius matavimus, pramoninę ir gyvenamąją fotogrametriją, taip pat virtualių 3D modelių ir skaitmeninių reljefo modelių (DTM) kūrimą.",
+        "rtext": ""
+      }
+    },
+
+    "why": {
+      "title_strong": "Kodėl verta dirbti",
+      "title_rest": "su SupremeXpansion?",
+      "experience": {
+        "title": "Patirtis ir darbo kokybė",
+        "text": "Daugiau nei 25 metų patirtis ir pažangios technologijos užtikrina tikslumą ir detalumą kiekviename matavime bei 3D modelyje."
+      },
+      "tech": {
+        "title": "Technologijos ir įrankiai",
+        "text": "Naudojame pažangias 2D ir 3D technologijas, užtikrinančias patikimus, efektyvius ir jūsų projektams paruoštus rezultatus."
+      },
+      "price": {
+        "title": "Prieinamos kainos",
+        "text": "Techninė kokybė už sąžiningą kainą, tinkama bet kokio masto projektams — nuo mažų renovacijų iki didelių vystymo projektų."
+      },
+      "support": {
+        "title": "Puikus klientų palaikymas",
+        "text": "Artimas ir skaidrus bendravimas kiekviename etape, nuolatinė pagalba ir visiškas atsidavimas klientui."
+      }
+
+},
+
+    "portfolio": {
+      "title": "Portfelis",
+      "view_all": "PERŽIŪRĖTI VISKĄ"
+    },
+
+    "contact_section": {
+      "title": "Susisiekite",
+      "subtitle": "Dėl bet kokių klausimų ar paaiškinimų susisiekite su mumis.",
+      "button": "KONTAKTAI"
+    },
+
+    "carousel_section": {
+      "img1": "North Finchley projektas JK",
+      "img2": "Alentežo valda",
+      "img3": "Coimbros miesto stadionas",
+      "img4": "Longra distilerija",
+      "img5": "Cofersan sandėliai",
+      "img6": "Pastato renovacija",
+      "img7": "Taberna do Quinzena",
+      "img8": "Griuvėsiai",
+      "img9": "Gyvenamasis projektas",
+      "img10": "Namo apžiūra",
+      "img11": "Sandėlio apžiūra",
+      "img12": "Maisto gamykla",
+      "img13": "Tilto klojinių konstrukcija",
+      "img14": "CNEMA",
+      "img15": "Santarėmo namas",
+      "img16": "Garo linijos Kardife JK",
+      "img17": "Drono kartografavimas Londone JK"
+    }
+  },
+
+  "politicas": {
+    "meta_title": "Privatumo politika - SupremeXpansion",
+    "title": "PRIVATUMO POLITIKA",
+    "texts": {
+      "texts1": {
+        "title": "Kas mes esame",
+        "about": "Mūsų svetainės adresas yra: "
+      },
+
+      "texts2": {
+        "title": "Komentarai",
+        "about1": "Kai lankytojai palieka komentarus svetainėje, išsaugomi komentaro formoje rodomi duomenys, kartu su lankytojo IP adresu ir naršyklės naudojimo agentu, kad padėtų aptikti šlamštą.",
+        "about2": "Anoniminė eilutė, sukurta iš jūsų el. pašto adreso (vadinama maiša), gali būti išsiųsta Gravatar paslaugai patikrinti, ar ją naudojate. Gravatar privatumo politika pateikiama čia: ",
+        "about3": "Patvirtinus jūsų komentarą, jūsų profilio nuotrauka tampa matoma viešai komentaro kontekste."
+      },
+
+      "texts3": {
+        "title": "Medija",
+        "about": "Įkeldami vaizdus į svetainę, turėtumėte vengti įkelti vaizdų su įterptais geolokacijos duomenimis (EXIF GPS). Lankytojai gali atsisiųsti ir išgauti geolokacijos duomenis iš svetainėje esančių vaizdų."
+      },
+
+      "texts4": {
+        "title": "Slapukai",
+        "about1": "Jei paliekate komentarą mūsų svetainėje, galite pasirinkti išsaugoti savo vardą, el. pašto adresą ir svetainę slapukuose. Tai yra dėl jūsų patogumo, kad nereikėtų iš naujo įvesti duomenų paliekant kitą komentarą. Šie slapukai galios vienerius metus.",
+        "about2": "Jei apsilankysite mūsų prisijungimo puslapyje, bus nustatytas laikinas slapukas siekiant nustatyti, ar jūsų naršyklė priima slapukus. Šis slapukas neturi asmens duomenų ir bus pašalintas uždarius naršyklę.",
+        "about3": "Prisijungus taip pat bus nustatyta keli slapukai, skirti išsaugoti jūsų prisijungimo informaciją ir ekrano rodymo nuostatas. Prisijungimo slapukai galioja dvi dienas, o ekrano parinkčių slapukai – vienerius metus. Jei pasirinksite „Prisiminti mane“, jūsų prisijungimas išliks dvi savaites. Atsijungus prisijungimo slapukai bus pašalinti.",
+        "about4": "Jei redaguojate arba publikuojate straipsnį, jūsų naršyklėje bus išsaugotas papildomas slapukas. Šis slapukas neturi asmens duomenų ir tiesiog nurodo turinio, kurį ką tik redagavote, ID. Jis galioja vieną dieną."
+      },
+
+      "texts5": {
+        "title": "Įterptinis turinys iš kitų svetainių",
+        "about1": "Straipsniuose šioje svetainėje gali būti įterpto turinio (pvz.: vaizdo įrašų, nuotraukų, straipsnių ir kt.). Įterptinis turinys iš kitų svetainių veikia lygiai taip pat, tarsi lankytojas apsilankytų tose svetainėse.",
+        "about2": "Šios svetainės gali rinkti duomenis apie jus, naudoti slapukus, įterpti trečiųjų šalių sekimą ir stebėti jūsų sąveiką su įterptiniu turiniu, įskaitant sekimą, jei turite paskyrą ir esate prisijungę prie tų svetainių."
+      },
+
+      "texts6": {
+        "title": "Kam dalijamės jūsų duomenimis",
+        "about": "Jei prašote slaptažodžio atkūrimo, jūsų IP adresas bus įtrauktas į atkūrimo el. laišką."
+      },
+
+      "texts7": {
+        "title": "Kiek laiko saugome jūsų duomenis",
+        "about1": "Jei paliekate komentarą, komentaras ir jo metaduomenys saugomi neribotą laiką. Tai daroma tam, kad bet kokie tolesni komentarai būtų automatiškai atpažįstami ir patvirtinami, o ne laikomi moderavimo eilėje.",
+        "about2": "Vartotojų, kurie registruojasi mūsų svetainėje (jei tokių yra), pateikta asmeninė informacija taip pat saugoma jų naudotojo profilyje.",
+        "about3": "Visi naudotojai gali bet kada peržiūrėti, redaguoti arba ištrinti savo asmeninę informaciją (išskyrus naudotojo vardą, kurio negalima pakeisti). Svetainės administratoriai taip pat gali matyti ir redaguoti šią informaciją."
+      },
+
+      "texts8": {
+        "title": "Kokias teises turite į savo duomenis",
+        "about": "Jei turite paskyrą šioje svetainėje arba palikote komentarų, galite paprašyti eksportuoto failo su visais asmens duomenimis, kuriuos turime apie jus, įskaitant bet kokius jūsų pateiktus duomenis. Taip pat galite prašyti, kad ištrintume bet kokius jūsų asmens duomenis, kuriuos saugome. Tai neapima duomenų, kuriuos privalome saugoti dėl administracinių, teisinių ar saugumo priežasčių."
+      },
+
+      "texts9": {
+        "title": "Kur siunčiami jūsų duomenys",
+        "about": "Lankytojų komentarai gali būti tikrinami naudojantis automatine šlamšto aptikimo paslauga."
+      }
+    }
+  },
+
+  "portfolio": {
+    "meta_title": "Portfelis - SupremeXpansion",
+    "title": "PORTFELIS",
+    "comerciais": {
+      "meta_title": "Komercinių Tyrimai portfelis - SupremeXpansion",
+      "title": "KOMERCINIAI TYRIMAI"
+    },
+    "industriais": {
+      "meta_title": "Pramoninių Tyrimai portfelis - SupremeXpansion",
+      "title": "PRAMONINIAI TYRIMAI"
+    },
+    "residenciais": {
+      "meta_title": "Gyvenamųjų Tyrimai portfelis - SupremeXpansion",
+      "title": "GYVENAMIEJI TYRIMAI"
+    },
+
+    "urbanos": {
+      "meta_title": "Urbanistinių Tyrimai portfelis - SupremeXpansion",
+      "title": "URBANISTINIAI TYRIMAI"
+    }
+  },
+
+  "rodape": {
+    "title": "2025 © SupremeXpansion - Mes Fiksuojame Tikrovę",
+    "text1": "Visos teisės saugomos",
+    "text2": "Privatumo politika",
+    "servicos": "Paslaugos",
+    "servico1": "Lazerinis skenavimas ir 3D tyrimai",
+    "servico2": "2D braižyba ir 3D modeliavimas",
+    "servico3": "UAV/Drono fotogrametrija",
+    "contactos": "Kontaktai",
+    "telefone": "Telefonas",
+    "chamada": "(Skambutis į nacionalinį mobilųjį tinklą)",
+    "numPT": "PT +351 935 584 011",
+    "numING": "UK +44 7557 795 968",
+    "email": "El. paštas",
+    "email_text": "info@supremexpansion.com"
+  },
+
+  "servicos": {
+    "meta_title": "Paslaugos - SupremeXpansion",
+    "text": "PASLAUGOS"
+  },
+
+  "servico1": {
+    "meta_title": "Lazerinis skenavimas ir 3D tyrimai - SupremeXpansion",
+    "title": "Lazerinis skenavimas ir 3D tyrimai",
+    "serv1": {
+      "title": "Lazerinis skenavimas ir taškų debesys",
+      "text": "Lazerinis skenavimas per kelias sekundes surenka milijonus taškų ir sukuria itin tikslius 3D taškų debesis. Ši technologija leidžia tiksliai modeliuoti ir dokumentuoti bet kurią fizinę erdvę — idealiai tinka architektūros, inžinerijos ir statybos projektams."
+    },
+
+    "arquitetonicos": {
+      "title": "Architektūriniai tyrimai",
+      "text": "Esame lazerinio skenavimo tyrimų specialistai, kuriantys tikslius taškų debesis, naudojamus 3D modeliams, planams ir detaliems fasadams generuoti. Mūsų patyrusi komanda glaudžiai bendradarbiauja su klientais, kad užtikrintų sprendimus, pritaikytus kiekvienam projektui."
+    },
+
+    "levantamentos": {
+      "title": "Vidaus, išorės ir gatvių tyrimai",
+      "text1": "Naudojame lazerinį skenavimą aukštu tikslumu kartografuoti vidaus erdves, išorinius plotus ir gatves. Kuriame detalius 3D modelius, kurie palaiko architektūros, inžinerijos, urbanistikos, atnaujinimo ir paveldo išsaugojimo projektus. Nuo pastatų interjerų iki gatvių ir aikščių — teikiame patikimus duomenis analizei, projektavimui ir",
+      "text2": "sprendimų priėmimui."
+    },
+
+    "asbuilts": {
+      "title": "Esamos būklės dokumentacija",
+      "text": "Rengiame tikslią techninę dokumentaciją, atspindinčią realią statinio būklę — idealiai tinka renovacijoms, plėtrai ar pakeitimams. Mūsų dokumentuose pateikiami planai, pjūviai, fasadai ir konstrukcinės detalės, tiksliai atspindinčios atliktus darbus ir suteikiančios tvirtą pagrindą bet kokiai būsimai intervencijai."
+    },
+
+    "monitorizacao": {
+      "title": "Istorinių pastatų stebėsena",
+      "text": "Naudojame lazerinį skenavimą istorinių pastatų būklei stebėti itin tiksliai. Ši technologija leidžia nustatyti struktūrinius pokyčius laikui bėgant ir padeda konservavimo bei restauravimo darbuose, sukurdama detalius ir realistiškus 3D modelius, būtinos ilgalaikiam paveldo objektų saugumui užtikrinti."
+    }
+  },
+
+  "servico2": {
+    "meta_title": "2D braižyba ir 3D modeliavimas - SupremeXpansion",
+    "title": "2D braižyba ir 3D modeliavimas",
+
+    "introducao": {
+      "title": "2D braižyba ir 3D modeliavimas",
+      "text": "Deriname techninę 2D braižybą ir 3D modeliavimą, kad sukurtume tikslias ir realistiškas erdvių bei struktūrų reprezentacijas. Šie įrankiai leidžia efektyviai vizualizuoti, planuoti ir komunikuoti projektus — nuo planų ir pjūvių iki detalių trimačių modelių."
+    },
+
+    "plantas": {
+      "title": "Planai, pjūviai ir fasadai",
+      "text": "Kuriame detalius ir tikslius techninius brėžinius, pritaikytus kiekvieno kliento poreikiams. Mūsų komanda derina 3D modeliavimo patirtį su 2D braižybos tikslumu, užtikrindama patikimus rezultatus, pristatomus pagal sutartus terminus ir biudžetus."
+    },
+
+    "modelacao": {
+      "title": "3D modeliavimas",
+      "text": "Kuriame tikslius ir realistiškus 3D modelius, pritaikytus kiekvieno projekto poreikiams. Deriname pažangią technologiją su labai patyrusia architektūros, inžinerijos ir dizaino komanda, užtikrindami kokybę, terminus ir visišką kliento pasitenkinimą."
+    }
+  },
+
+  "servico3": {
+    "meta_title": "UAV/Drono fotogrametrija - SupremeXpansion",
+    "title": "UAV/Drono fotogrametrija",
+
+    "fotogrametria": {
+      "title": "Fotogrametrija",
+      "text": "Paverčiame dronais užfiksuotus aeronuotraukų vaizdus detalizuotais ir tiksliais 3D modeliais. Naudodami pažangią programinę įrangą, išgauname esminę metrinę ir trimatę informaciją architektūros, inžinerijos ir planavimo projektams."
+    },
+
+    "tecnicas": {
+      "title": "Pagrindinės fotogrametrijos technikos:",
+      "subtitle1": "Aerožemėlapiai:",
+      "text1": "Kuriame aukštos raiškos žemėlapius žemės ūkiui, urbanistikai ir aplinkos stebėsenai — idealu strateginiams sprendimams priimti.",
+      "subtitle2": "3D modeliavimas:",
+      "text2": "Generuojame detalius trimačius reljefo, struktūrų ir objektų modelius — naudinga architektūroje, archeologijoje ir statybose.",
+      "subtitle3": "Tūrio skaičiavimas:",
+      "text3": "Atliekame tikslius tūrio matavimus atsargų kontrolei, iškasenoms ir išteklių valdymui inžinerijoje bei kasyboje."
+    },
+
+    "vantagens": {
+      "title": "Fotogrametrijos privalumai:",
+      "subtitle1": "Didelis tikslumas:",
+      "text1": "Užtikrina itin patikimus matavimus ir modelius, idealiai tinkančius techninio tikslumo reikalaujantiems sektoriams.",
+      "subtitle2": "Kaštų efektyvumas:",
+      "text2": "Sumažina laiką ir išteklius pakeičiant tradicinius metodus oro tyrimais su dronais.",
+      "subtitle3": "Aiški duomenų vizualizacija:",
+      "text3": "Detalūs 3D modeliai ir žemėlapiai palengvina sudėtingos informacijos analizę ir komunikaciją.",
+      "subtitle4": "Duomenų rinkimas sunkiai prieinamose vietose:",
+      "text4": "Leidžia rinkti duomenis atokiose ar pavojingose vietose, sumažinant žmonių riziką.",
+      "subtitle5": "Išsamūs aerotyrimai:",
+      "text5": "Taikoma tokiose srityse kaip miškininkystė, kasyba ir aplinkos tyrimai — suteikiant kritinius duomenis planavimui."
+    },
+
+    "mdt": {
+      "title": "Skaitmeninis reljefo modelis (DTM)",
+      "subtitle1": "Kas yra skaitmeninis reljefo modelis (DTM)?",
+      "text1": "Skaitmeninis reljefo modelis yra tikslus trimatis Žemės paviršiaus atvaizdas, pagrįstas aukščio taškais, gautais atliekant topografinius matavimus, naudojant dronus, nuotolinius jutiklius arba palydovinius vaizdus. Šie taškai apdorojami siekiant sukurti skaitmeninį tinklą, tiksliai atspindintį reljefo morfologiją.",
+      "subtitle2": "Kaip veikia DTM?",
+      "text2": "DTM yra būtinas įrankis planavimui ir analizei inžinerijoje, architektūroje, aplinkosaugos projektuose ir viešosios infrastruktūros planavime. Jis leidžia apskaičiuoti nuolydžius, tūrius, infrastruktūros trasas, įvertinti erozijos riziką ir planuoti drenažą bei daugybę kitų taikymų.",
+      "subtitle3": "Horizontalės vaidmuo",
+      "text3": "Kartu su horizontalių linijomis DTM suteikia aiškų supratimą apie aukščio pokyčius. Šios linijos sujungia vienodo aukščio taškus ir yra būtinos topografinių planų bei geografinės analizės modelių kūrimui.<br><br>„SupremeXpansion“ kuriame didelės raiškos DTM, pritaikytus kiekvieno projekto masteliui ir detalių lygiui, užtikrindami patikimus techninius duomenis pagrįstiems sprendimams."
+    },
+
+    "wrapper": {
+      "title": "DTM ir horizontalių linijų naudojimas ir taikymai",
+      "intro": "Skaitmeniniai reljefo modeliai ir horizontalės yra universalūs įrankiai, turintys daugybę praktinių taikymų:",
+      "subtitle1": "Kartografija:",
+      "text1": "Tikslus reljefo atvaizdavimas topografiniuose žemėlapiuose.",
+      "subtitle2": "Inžinerija:",
+      "text2": "Darbų, kelių ir drenažo sistemų planavimas pagal reljefo morfologiją.",
+      "subtitle3": "Urbanistika:",
+      "text3": "Reljefo analizė siekiant paremti miesto plėtrą ir sumažinti gamtinių rizikų poveikį.",
+      "subtitle4": "Geologija:",
+      "text4": "Dirvožemio struktūros tyrimas ir geologinių darinių identifikavimas.",
+      "subtitle5": "Gamtos išteklių valdymas:",
+      "text5": "Miškų apsaugos, vandens valdymo ir tvaraus žemės naudojimo palaikymas."
+    },
+
+    "nuvens": {
+      "title": "Taškų debesys naudojant fotogrametriją",
+      "subtitle1": "Kas yra fotogrametrija?",
+      "text1": "Fotogrametrija yra pažangi technologija, kuri dvimačius vaizdus paverčia itin tiksliais trimatiais objektais. Fotografuojant objektą ar teritoriją iš kelių skirtingų kampų ir apdorojant juos specializuota programine įranga, galima sukurti tankius ir detalius taškų debesis — milijonų taškų rinkinius, atspindinčius tikrąją paviršių, struktūrų ar reljefo geometrinę formą.",
+      "subtitle2": "Kaip tai veikia?",
+      "text2": "Procesas prasideda nuo vaizdų surinkimo, kuris dažniausiai atliekamas naudojant UAV/dronus arba žemynines kameras. Iš šių persidengiančių vaizdų programinė įranga nustato bendrus taškus — vadinamus kontroliniais taškais — ir apskaičiuoja jų padėtį trimatėje erdvėje. Rezultatas — taškų debesis, tiksliai atspindintis užfiksuoto objekto ar aplinkos formą, matmenis ir tekstūrą.",
+      "subtitle3": "Privalumai",
+      "text3": "„SupremeXpansion“ deriname fotogrametriją su mūsų modeliavimo ir matavimo patirtimi, kad pateiktume patikimus taškų debesis, paruoštus integruoti bet kuriame projekto etape.",
+      "topic1": "Didelis tikslumas:",
+      "subtext1": "Idealu matavimui, dokumentavimui ir modeliavimui.",
+      "topic2": "Universalumas:",
+      "subtext2": "Taikoma reljefui, fasadams, interjerams, kultūros paveldui ir kt.",
+      "topic3": "Ekonomiška:",
+      "subtext3": "Sumažina tradicinės matavimo įrangos poreikį.",
+      "topic4": "Aiški vizualizacija:",
+      "subtext4": "Leidžia atlikti analizę ir simuliacijas skaitmeninėje 3D aplinkoje."
+    },
+
+    "aplicacoes": {
+      "title": "Taškų debesų taikymas fotogrametrijoje:",
+      "subtitle1": "Kartografija ir topografija:",
+      "text1": "Tikslių topografinių žemėlapių ir skaitmeninių reljefo modelių kūrimas.",
+      "subtitle2": "Statybos inžinerija:",
+      "text2": "Pagalba planuojant ir stebint darbus, tokius kaip keliai, tiltai ir pastatai.",
+      "subtitle3": "Kultūros paveldo apsauga:",
+      "text3": "Paminklų ir istorinių objektų 3D dokumentavimas konservavimui ir restauravimui.",
+      "subtitle4": "Tiksliosios žemdirbystės:",
+      "text4": "Pasėlių analizė, kenkėjų aptikimas ir efektyvus drėkinimo valdymas pagal reljefą ir tūrį.",
+      "subtitle5": "Geologija ir kasyba:",
+      "text5": "Kasyklų modeliavimas, reljefo analizė ir mineralinių išteklių vertinimas."
+    }
+  },
+
+  "sobre": {
+    "meta_title": "Apie mus - SupremeXpansion",
+    "title": "APIE MUS",
+    "sobre": "Apie ",
+    "supreme": "SupremeXpansion",
+
+    "experiencia": {
+      "title": "Patirtis ir darbo kokybė",
+      "text": "Turėdami daugiau nei 25 metų patirtį šiame sektoriuje, teikiame aukščiausios kokybės paslaugas, derindami pažangias technologijas su aukštos kvalifikacijos komandos žiniomis. Esame architektūrinių matavimų ir 3D modeliavimo lazeriniu skenavimu specialistai, užtikrinantys techninį tikslumą ir dėmesį detalėms kiekviename projekte."
+    },
+
+    "tecnologia": {
+      "title": "Technologijos ir įrankiai",
+      "text": "Dirbame su pažangiausiomis 2D ir 3D technologijomis, užtikrindami patikimus rezultatus, suderinamus su šiuolaikiniais industrijos standartais. Optimizuojame kiekvieną projektą naudodami įrankius, kurie didina tikslumą, efektyvumą ir galutinę kokybę."
+    },
+
+    "preco": {
+      "title": "Prieinamos kainos",
+      "text": "Tikime, kad kokybė neturi būti neprieinama. Todėl „SupremeXpansion“ teikiame aukštos kokybės technines paslaugas konkurencingomis kainomis, pritaikytomis bet kokio masto projektams — nuo nedidelių renovacijų iki stambių vystymo projektų."
+    },
+
+    "suporte": {
+      "title": "Puikus klientų aptarnavimas",
+      "text": "Vertiname santykius, grįstus pasitikėjimu ir skaidrumu. Todėl „SupremeXpansion“ užtikriname nuolatinį palaikymą visais projekto etapais — nuo pirmo kontakto iki galutinio atidavimo. Visada esame pasirengę atsakyti į klausimus, pritaikyti sprendimus ir užtikrinti, kad kiekvienas klientas jaustųsi informuotas, palaikomas ir visiškai patenkintas."
+    },
+
+    "resumo": {
+      "text": "Apibendrinant, esame patyrusi įmonė, naudojanti pažangias technologijas, siūlanti prieinamas kainas ir puikų klientų aptarnavimą. Esame pasiryžę teikti geriausias įmanomas paslaugas ir užtikrinti, kad kiekvienas klientas turėtų išskirtinę patirtį dirbdamas su mumis."
+    },
+
+    "equipa": {
+      "title": "Komanda",
+      "membro1": "Hugo Pinto",
+      "cargo1": "Vadovaujantis partneris",
+      "membro2": "Carlos Serrão",
+      "cargo2": "Vyresnysis architektas",
+      "membro3": "Marisa Pinto",
+      "cargo3": "Administracija",
+      "membro4": "Ana Vieira",
+      "cargo4": "Architektė",
+      "membro5": "Luiza Vilela",
+      "cargo5": "Architektė",
+      "membro6": "Marco Pintão",
+      "cargo6": "Techninis braižytojas",
+      "membro7": "Hryhoriy Kit",
+      "cargo7": "3D modeliuotojas",
+      "membro8": "Susana Oliveira",
+      "cargo8": "Pardavimų technikė",
+      "membro9": "David Pinto",
+      "cargo9": "IT technikas"
+    }
+  }
+}
