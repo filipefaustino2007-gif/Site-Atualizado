@@ -1,0 +1,32 @@
+@media (min-width: 2560px) {
+
+  .portfolio-base {
+    height: 40vh; /* mais alto para 4k */
+  }
+
+  .portfolio-text {
+    margin-left: 220px; /* mais afastado da esquerda */
+    padding-top: 180px; /* empurra o título para baixo */
+  }
+
+  .portfolio-text h1 {
+    font-size: 70px; /* título bem maior */
+    font-weight: 700;
+    margin: 0; /* remove o hack do margin-bottom negativo */
+    line-height: 1.1;
+  }
+
+  .portfolio-divider {
+    height: 6px; /* linha mais grossa em 4k */
+  }
+
+  .portfolio-content {
+    min-height: 900px;
+    gap: 70px;
+    padding: 140px 220px;
+  }
+
+  .portfolio-content > * {
+    flex: 1 1 500px; /* cards maiores */
+  }
+}
