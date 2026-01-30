@@ -1,0 +1,53 @@
+/* =========================================
+   PORTFOLIO — TABLET (769px–1024px)
+   Mantém o layout do mobile (limpo), mas maior
+========================================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* SAFE */
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* ===========================
+     TOPO / BASE
+     =========================== */
+  .portfolio-base {
+    height: 320px;                 /* entre desktop (45vh) e mobile (240px) */
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 48px;
+  }
+
+  .portfolio-text {
+    margin: 0;
+    width: 100%;
+    max-width: 760px;
+    padding-bottom: 48px;
+    text-align: left;
+  }
+
+  .portfolio-text h1 {
+    font-size: 34px;
+    margin: 0;
+    line-height: 1.15;
+    font-weight: 700;
+  }
+
+  /* ===========================
+     CONTEÚDO / PROJETOS
+     =========================== */
+  .portfolio-content {
+    padding: 70px 48px;
+    gap: 24px;
+    justify-content: center;       /* fica mais “limpo” no tablet */
+  }
+
+  /* tablet: 2 colunas quando houver espaço */
+  .portfolio-content > * {
+    flex: 0 1 calc(50% - 12px);
+    max-width: 520px;
+  }
+}

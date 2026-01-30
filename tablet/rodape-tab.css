@@ -1,0 +1,97 @@
+/* =========================================
+   RODAPÉ — TABLET (769px–1024px)
+   Topo:  ESQ=footer-left | DIR=footer-middle (serviços)
+   Baixo: ESQ=footer-right (contactos) | DIR=email (dentro do footer-left)
+========================================= */
+@media (min-width: 769px) and (max-width: 1024px){
+
+  .main-footer{
+    padding: 45px 48px;
+  }
+
+  .footer-content{
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-rows: auto auto;
+    gap: 22px 40px;
+    align-items: start;
+    text-align: left;
+  }
+
+  /* limpar “amarras” do desktop */
+  .footer-left{ min-width: 0; }
+  .footer-middle{ min-width: 0; }
+  .footer-right{
+    min-width: 0;
+    margin: 0; /* mata margin-top e margin-left do desktop */
+  }
+
+  .footer-logo img{ margin-left: 0; }
+  .footer-text{ margin-left: 0; margin-top: 22px; line-height: 1.6; }
+  .footer-socials{ margin-left: 0; gap: 22px; }
+
+  /* ===== POSICIONAMENTO (grelha) ===== */
+
+  /* TOPO ESQ */
+  .footer-left{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  /* TOPO DIR (SERVIÇOS) */
+  .footer-middle{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  /* BAIXO ESQ (CONTACTOS) */
+  .footer-right{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    color: rgba(112,112,112);
+  }
+
+  /* ===== Email em BAIXO DIR =====
+     Isto assume que o email está DENTRO da .footer-text como um link mailto
+     (se não estiver assim no teu HTML, preciso do rodape.php)
+  */
+  .footer-left .footer-text a[href^="mailto:"]{
+    display: inline-block;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: start;
+    align-self: start;
+
+    margin-top: 6px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(112,112,112);
+    text-decoration: none;
+  }
+
+  .footer-left .footer-text a[href^="mailto:"]:hover{
+    color: #fff;
+    transition: color .3s ease;
+  }
+
+  /* Tipografia serviços */
+  .servicos{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .footer-middle a{
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  /* Contactos */
+  .footer-right p{
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .footer-logo3d img{
+    height: 54px;
+    margin-top: 16px;
+  }
+}
