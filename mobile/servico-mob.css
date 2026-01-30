@@ -1,0 +1,119 @@
+/* =========================================
+   SERVIÇOS — MOBILE REFINADO (375x896)
+========================================= */
+
+@media (max-width: 768px) {
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* ===========================
+     TOPO (BANNER)
+     =========================== */
+  .servicos-topo {
+    height: 240px;
+  }
+
+  .servicos-topo-texto {
+    left: 18px !important;           
+    transform: none !important;       
+    bottom: 35px !important;
+    width: calc(100% - 36px) !important; 
+    text-align: left !important;
+  }
+
+  .servicos-topo-texto h1 {
+    font-size: 26px !important;
+    line-height: 1.15 !important;
+  }
+
+
+  /* ===========================
+     GALERIA SERVIÇOS (MOBILE — UNIFORME)
+     =========================== */
+  .services-gallery {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 25px 20px !important;
+    gap: 16px !important;
+    align-items: stretch !important;
+  }
+
+  .service-card {
+    width: 100% !important;
+    height: 220px !important;
+    flex: none !important;
+    display: block !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  .service-card img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    transform: scale(1.5) !important;
+    filter: brightness(0.65) grayscale(0) !important;
+  }
+
+  .service-card::before {
+    background: rgba(65, 65, 65, 0.45) !important;
+  }
+
+  .service-overlay {
+    left: 20px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: calc(100% - 40px) !important;
+    max-width: 100% !important;
+    text-align: left !important;
+  }
+
+  .service-overlay h2 {
+    font-size: 18px !important;
+    margin-bottom: 6px !important;
+  }
+
+  .service-overlay p {
+    width: 100% !important;
+    font-size: 13px !important;
+    line-height: 18px !important;
+  }
+
+  .service-card:hover img,
+  .service-card:hover::before,
+  .service-card:hover .service-overlay {
+    transform: none !important;
+    opacity: 1 !important;
+    filter: none !important;
+  }
+
+
+  /* ===========================
+     CONTACT FOOTER
+     =========================== */
+  .contact-footer {
+    height: auto !important;
+    padding: 55px 18px !important;
+  }
+
+  .contact-footer-title {
+    margin-top: 0 !important;
+    font-size: 20px !important;
+  }
+
+  .contact-footer-subtitle {
+    font-size: 12px !important;
+    line-height: 1.6 !important;
+    margin-top: 18px !important;
+  }
+
+  .btn-contactar-outline {
+    margin-top: 22px !important;
+    margin-bottom: 0 !important;
+    padding: 13px 36px !important;
+    font-size: 11px !important;
+  }
+}

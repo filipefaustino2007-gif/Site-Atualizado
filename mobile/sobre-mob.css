@@ -1,0 +1,308 @@
+/* =========================================
+   SOBRE — MOBILE (<=768px)
+========================================= */
+
+@media (max-width: 768px) {
+
+  /* ===========================
+     RESET / SAFE MOBILE
+     =========================== */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* ===========================
+     TOPO
+     =========================== */
+  .sobre-topo {
+    height: 240px;
+  }
+
+  .main-header {
+    position: relative;
+  }
+
+  /* ✅ Texto do topo centrado */
+  .sobre-topo-texto {
+    left: 18px !important;           
+    transform: none !important;       
+    bottom: 35px !important;
+    width: calc(100% - 36px) !important; 
+    text-align: left !important;
+  }
+
+  .sobre-topo-texto h1 {
+    font-size: 26px !important;
+    line-height: 1.15 !important;
+  }
+
+
+  /* ===========================
+     SECÇÕES GERAIS
+     =========================== */
+  .sobre-intro,
+  .sobre-experiencia,
+  .sobre-tecnologia,
+  .sobre-preco,
+  .sobre-suporte {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px !important;
+    padding: 48px 18px !important;
+    height: auto !important;
+  }
+
+  /* Garantir IMAGEM PRIMEIRO sempre */
+  .sobre-intro-esquerda,
+  .sobre-experiencia-direita,
+  .sobre-tecnologia-esquerda,
+  .sobre-preco-direita,
+  .sobre-suporte-esquerda {
+    order: 1;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sobre-intro-direita,
+  .sobre-experiencia-esquerda,
+  .sobre-tecnologia-direita,
+  .sobre-preco-esquerda,
+  .sobre-suporte-direita {
+    order: 2;
+    width: 100% !important;
+    max-width: 520px;
+    margin: 0 auto !important;
+    text-align: center;
+  }
+
+
+  /* ===========================
+     INTRO (ícone + título)
+     =========================== */
+  .sobre-intro {
+    background-color: #f2f2f2;
+    gap: 20px;
+  }
+
+  /* ✅ ÍCONE MAIOR */
+  .sobre-intro-esquerda img {
+    position: static !important;
+    transform: none !important;
+    margin: 0 !important;
+    width: 150px !important;
+    height: auto;
+    border-radius: 0 !important;
+  }
+
+  .sobre-intro-direita h2 {
+    margin: 0 !important;
+    font-size: 22px !important;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+
+  /* ===========================
+     TEXTOS (GARANTIR CENTRO + MAIS PEQUENOS)
+     =========================== */
+  .sobre-experiencia-esquerda p,
+  .sobre-tecnologia-direita p,
+  .sobre-preco-esquerda p,
+  .sobre-suporte-direita p,
+  .sobre-resumo p {
+    text-align: center !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 520px;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+  }
+
+
+  /* ===========================
+     EXPERIÊNCIA
+     =========================== */
+  .sobre-experiencia-esquerda h2 {
+    font-size: 22px !important;
+    margin-bottom: 12px;
+    text-align: center !important;
+  }
+
+  .sobre-experiencia-direita img {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    object-fit: cover;
+  }
+
+
+  /* ===========================
+     TECNOLOGIA
+     =========================== */
+  .sobre-tecnologia {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .sobre-tecnologia-esquerda img {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    object-fit: cover;
+  }
+
+  .sobre-tecnologia-direita h2 {
+    font-size: 22px !important;
+    margin-bottom: 12px;
+    text-align: center !important;
+  }
+
+
+  /* ===========================
+     PREÇO
+     =========================== */
+  .sobre-preco-esquerda h2 {
+    font-size: 22px !important;
+    margin-bottom: 12px;
+    text-align: center !important;
+  }
+
+  .sobre-preco-direita img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 0 !important;
+    object-fit: cover;
+  }
+
+
+  /* ===========================
+     SUPORTE
+     =========================== */
+  .sobre-suporte-direita h2 {
+    font-size: 22px !important;
+    margin-bottom: 12px;
+    text-align: center !important;
+  }
+
+  .sobre-suporte-esquerda img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 0 !important;
+    object-fit: cover;
+  }
+
+
+  /* ===========================
+     RESUMO FINAL
+     =========================== */
+  .sobre-resumo {
+    padding: 48px 18px !important;
+    text-align: center;
+  }
+
+  .sobre-resumo p {
+    font-size: 14px !important;
+    line-height: 1.7;
+    text-align: center !important;
+  }
+
+
+  /* ===========================
+     ✅ EQUIPA (2 POR LINHA REAL)
+     =========================== */
+  .sobre-equipa {
+    padding: 55px 18px !important;
+    height: auto !important;
+  }
+
+  .sobre-equipa h2 {
+    font-size: 22px !important;
+    margin-bottom: 26px;
+    text-align: center !important;
+  }
+
+  /* ✅ O container vira GRID com 2 colunas */
+  .equipa-container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 22px !important;
+    width: 100% !important;
+    max-width: 400px;
+    margin: 0 auto !important;
+    justify-content: center;
+  }
+
+  /* ✅ neutraliza filas antigas */
+  .equipa-fila {
+    display: contents !important;
+  }
+
+  .membro {
+    width: 100% !important;
+    font-size: 14px !important;
+    text-align: center;
+    margin: 0 !important;
+  }
+
+  .cargo {
+    font-size: 11px !important;
+    opacity: 0.85;
+    text-align: center;
+  }
+
+  /* ✅ CENTRAR o último membro quando sobra 1 (grid 2 colunas) */
+  .equipa-container .equipa-fila:last-child > div:last-child {
+    grid-column: 1 / -1;     /* ocupa as 2 colunas */
+    justify-self: center;    /* centra o item */
+    width: fit-content;      /* evita esticar até à largura toda */
+  }
+
+
+  /* ✅ Se o ecrã for muito pequeno, volta a 1 por linha */
+  @media (max-width: 360px) {
+    .equipa-container {
+      grid-template-columns: 1fr !important;
+      max-width: 320px;
+    }
+  }
+
+
+  /* ===========================
+     CONTACT FOOTER
+     =========================== */
+  .contact-footer {
+    height: auto !important;
+    padding: 50px 18px !important;
+    background-attachment: scroll !important;
+    text-align: center !important;
+  }
+
+  .contact-footer-title {
+    margin-top: 0 !important;
+    font-size: 21px !important;
+    text-align: center;
+  }
+
+  .contact-footer-subtitle {
+    font-size: 12px !important;
+    margin-top: 16px !important;
+    text-align: center;
+    line-height: 1.6 !important;
+  }
+
+  .btn-contactar-outline {
+    margin-top: 18px;
+    margin-bottom: 0 !important;
+    padding: 13px 36px !important;
+    font-size: 11px !important;
+  }
+
+}
